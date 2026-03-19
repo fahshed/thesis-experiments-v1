@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Kalab Y. Assefa
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+ (734)-819-1368
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Ann Arbor, MI, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,Yes. Computer engineering graduate student enthusiastic to contribute to team success and excel in big tech companies.
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science and Engineering (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,University of Michigan; Addis Ababa University; A2SV Coding Academy
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.94/4.0 (BSc CGPA)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science and Engineering (Ph.D.); Electrical and Computer Engineering (BSc)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,University of Michigan
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Graduate Student Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional experience since 2022 (~3+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Head of Education at A2SV; President of Addis Ababa Institute of Technology Student Council.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducts graduate research; full-stack web development; data preparation and model development; teaching and mentoring.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. University of Michigan, A2SV, Eskalate LLC, New Era Research and Development (N.E.R.D), Addis Ababa University."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Second highest CGPA in AAU Engineering school; solved 800+ LeetCode/Codeforces problems; led student council; awarded silver medal.
+Professional Experience,descriptive,What key metric did they improve?,Optimized placement of header cells on a temperature sensor chip; improved educational outcomes as Head of Education.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,RateEat; Digital Vending Machine; School Portal; Car Dealership; HakimHub backend
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, Dart, JavaScript/TypeScript; MongoDB, React, Vue, NodeJS, Django; pandas, numpy"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To contribute to team success in big tech companies; solve challenging problems in software engineering and machine learning.
+Research and Projects,descriptive,What are the applicant s publications?,N/A
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Describes project implementations, research methodologies, and development processes in experience and project sections."
+Research and Projects,descriptive,What are the applicant's research areas?,"Computer Engineering, Software Engineering, Web Development, Machine Learning, Algorithms"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentoring, leadership, teamwork, problem-solving"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. BSc in Electrical and Computer Engineering; Huawei 'Seeds for the Future' certificate; IEEE recognition.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied full-stack skills to build RateEat and HakimHub; optimized chip design; taught data structures and algorithms.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Silver Medalist (2nd top scorer) at Addis Ababa Institute of Technology; Huawei Certificate; IEEE recognition.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Head of Education at A2SV; President and other roles in Student Council; chess player (11th best bullet player in Ethiopia).
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Silver Medalist (2nd top scorer); CGPA 3.94/4.0; solved 800+ coding problems; recognition from IEEE and Huawei.

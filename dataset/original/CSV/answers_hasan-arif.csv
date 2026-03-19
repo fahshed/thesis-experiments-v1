@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Hasan Arif
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://www.linkedin.com/in/kazi-hasan-ibn-arif-8b78a61a3/
+Personal Information,entityNumeric,What is the applicant's primary contact number?,15404496919
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Blacksburg, Virginia, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,Yes. A PhD student focused on system and algorithmic optimization of large vision-language models and efficient inference.
+Education,entityNumeric,What is the highest level of education the applicant has completed?,PhD in Computer Science (ongoing)
+Education,entityNumeric,Which institutions did the applicant attend?,Virginia Tech; Bangladesh University of Engineering and Technology (BUET)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,4.00/4.00 (PhD coursework); 3.54/4.00 (BSc)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science and Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Virginia Tech
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Graduate Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,3
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Secretary of Computer Science Graduate Council representing 400+ students; reviewer for ICLR and CVPR workshops.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducted research on LLMs and VLMs; developed AI recommendation systems; built full-stack apps; reviewed academic papers.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Developed HiRED for efficient VLM inference; improved hallucination mitigation by 46%; co-authored AAAI and CVPR publications.
+Professional Experience,descriptive,What key metric did they improve?,"4.7x inference speed-up, 78% latency reduction, 14% GPU memory savings; mitigated 46% hallucination in LLMs; top 1% in national exam."
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,HiRED-LLaVA-Next; Fix LVLM Hallucination; Bangla POS Tagging; Rasterization and Ray Tracing; Lines of Action Game; CPP Compiler
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, PyTorch, Huggingface, C++, CUDA, Docker, MongoDB, Oracle, PostgreSQL, Git, Java, JavaFX, OpenGL, Yacc, Lex"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes. Speed-up, latency, and memory goals achieved in HiRED-LLaVA-Next; recommendation systems at IQVIA were value-driven."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Optimize inference for LLMs and VLMs; reduce hallucination in AI models; improve fairness in disease detection; create compilers and AI games.
+Research and Projects,descriptive,What are the applicant s publications?,1) AAAI 2025 - HiRED; 2) CVPR 2024 Workshop - Attention Fixing in LVLM; 3) AAAI 2024 Symposia - Equitable Skin Disease Prediction; 4) INCET 2021 - Bangla POS Tagging
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Used token-dropping, transfer learning, domain adaptation, contrastive learning, and visual-text attention interventions."
+Research and Projects,descriptive,What are the applicant's research areas?,"Large Vision-Language Models, Deep Learning, Medical AI, Inference Optimization, Hallucination Mitigation"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership, communication, critical thinking, technical writing, adaptability"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes. Fusemachines AI Fellowship, Docker/Kubernetes training, ML course with best presentation award"
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied token-dropping and visual-text reweighting to reduce hallucination by 46% and accelerated model inference significantly.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",: Yes. CCI Cyber Innovation Scholar ($2000 grant); Best Presentation Award (Fusemachines); Fusemachines AI Fellowship; Dean’s List Award; Admission Test Scholarship (top 1%)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Student Scholar and Volunteer at AAAI 2025; Secretary of Graduate Council; Reviewer for ICLR and CVPR workshops
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Yes. Dean’s List, top 1% in BUET admission test, Best Presentation Award, qualified for national Physics Olympiad"

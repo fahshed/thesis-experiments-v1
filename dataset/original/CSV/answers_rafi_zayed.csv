@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Zayed Bin Ahmed
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,8.80194E+12
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Dhaka, Bangladesh"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,No. N/A
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Bachelor of Science in Mechanical Engineering
+Education,entityNumeric,Which institutions did the applicant attend?,Bangladesh University of Engineering and Technology (BUET)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.45/4.00
+Education,descriptive,What was the applicant's field of study or major?,Mechanical Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,GPH Ispat Ltd.
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Engineering Intern
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,1
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Hall Mess Manager (with over 400 residents) at BUET Titumir Hall
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Gained experience in mechanical maintenance, product quality control, and safety at a steel factory; worked on simulation and smart device projects."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Designed and simulated smart dustbin and plate heat exchanger; developed numerical models for cancer control and thermoelastic disks.
+Professional Experience,descriptive,What key metric did they improve?,N/A
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Magneto-thermo-elastic Analysis of a Non-uniform Sandwich FGM Rotating Disk Under Thermal Shock
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C, HTML, MATLAB, Simulink, COMSOL, ANSYS, SolidWorks, AutoCAD, TinkerCAD, Engineering Equation Solver (EES)"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,No specific budget . Projects had academic and engineering design goals.
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To analyze stress and thermal behavior in materials; develop smart devices and control systems; simulate robust cancer drug dosing strategies.
+Research and Projects,descriptive,What are the applicant s publications?,"Zayed Bin Ahmed, S Reaz Ahmed, Pranta Rahman Sarkar, ‘Magneto-thermo-elastic Analysis of a Non-uniform Sandwich FGM Rotating Disk Under Thermal Shock’, expected submission to Journal of Strain Analysis by January 2024"
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,Yes. Used FDM for numerical modeling; Simulink for simulating brain cancer models; MATLAB for thermoelastic analysis.
+Research and Projects,descriptive,What are the applicant's research areas?,"Computational Physics, Machine Learning, Additive Manufacturing, Structural Physics, Meta-materials"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Problem-solving, technical design, simulation, programming, teamwork"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Certified SolidWorks Associate – Mechanical Design
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Used MATLAB Simulink to design drug controllers for cancer model and simulate performance to achieve optimal dosing.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?","Yes. HSC Scholarship (Dhaka Board, General Category); SSC Scholarship (Talent Pool, Chittagong Board); SolidWorks certification"
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,"Yes. BUET Entrepreneurship Club, IMechE Student Chapter, BUET Badhon Blood Donation Group"
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Scholarships in HSC and SSC; Solid academic background with CGPA 3.45 and thesis under BUET professor

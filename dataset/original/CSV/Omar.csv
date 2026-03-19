@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Omar Rayyan
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Los Angeles, California, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,No.
+Education,entityNumeric,What is the highest level of education the applicant has completed?,PhD Student in Computer Science (starting Fall 2025)
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Los Angeles (UCLA); New York University (NYU)"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,4.0/4.0 (Summa Cum Laude)
+Education,descriptive,What was the applicant's field of study or major?,Electrical Engineering & Computer Science (Double Major B.S.)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,GRAIL (NYU Courant)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Research/industry experience since 2022 (~3+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Led the UntidyBot project; led team to podium in IEEEXtreme competition; founded LEBSI startup.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Develops robotic simulation environments; works on teleoperation and imitation learning; publishes research.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. GRAIL (NYU), PAIR Lab (Georgia Tech), CAIR (NYUAD), Google, AIM Lab (NYUAD)."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Publications at ICAR 2023; submissions to top venues; 1st place in comma.ai controls competition; IEEE Best Project Prize.
+Professional Experience,descriptive,What key metric did they improve?,Developed MuJoCo AR plugin (20k+ installs); formalized RCM constraint for robotic manipulators; created award-winning tool at Google.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,MuJoCo AR; UntidyBot; COBAIT; MV-UMI; RCM-Constrained Manipulator Trajectory Tracking
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"MuJoCo, Isaac Sim, Python, C++, ARKit, ROS, simulation tools"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To advance robotic learning, teleoperation, and cross-embodiment AI through simulation and real-world systems."
+Research and Projects,descriptive,What are the applicant s publications?,"Publication at ICAR 2023; multiple papers currently under submission (COBAIT, MV-UMI)."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Describes development of simulation environments, algorithm design, and experimental validation in projects."
+Research and Projects,descriptive,What are the applicant's research areas?,"Robotics, Robot Learning, Simulation, Teleoperation, Computer Vision, Reinforcement Learning"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership, teamwork, teaching (workshops), competitive programming, project management"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. B.S. with Summa Cum Laude; Alfred H. Bloom Scholar; Cambridge Outstanding UK Learner Award.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied RL to win comma.ai competition; developed rehabilitation tasks with physicians; built popular apps.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. IEEE Best Project Prize; 1st place comma.ai Controls Competition; IEEEXtreme podium; Alfred H. Bloom Scholar.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Led Rubik's Cube workshop; founded LEBSI startup; participated in multiple competitions and research labs.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Summa Cum Laude (4.0 GPA); Cambridge Outstanding UK Learner Award (top in Physics); national cubing record.

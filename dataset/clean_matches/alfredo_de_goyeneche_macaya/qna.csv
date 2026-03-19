@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Alfredo De Goyeneche Macaya
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Berkeley, CA, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"PhD candidate in EECS focusing on AI-enhanced physics simulation, rapid MRI, and deep learning for medical imaging."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"Ph.D. in Electrical Engineering & Computer Science (UC Berkeley, in progress)"
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Berkeley; Pontificia Universidad Católica de Chile; UC Davis"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,"4.0/4.0 (UC Berkeley); 6.6/7.0 (PUC, ranked 1st)"
+Education,descriptive,What was the applicant's field of study or major?,"Electrical Engineering & Computer Science (PhD), Engineering (BS)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,"University of California, Berkeley (Graduate Student Researcher)"
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Graduate Student Researcher / Instructor
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,"Approx. 7 years (research from 2016, industry from 2018)"
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Undergraduate research mentor; teaching assistant roles.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Research in physics-informed deep learning for MRI; teaching computer graphics and engineering courses; industry internships at Adobe, Google, HeartVista."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (UC Berkeley, Adobe, Google, HeartVista, PUC, UC Davis)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Multiple oral presentations at ISMRM, NeurIPS; EECS Undergraduate Researcher Mentoring Award; top-ranked graduate awards."
+Professional Experience,descriptive,What key metric did they improve?,Developed ResoNet for MRI off-resonance correction; contributed to first FDA-cleared self-driving MRI; improved reconstruction accuracy.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,ResoNet; BladeNet; K-band; Simultaneous Off-Resonance Correction and Fat-Water Separation.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C++, PyTorch, TensorFlow, MATLAB, CUDA, AWS, Docker"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,EECS Departmental Fellowship (full tuition + stipend); Block Summer Research Grant.
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Democratize physics simulation via AI; accelerate and improve medical imaging; advance hybrid AI-numerical methods.
+Research and Projects,descriptive,What are the applicant s publications?,"Papers in NeurIPS, ISMRM, Magnetic Resonance in Medicine, JCP, TVCG, etc."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Uses physics-informed neural networks, deep learning for inverse problems, Bayesian uncertainty estimation, and hybrid modeling."
+Research and Projects,descriptive,What are the applicant's research areas?,"Medical Imaging, Physics-Informed Deep Learning, Computational MRI, AI for Science, Robotics"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentoring, research collaboration, public speaking, interdisciplinary integration"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A (no certifications listed)
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Mentored undergraduate researchers; taught CS184/284A and EECS16A; developed educational materials.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",EECS Undergraduate Researcher Mentoring Award (most recent teaching/mentoring award)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Undergraduate research mentor; teaching assistant; guest lecturer.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Ranked 1st in PUC engineering class; Dean's Honors at UC Davis; multiple full-tuition scholarships and fellowships.

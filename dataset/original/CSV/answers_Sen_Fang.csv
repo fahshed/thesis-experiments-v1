@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Sen Fang
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,"https://linkedin.com/in/sfang9 or https://tomasandersonfang.github.io (LinkedIn not directly listed, but portfolio provided)"
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+1-984-379-1827
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Raleigh, North Carolina, USA (inferred from NCSU)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Ph.D. student focused on LLMs and automated software engineering, with experience in program repair, code optimization, and smart contract analysis."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,NC State University; Central China Normal University; Wuhan Polytechnic University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,4.0/4.0 (PhD); 3.44/5.0 (MSc); 3.47/5.0 (BSc)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science; Electronics and Communication Engineering; Electronic Information Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,KTH Royal Institute of Technology
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Research Engineer
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,4+
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Led and co-authored multiple research publications and GitHub projects; coordinated with global academic teams.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Designed and implemented LLM-powered systems for software repair, optimization, and smart contract intent detection; published extensively."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Developed RepairLLaMA for program repair; Supersonic for source code optimization outperforming GPT-3.5 and GPT-4; co-authored 10+ major publications.
+Professional Experience,descriptive,What key metric did they improve?,Code optimization outperformed GPT-3.5 and GPT-4 in experiments (Supersonic); bug-fixing and prioritization through graph networks improved performance significantly.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,RepairLLaMA; Supersonic; Deep Smart Contract Intent Detection; RepresentThemAll; PRHAN; Bug Priority Prediction
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C/C++, Java, PyTorch, TensorFlow, Transformers, JAX, NumPy, SLURM"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,Yes. Supersonic project benchmarked against GPT models and showed better performance; RepairLLaMA designed with efficient fine-tuned adapters.
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To improve software automation through LLMs, optimize code generation and repair, and detect malicious intent in smart contracts."
+Research and Projects,descriptive,What are the applicant s publications?,"10+ publications including IEEE Transactions, ICSE 2023, and arXiv preprints such as: ‘RepresentThemAll’, ‘Supersonic’, ‘PRHAN’, and ‘Deep Smart Contract Intent Detection’."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Used self-attention, hybrid attention networks, weighted graph convolutional networks, and fine-tuning on tailored representations."
+Research and Projects,descriptive,What are the applicant's research areas?,"LLMs for code generation, bug detection and repair, smart contract security, automated software engineering"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Analytical thinking, technical writing, collaboration, research rigor, attention to detail"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes. Technical training in PyTorch, TensorFlow, SLURM, Linux toolchain, and various development environments"
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Developed PRHAN using hybrid attention network to generate automated pull request descriptions and led RepresentThemAll for universal bug report learning.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Multiple IEEE and ICSE publications; most significant is ‘RepresentThemAll’ presented at the 45th ICSE.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,"Yes. Worked on multiple open-source research projects, including GitHub repositories like RepairLLaMA, Supersonic, and PRHAN."
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Outstanding Student award (2018); consistent research output with high-impact publications and collaborations

@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Alan Zhu
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://www.linkedin.com/in/az1326/
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Berkeley, California, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"PhD candidate in Computer Science focused on AI agent personalization, speculative inference, and synthetic data generation."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"Ph.D. in Computer Science (UC Berkeley, in progress)"
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Berkeley; Carnegie Mellon University"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,4.0/4.0 (Carnegie Mellon University)
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science (PhD), Computer Science and Statistics (BS)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,"University of California, Berkeley (Graduate Student Researcher)"
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Graduate Student Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,"Approx. 4 years (research from 2021, internships from 2022)"
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Head Teaching Assistant (15-251 at CMU)
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Research in ML systems, speculative decoding, graph algorithms, robotic metamaterials; teaching and course development."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (UC Berkeley, Carnegie Mellon, University of Michigan, Apple)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Publications at ICML, ASPLOS, CHI; NSF GRFP award; Senior Leadership Recognition Award; led TA team."
+Professional Experience,descriptive,What key metric did they improve?,Accelerated LLM serving via speculative inference; developed tool for heterogeneous effect detection in A/B tests.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,BARE: Few-Shot Synthetic Data Generation; SpecInfer; Accelerating Retrieval-augmented LM Serving; Robotic Metamaterials.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C++, PyTorch, Transformers, NetworkX, Docker, Git, LaTeX"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A (no specific budget mentioned)
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Improve efficiency of LLM serving; enable AI agent personalization with limited data; advance robotic material design.
+Research and Projects,descriptive,What are the applicant s publications?,"ICML 2024, ASPLOS 2024, CHI 2024, ICML 2025 workshop preprint, arXiv preprints."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,Used speculative inference and token tree verification; applied regression methods for A/B testing; graph algorithmic approaches.
+Research and Projects,descriptive,What are the applicant's research areas?,"Machine Learning Systems, Speculative Decoding, Retrieval-Augmented Generation, Graph Algorithms, Human-Computer Interaction"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership, teaching, mentorship, collaboration, technical communication"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",NSF Graduate Research Fellow
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Led recitations and trained staff as Head TA; developed A/B testing tool at Apple.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",NSF Graduate Research Fellowship (most significant)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Head Teaching Assistant for theoretical CS course; undergraduate research mentoring implied through lab roles.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,University Honors; Dean’s List High Honors; Senior Leadership Recognition Award; NSF GRFP.

@@ -1,0 +1,32 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Li-Yun (James) Wang
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://linkedin.com/in/li-yunwang/
+Personal Information,entityNumeric,What is the applicant's primary contact number?,
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Milpitas, CA, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. A computer vision researcher and AI/ML engineer specializing in generative models, image/video analysis, and adversarial robustness, with a focus on practical applications in pedestrian detection, artistic style transfer, and model efficiency improvements."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science 
+Education,entityNumeric,Which institutions did the applicant attend?,"Portland State University, Fu-Jen Catholic University"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.65/4.0 (PhD); 4.00/5.0 (MSc); 3.49/4.00 (Msc);  3.47/5.0 (BSc)
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science (focus: Computer Vision, Generative Models, ML)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,"AI/ML Engineer (Tiposi INC, Milpitas, CA)"
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,AI/ML Engineer
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,9+
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,"Yes. Led multiple research projects (e.g., ""Video as Text"" framework, DaFF)."
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Developed CV models (e.g., GANs for pedestrian detection), optimized pipelines (e.g., 50% faster video encoding at Apple), and led cross-functional collaborations."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Prototyped an innovative heart-rate monitoring system with a lightweight human face detection module in Python.Led the prototyping phase, experimenting with various approaches to enhance video compression and quality"
+Professional Experience,descriptive,What key metric did they improve?,"PSNR/SSIM: 1-2 dB improvement (deblurring), processing speed: 7x (HP), 50% (Samsung)."
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,"DaFF, Night-to-Day GAN, WP-CLIP, Video as Text framework"
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, PyTorch, OpenCV, AWS, GANs, CLIP, CUDA"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"The heart-rate monitoring system  achieved a remarkable 3X improvement in inference time. And the video new framework improves video encoding time with a 50%
+ reduction. "
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"Enhance pedestrian detection, artistic style assessment, and model efficiency (e.g., compression, latency)"
+Research and Projects,descriptive,What are the applicant s publications?,"10+ peer-reviewed papers (e.g., CVPRW, ECAI, ISM) and 3 preprints."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Dual-fusion for DaFF, CycleGAN for deblurring, CLIP for art analysis)"
+Research and Projects,descriptive,What are the applicant's research areas?,"Computer Vision, Generative Models, Model Compression, Video Analysis"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership (project lead), teamwork (cross-functional roles), problem-solving"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes. Technical training in Pytorch, OpenCV, Aws ."
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,"Yes. Optimized heart-rate monitoring at HP, video encoding at Apple."
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Multiple IEEE and ICSE publications.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,"Yes. Worked on multiple open-source research projects, text to image diffusion models."
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes.Consistent research output with high-impact publications and collaborations

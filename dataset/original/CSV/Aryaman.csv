@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Aryaman Arora
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Stanford, CA, USA (based on university affiliation)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Ph.D. student in Computer Science focusing on computational linguistics, NLP interpretability, and language diversity."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,Stanford University; Georgetown University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science (Major), Linguistics (Major)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Stanford University (as Ph.D. student/researcher)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Ph.D. Student / Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Research experience since at least 2020 (~4+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Mentored undergraduate and high school students; served as area chair and program committee member.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Conducts research on causal interpretability, morphology, and syntax; develops computational tools; assists in teaching."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Stanford University, Georgetown University, Redwood Research, Apple, ETH Zürich."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Authored numerous peer-reviewed papers; received Barry M. Goldwater Scholarship; contributed to major NLP resources and shared tasks.
+Professional Experience,descriptive,What key metric did they improve?,Developed libraries for model interpretability (pyvene); created benchmarks for causal methods; advanced morphological analysis and annotation.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,pyvene; CausalGym; CGELBank; Jambu; Universal Dependencies for Punjabi; MASALA
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python (PyTorch), C++, JavaScript, R, NLP frameworks, computational linguistics tools"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes. Research involves benchmarking, shared tasks with evaluation metrics, and tool development with performance goals."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To improve interpretability of NLP models; document and analyze linguistic diversity; develop resources for low-resource languages.
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple publications in ACL, LREC, NAACL, SIGMORPHON, workshops, and arXiv preprints."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses causal intervention methods, corpus analysis, computational modeling, and linguistic annotation frameworks."
+Research and Projects,descriptive,What are the applicant's research areas?,"Computational Linguistics, NLP Interpretability, Morphology, Syntax, Historical Linguistics, Low-Resource Languages"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Mentoring, collaboration, academic service, teaching, technical communication"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Barry M. Goldwater Scholarship; U.S. Presidential Scholars Program Candidate.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied computational methods to analyze linguistic structures; developed tools for model interpretability and annotation.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Barry M. Goldwater Scholarship; multiple best paper awards and recognitions in computational linguistics.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Mentored undergraduate and high school students; served as teaching assistant; organized shared tasks and tutorials.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Double major in Computer Science and Linguistics; prestigious scholarships and consistent research output.

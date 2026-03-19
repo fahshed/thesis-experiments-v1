@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Matthew Beaudin
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"East Lansing, MI, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Full Stack Developer with experience in maintaining AI model testing frameworks, mobile app development, and web development."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Bachelor of Science in Experience Architecture (Expected Spring 2024)
+Education,entityNumeric,Which institutions did the applicant attend?,Michigan State University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,Experience Architecture
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Self Employed; MORSE Corp
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Full Stack Developer; Software Engineer Co-Op
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Approx. 8 years (2016–Present)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Maintained testing and evaluation framework for AI models; Developed and maintained mobile/web applications; Collaborated with cross-functional teams.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (Self Employed, MORSE Corp, Morley Companies Inc)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Implemented a Progressive Web App using Google's PWA standards; Developed frontend for event registration systems.
+Professional Experience,descriptive,What key metric did they improve?,N/A
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,AI Model Testing Framework; Mobile App Development
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, PyCharm, PySpark, NumPy, Pandas, React Native, JavaScript, TypeScript, HTML, CSS, Django, ASP.NET MVC 5, SQL, Figma, Tailwind"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"Develop testable, maintainable, and extensible software designs; Maintain existing sites and apps."
+Research and Projects,descriptive,What are the applicant s publications?,N/A
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,N/A
+Research and Projects,descriptive,What are the applicant's research areas?,"User Experience (UX), AI Model Testing"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Collaboration, Versatility"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,"Utilized Python, PySpark, and Pandas to maintain a testing framework for AI models."
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",3rd place C# programming at the Business Professionals of America Regional and State Competition (2016)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,N/A
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,N/A

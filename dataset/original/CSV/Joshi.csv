@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Aryaman Arora
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Stanford, CA, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"PhD student in Computational Linguistics/NLP focusing on interpretability, causality, and low-resource language technologies."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"Ph.D. in Computer Science (Stanford University, in progress)"
+Education,entityNumeric,Which institutions did the applicant attend?,Stanford University; Georgetown University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A 
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science (PhD), Computer Science & Linguistics (BS/BA)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Stanford University (PhD Researcher)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,PhD Researcher / Research Resident / Intern
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Approx. 6 years (research from 2018)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Area Chair (NAACL 2024); shared task co-organizer; treebank maintainer; mentorship roles.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Research in mechanistic interpretability, causal benchmarking, morphology, dialectology; library development (pyvene)."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (Stanford, Redwood Research, Apple, ETH Zürich, Georgetown)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Barry M. Goldwater Scholarship; multiple publications in NAACL, LREC, ACL, SIGMORPHON; extensive service."
+Professional Experience,descriptive,What key metric did they improve?,Developed pyvene library; created CausalGym benchmark; contributed to Universal Dependencies and UniMorph.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,pyvene; CausalGym; CGELBank; Universal Dependencies for Punjabi; MASALA.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, PyTorch, C++, JavaScript, R"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A 
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Advance causal interpretability of NLP models; support low-resource and historical language processing.
+Research and Projects,descriptive,What are the applicant s publications?,"Preprints on arXiv; papers in NAACL, LREC, ACL, SIGMORPHON, LAW, SIGTYP, etc."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Uses intervention methods, causal tracing, morphological analysis, treebank annotation, and dialect mapping."
+Research and Projects,descriptive,What are the applicant's research areas?,"Mechanistic Interpretability, Computational Linguistics, Low-Resource NLP, Historical Linguistics, Morphology"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership in academic service, mentoring, teaching, collaboration"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Barry M. Goldwater Scholarship
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Mentored undergraduate and high school students; taught introductory Python course.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Barry M. Goldwater Scholarship (most prestigious undergraduate award)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,"Area chair, reviewer, shared task organizer, treebank maintainer, tutorial presenter."
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Barry M. Goldwater Scholarship; U.S. Presidential Scholars Program Candidate.

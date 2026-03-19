@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Kumail Alhamoud
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Cambridge, MA, USA (based on MIT affiliation)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. PhD researcher working on evaluation and post-training for multimodal reasoning models, focusing on negation understanding in vision-language models and stress-testing medical AI under distribution shifts."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Doctor of Philosophy (PhD) in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,Massachusetts Institute of Technology (MIT); King Abdullah University for Science and Technology (KAUST); Cornell University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,5.0/5.0 (MIT PhD); 3.96/4.00 (KAUST M.S); 4.13/4.30 (Cornell B.S); Summa Cum Laude
+Education,descriptive,What was the applicant's field of study or major?,Computer Science and Artificial Intelligence (PhD); Computer Science (M.S); Electrical and Computer Engineering (B.S)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Massachusetts Institute of Technology (MIT) / Healthy ML Group
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,PhD Student Researcher / AI Research Intern (Foxconn)
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Research experience since 2019 (~6+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Builds benchmarks (NegBench) for evaluating VLMs; designs post-training strategies for LLMs; develops uncertainty quantification techniques; authors strategic AI studies for consulting.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. MIT, Foxconn, PwC, University of Oxford, KAUST, Cornell University."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"CVPR Outstanding Reviewer Award; Best Poster Award at KAUST conference; Outstanding Teaching Assistant Award; multiple publications in top venues (CVPR, NeurIPS, MICCAI)."
+Professional Experience,descriptive,What key metric did they improve?,Improved negation understanding in VLMs via synthetic data; enhanced reasoning in proprietary LLMs; developed novel uncertainty quantification for LLM trustworthiness.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,NegBench (negation understanding benchmark); FedMedICL (federated medical imaging evaluation); SpaceVLM (sub-space modeling of negation); vCLIMB (video incremental learning benchmark).
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, PyTorch; reinforcement learning (DPO, PPO, GRPO); graph neural networks; quantum computing frameworks."
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"MIT Jameel Clinic PhD Fellowship ($100,000 award)"
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To evaluate and improve multimodal AI models' understanding of negation and reasoning; to stress-test AI reliability under realistic distribution shifts; to advance trustworthy AI decision-making.
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple first-authored publications in CVPR, TMLR, MICCAI, Computers & ChemE, IEEE Transactions on Quantum Engineering; preprints on arXiv."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses synthetic data generation, sub-space modeling, federated evaluation, reinforcement learning, uncertainty quantification, and graph representation learning."
+Research and Projects,descriptive,What are the applicant's research areas?,"Multimodal Reasoning, Vision-Language Models, Negation Understanding, Federated Learning, Medical AI, Distribution Shifts, AI Safety, Large Language Models."
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, academic reviewing, mentoring, research presentation, interdisciplinary collaboration, consulting communication."
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied research skills to develop award-winning benchmarks; applied teaching skills to win Outstanding TA award; applied consulting skills to author strategic AI studies for PwC.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",CVPR Outstanding Reviewer Award; Best Poster Award (KAUST); Outstanding Teaching Assistant Award; MIT Jameel Clinic PhD Fellowship. Most significant: MIT Jameel Clinic PhD Fellowship.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Academic reviewer for top-tier conferences; teaching assistant for multiple university courses; research presentations at international workshops.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Yes. Summa Cum Laude; Dean's List all semesters; Rhodes Scholarship Finalist; multiple fellowships (SACM, MIT Jameel Clinic, KAUST, MISK)."

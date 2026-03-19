@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Weirui Peng
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+1 347-844-4374
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Ann Arbor, MI, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Focuses on HCI, AI-assisted systems for education and collaboration, and human-AI interaction."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Incoming PhD in Computer Science and Engineering
+Education,entityNumeric,Which institutions did the applicant attend?,University of Michigan; Columbia University; The Chinese University of Hong Kong
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,Computer Science and Engineering (PhD); Electrical Engineering (MSc); Electronic Engineering (BEng)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,University of Notre Dame (SaNDwich Lab)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Research experience since 2022 (~3+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Led research projects; organized workshops; likely mentorship roles within labs.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Designs interactive AI systems for education and collaboration; conducts user studies; publishes at top HCI venues.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. University of Notre Dame, Carnegie Mellon University, University of Illinois Urbana-Champaign, Columbia University."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Publications at UIST, CHI, CSCW, TOCHI; awards in hackathons and innovation competitions."
+Professional Experience,descriptive,What key metric did they improve?,Developed GLITTER for flipped learning; created LADICA for team collaboration; designed AI tools for prompt engineering.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,GLITTER; LADICA; AI-assisted portfolio design system; DHH music experience research
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, JavaScript, HTML/CSS, SQL; Flask, TensorFlow, PyTorch, GCP, MongoDB"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To create AI-assisted interactive systems that enhance learning, collaboration, and accessibility."
+Research and Projects,descriptive,What are the applicant s publications?,"Publications in UIST, CHI, CSCW, TOCHI; workshop papers."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Involves user interviews, system design, prototyping, data analysis, and experimental evaluation."
+Research and Projects,descriptive,What are the applicant's research areas?,"Human-Computer Interaction, AI for Education, Human-AI Collaboration, Accessibility, Interactive Systems"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Research collaboration, workshop organization, mentoring, cross-cultural communication"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. MSc in Electrical Engineering; BEng with First Class Honors; Talent Development Scholarship.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied HCI research to build tools for flipped classrooms and team collaboration; studied DHH music experiences.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Talent Development Scholarship; HackUST awards; Bronze Medal in national innovation competition.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Organized workshops; participated in hackathons; engaged in community research projects.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. BEng with First Class Honors; scholarship; awards in innovation competitions; publications at top conferences.

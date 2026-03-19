@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Thomas J. Porter
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Ann Arbor, MI, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,N/A
+Education,entityNumeric,What is the highest level of education the applicant has completed?,PhD Student in Computer Science & Engineering
+Education,entityNumeric,Which institutions did the applicant attend?,University of Michigan; Cornell University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,4.041/4.3 (BA GPA)
+Education,descriptive,What was the applicant's field of study or major?,Mathematics & Computer Science (BA)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,University of Michigan
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,PhD Student / Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Research experience since 2019 (~6+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. GSI (Graduate Student Instructor) for EECS 490; teaching assistant roles at Cornell.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Conducts PL research; publishes at top conferences (OOPSLA, POPL, ACL); teaches programming languages."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. University of Michigan, Cornell University, DTech LLC, AI Safety Camp."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Distinguished Paper Award at OOPSLA 2025; publications in OOPSLA, POPL, TFP, ACL; cum laude in mathematics."
+Professional Experience,descriptive,What key metric did they improve?,Developed incremental bidirectional typing; contributed to collaborative structure editor calculus; automatic error analysis for IE.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Incremental Bidirectional Typing via Order Maintenance; Syntactic Completions; Grove; Polymorphism with Typed Holes; Automatic Error Analysis for IE
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Scala, functional languages, PL tools; Apache Spark, TensorFlow"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To advance programming language theory, type systems, and collaborative software development tools."
+Research and Projects,descriptive,What are the applicant s publications?,"Publications in OOPSLA, POPL, TFP, ACL; multiple conference presentations."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Involves formal modeling, proof development, algorithm design, and experimental evaluation."
+Research and Projects,descriptive,What are the applicant's research areas?,"Programming Languages, Type Theory, Formal Verification, Functional Programming, Compilers, Logic"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentoring, research collaboration, academic service, conference presentation"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. BA in Mathematics & Computer Science; cum laude; attended multiple PL summer schools.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied PL research to develop new typing systems; implemented ML algorithms for cybersecurity.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Distinguished Paper Award at OOPSLA 2025; cum laude; research grants and fellowships.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. GSI and TA roles; presented at conferences; mentorship in research programs.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Cum laude in Mathematics; high GPA (4.041/4.3); Distinguished Paper Award; competitive summer school participation.

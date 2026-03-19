@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Ismat Jarin
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Irvine, United States"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes, the CV shows a strong academic and research background in privacy, machine learning, and AI with a clear research trajectory."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Msc in Computer and Information Science
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Irvine; University of Michigan, Dearborn; Bangladesh University of Engineering and Technology"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science (Ph.D), Computer and Information Science (MS), Electrical Engineering (B.Sc.)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,"ProperData and Networking Group, University of California, Irvine"
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Graduate Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Approximately 6+ years (since 2017 as a Research Assistant)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,"Secretary, WiCyS (Women in CyberSecurity), UCI student chapter (2023–2024)"
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Designed secure ML systems, evaluated privacy algorithms, worked on federated learning, adversarial defenses, and virtual reality privacy issues."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Published 10 research papers, presented at international conferences, received prestigious scholarships and grants."
+Professional Experience,descriptive,What key metric did they improve?,"Improved privacy utility trade-offs, adversarial defense effectiveness, and client selection fairness in federated learning."
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,BehaVR: User Identification Based on VR Sensor Data
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, R, C, C++, SQL, PyTorch, TensorFlow, OpenCV, nltk, MySQL, MATLAB, Anaconda"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"Improve model performance, preserve privacy, defend against attacks, and ensure regulatory compliance in AI systems."
+Research and Projects,descriptive,What are the applicant s publications?,Yes – 10 listed publications in leading conferences and journals
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes – Discusses methods such as secure multiparty computation, differentially private ML, and adversarial defense strategies."
+Research and Projects,descriptive,What are the applicant's research areas?,"Privacy and Machine Learning, Machine Unlearning, Explainable AI in VR, Distributed ML, Regulation/Policy for AI/ML and LLMs"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Mentorship, communication, organization, leadership (e.g., organizing IEEE events, mentoring cohorts)"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","WiCyS Security Training, NSF Travel Grant, Graduate Scholarships"
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes – Developed and presented several ML systems protecting privacy under threats like membership inference attacks.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?","Yes – NSF Travel Grant, scholarships from UCI and UM-Dearborn, WiCyS Security Training, IEEE competition awards"
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,"Yes – Volunteered as organizer and official photographer at IEEE, Secretary of WiCyS, student volunteer at conferences"
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Yes – Top rankings in competitions and scholarships, admitted within top 2% to BUET"

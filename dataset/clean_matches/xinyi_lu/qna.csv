@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Xinyi Lu
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,734-548-7804
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Ann Arbor, MI, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,Yes. Research interests: Human-Computer Interaction; AI for Education; Human-AI Collaboration; Generative Students; Real-world System Deployment; Education Technology.
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. student in Computer Science Engineering
+Education,entityNumeric,Which institutions did the applicant attend?,University of Michigan; Shanghai Jiao Tong University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.94/4 (University of Michigan BS); 3.72/4 (Shanghai Jiao Tong University BS)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science Engineering (Ph.D./BS); Electrical and Computer Engineering (BS)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,University of Michigan
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Ph.D. student / Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Research experience since 2022 (~3+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Co-leader of Explore Computer Science Research program; Workshop Co-organizer; mentoring multiple students.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducts HCI/AI research; builds educational systems; publishes papers; teaches and mentors.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. University of Michigan (Ph.D./researcher), Shanghai Jiao Tong University (teaching assistant)."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Best Paper Honorable Mention at ACM CHI 2023; publications in AIED, CSCW, L@S; multiple grants and fellowships."
+Professional Experience,descriptive,What key metric did they improve?,Developed ReadingQuizMaker and FeedbackWriter systems; improved feedback quality and instructional workflows with AI.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,ReadingQuizMaker; MeetMap; Generative Students; FeedbackWriter; Exemplify
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C/C++, Java, JavaScript; PyTorch, TensorFlow, Django, React; AWS, GCP, Git"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To design human-AI collaborative systems that enhance education, learning, and instructional workflows."
+Research and Projects,descriptive,What are the applicant s publications?,"Publications in CHI, AIED, CSCW, L@S; multiple submissions under review; workshop papers."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Involves system design, user studies, prototyping, experimental evaluation, and iterative development."
+Research and Projects,descriptive,What are the applicant's research areas?,"Human-Computer Interaction, AI for Education, Human-AI Collaboration, Educational Technology, Learning Sciences"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentoring, workshop organization, peer review, community leadership"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Ph.D. student; CSE Fellowship; Gary Marsden Travel Award; graduation with honors.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Built AI systems to support instructors; applied research in real classrooms; mentored students in research.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Best Paper Honorable Mention (CHI 2023); CSE Fellowship; Rackham Traveling Grant; Gary Marsden Travel Award.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Co-leader of undergraduate research program; workshop co-organizer; teaching assistant; mentor.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Graduated with Honors (top 15%); CSE Fellowship; high GPA (3.94); best paper award.

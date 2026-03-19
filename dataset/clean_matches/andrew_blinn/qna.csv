@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Andrew Blinn
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Ann Arbor, Michigan, USA (based on university affiliation)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Uses programming language theory to create tangible, fun compositional interfaces, focusing on PL, HCI, and learning."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. Candidate in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,University of Michigan; University of Toronto
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,Computer Science (Ph.D./M.S.); Mathematics & Computer Science (B.Sc.)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,University of Michigan (as Ph.D. candidate/researcher)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Ph.D. Candidate / Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Industry experience 2019-2020 (~2 years); research since at least 2017 (~7+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Led IDE rewrite; mentored multiple students; served as programming committee member; developed course materials.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Researches type-directed LLM contextualization, structured editing, and live programming interfaces; develops educational software."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. University of Michigan, University of Toronto, TODAQ (industry)."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Published multiple papers at OOPSLA, POPL, PLDI, VL/HCC; invited speaker at RacketCon; led Hazel IDE deployment."
+Professional Experience,descriptive,What key metric did they improve?,Improved error localization and recovery with typed holes; enhanced LLM code completion with static context; enabled live GUI feedback in code.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Fructure; Hazel IDE; Livelits; TyIr; Statically Contextualizing LLMs with Typed Holes
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Racket, Clojure, TypeScript, likely Haskell/OCaml, Python, tools for PL research and IDE development"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes. Research involves formal evaluation, user studies, and performance benchmarks for editing systems and LLM integrations."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To make programming abstractions more tangible and fun; improve tools for learning and live coding; advance structured editing and LLM assistive tech.
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple publications in OOPSLA, POPL, PLDI, VL/HCC, TyDe, PROPL, and workshop papers."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses formal methods, type theory, human-centered design, empirical evaluation, and prototype-driven research."
+Research and Projects,descriptive,What are the applicant's research areas?,"Programming Languages, Human-Computer Interaction, Live Programming, Structured Editing, Type Theory, Educational Technology"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Mentoring, teaching, collaboration, academic service, public speaking"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Advanced degrees in CS; professional development through industry and academic roles.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied type theory to build live GUIs in code; used LLMs for type-constrained completions; designed structured editing tools.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Paper acceptances at top PL conferences; invited speaking engagements; selection for programming committees.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Mentored multiple undergraduate and graduate students on research projects; teaching assistant roles.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Strong publication record at top venues; leadership in course and software development; successful research mentorship.

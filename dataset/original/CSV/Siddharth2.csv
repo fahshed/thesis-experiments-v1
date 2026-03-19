@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Siddharth Bhat
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Cambridge, United Kingdom"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. PhD researcher focused on formally verified decision procedures for compiler IRs, loop optimization, compilers for functional languages, and AI for mathematics."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Doctor of Philosophy (PhD) in progress
+Education,entityNumeric,Which institutions did the applicant attend?,University of Cambridge; University of Edinburgh; International Institute of Information Technology Hyderabad
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,Computer Science (PhD); unspecified (Masters); B.Tech (undergraduate)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,University of Cambridge (PhD student)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,PhD Student / Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional experience since 2015 (~10+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Develops formally verified decision procedures for compilers; contributes to polyhedral loop optimizers; builds Haskell-to-WebAssembly compilers; researches AI for theorem proving.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Amazon Web Services, Microsoft Research, Adjoint School, Tweag.io, ETH Zurich, IISC Bangalore, Google Summer of Code projects."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Best Paper Award at ICSE 2024; Renaissance Philanthropy MathBench award; top contributor to Lean and Polly; multiple publications at OOPSLA, NeurIPS, ICSE, POPL, CGO."
+Professional Experience,descriptive,What key metric did they improve?,Developed verified bitvector decision procedures; improved GPU code generation in Polly; enhanced Haskell runtime for WebAssembly; advanced AI-based geometric theorem proving.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,lean-mlir (formal semantics for MLIR); Asterius (Haskell to WebAssembly compiler); Polly (polyhedral loop optimizer); Simplexhc (Haskell subset compiler).
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Lean, Coq, LLVM, MLIR, Haskell, C++, Python, WebAssembly, Rust, Polyhedral compilation tools."
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To formally verify compiler optimizations and decision procedures; to improve loop optimization and HPC; to advance functional language compilation; to apply AI to mathematical reasoning.
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple first-author publications at OOPSLA, ITP, CGO, Supercomputing, and workshops; co-authored papers at NeurIPS, ICSE, POPL, CC."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses formal verification (Lean, Coq), polyhedral compilation, equality saturation, SMT-solving, neural synthesis for proofs, and DSL design."
+Research and Projects,descriptive,What are the applicant's research areas?,"Formal Verification, Compiler Design, Loop Optimization, Functional Programming, Theorem Proving, Polyhedral Compilation, Quantum Computing IRs."
+Skills,entityNumeric,What are the applicant s key soft skills?,"Mentoring (GSoC), teaching via talks and books, open-source collaboration, academic reviewing, community presentations."
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied verification skills to contribute to Lean's bitvector theory; applied optimization skills to improve Polly's GPU support; applied teaching skills to write the Lean4 metaprogramming book.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Best Paper Award at ICSE 2024; Renaissance Philanthropy MathBench award (one of 30 selected). Most significant: Best Paper Award at ICSE 2024.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. GSoC mentor; multiple conference and workshop talks; open-source community contributions; authored Lean4 metaprogramming book.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Yes. Best Paper award; research grants; top contributor recognitions in open-source projects (Lean, Polly)."

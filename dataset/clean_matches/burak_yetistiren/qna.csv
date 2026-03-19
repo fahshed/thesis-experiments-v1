@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Burak Yetistiren
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,linkedin.com/in/burak-yetistiren
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+1-310-818-1918
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Los Angeles, California, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Studies active sensemaking for developer tools, designing AI human-in-the-loop systems for code search, bug finding, and taint analysis."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Los Angeles (UCLA); Bilkent University; Waseda University (exchange)"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,Computer Science (Ph.D.); Computer Engineering (B.Sc.); Philosophy (Minor)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,UCLA Samueli School of Engineering (as Graduate Student Researcher)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Graduate Student Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Research/industry experience since at least 2019 (~6+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Served as Teaching Assistant; led project teams; mentored in research lab; head of volunteer project team.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Designs AI-driven developer tools; evaluates code generation tools; builds diagnostic frameworks; teaches software engineering.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. UCLA, Amazon Web Services, Bilkent University, ArgosAI, JotForm Inc."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Published at ICSE, ICSME, PROMISE; developed WhyFlow interrogative debugger; invited talk at Microsoft PROSE Team."
+Professional Experience,descriptive,What key metric did they improve?,Improved diagnostic automation with agentic frameworks; evaluated and compared AI code generation tools; reduced cognitive load in developer tools.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,WhyFlow interrogative debugger; interactive summarization for developer alerts; code quality assessment of Copilot/CodeWhisperer/ChatGPT
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, Java, C++, JavaScript, React, Redux, GANs, LLMs, Git, AWS tools"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes. Projects included accuracy metrics (70% precision for COVID detection), F1 scores, time-to-decision, and user study measures."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To align developer tools with mental models; improve debugging and code understanding; reduce cognitive load and post-processing time.
+Research and Projects,descriptive,What are the applicant s publications?,"Publications in ICSE, ICSME, PROMISE, and arXiv submissions; multiple preprints under review."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses interpretable AI, active learning, speculative analysis, contrastive grouping, and empirical evaluation methods."
+Research and Projects,descriptive,What are the applicant's research areas?,"Software Engineering, Human-in-the-Loop AI, Developer Tools, Code Analysis, Taint Analysis, Empirical Software Engineering"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentoring, collaboration, cross-cultural communication, academic service"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. TOEFL iBT (108/120); German C1 certificate; Cum Laude honors; NSF/SIGSOFT travel awards.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied GANs for image translation in airports; built diagnostic agents for static analysis; evaluated AI code generators.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Cum Laude honors; NSF Travel Awards; SIGSOFT CAPS Award; invited speaker at Microsoft.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Served as Teaching Assistant; graded for calculus course; led volunteer projects; mentored lab members.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Cum Laude B.Sc.; high TOEFL score; conference publications; competitive travel awards.

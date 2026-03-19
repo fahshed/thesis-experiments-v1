@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Zhen Zhang
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+1 (805) 570 5808
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Santa Barbara, CA, USA (based on UCSB location)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"PhD candidate in Computer Science focused on training/inference efficiency, LLMs, and certified robustness."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"PhD in Computer Science (University of California, Santa Barbara, in progress)"
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Santa Barbara; Tsinghua University"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A 
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science (PhD), Physics (B.Sc.)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,"University of California, Santa Barbara (Research Assistant)"
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Research Assistant / Machine Learning Engineer (during Microsoft internship)
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,"Approx. 5 years (research from 2022, internships from 2022)"
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A (no explicit leadership title listed)
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Research in LLM efficiency, robustness, and multilingual transfer; optimized Bing Search models at Microsoft."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (UCSB, Tsinghua University, Microsoft, UC Santa Cruz)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Published at NAACL, EMNLP, NeurIPS, ACL; developed OpenDelta toolkit; improved Bing Search with DPO."
+Professional Experience,descriptive,What key metric did they improve?,Achieved SOTA in multi-task fine-tuning with MaZO; improved empirical accuracy by 5% with self-denoising; reduced language gaps in multilingual models.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,MaZO: Masked Zeroth-Order Optimization; Self-Denoising for LLM Robustness; Parameter-Efficient Cross-lingual Transfer.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, PyTorch, C/C++, SQL, Mathematica, LateX, Git, Linux"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A 
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Improve LLM fine-tuning efficiency; enhance model robustness to noisy inputs; bridge language gaps in vision-language models.
+Research and Projects,descriptive,What are the applicant s publications?,MaZO (Arxiv); Certified Robustness for LLMs (NAACL 2024); Parameter-Efficient Cross-lingual Transfer (EMNLP 2023); OpenDelta (ACL 2023); Sparse Structure Search (NeurIPS 2022).
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,Used zeroth-order optimization with masking; applied self-denoising for certified robustness; used translation-based alignment for multilingual transfer.
+Research and Projects,descriptive,What are the applicant's research areas?,"Large Language Models, Training/Inference Efficiency, Robustness, Multimodal Learning, Parameter-Efficient Tuning"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Research communication, collaboration, teaching (TA experience), technical writing"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Conference reviewer for ACL 2023, NAACL 2024"
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Applied DPO at Microsoft to reduce hallucination risks; developed OpenDelta toolkit for parameter-efficient tuning.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Silver Medal in the 35th Chinese Physics Olympiad (most significant listed award)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Teaching Assistant for CS 130A and CS 8 at UCSB
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Academic Excellence Scholarship (2021, 2022) at Tsinghua University"

@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Hritik Bansal
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Los Angeles, California, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Research focuses on multimodal AI, language models, video understanding, and AI alignment."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California Los Angeles (UCLA); Indian Institute of Technology, Delhi (IITD)"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.9/4.0 (UCLA Ph.D.); 9.3/10.0 (IITD B.Tech)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science (Ph.D.); Electrical Engineering (B.Tech)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Google DeepMind
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Student Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,N/A
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducts research in multimodal AI and LLMs; internships at Google DeepMind and Amazon AWS AI.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Google DeepMind, Amazon AWS AI, Goldman Sachs."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Accepted papers at ICLR 2025, NeurIPS 2024, CVPR 2024, ICML 2024, ACL 2023, etc.; Best Paper awards at workshops."
+Professional Experience,descriptive,What key metric did they improve?,Improved training efficiency for LLM reasoners; developed benchmarks for video-language alignment and physical commonsense.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,MedMax; VideoPhy; VideoCon; TALC; MathVista; CleanCLIP; CyCLIP
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,N/A
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To advance multimodal AI, LLM reasoning, and robust AI evaluation; train compute-efficient models."
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple publications in ICLR, NeurIPS, CVPR, ICML, EMNLP, ACL, etc. (e.g., 'Smaller, Weaker, Yet Better', 'VideoPhy', 'MathVista')."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Involves model development, benchmarking, empirical evaluation, and theoretical analysis."
+Research and Projects,descriptive,What are the applicant's research areas?,"Multimodal AI, Large Language Models, Video Understanding, AI Alignment, Computer Vision, Natural Language Processing."
+Skills,entityNumeric,What are the applicant s key soft skills?,"Research collaboration, teaching, peer review."
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. IITD Academic Merit Award (4 times); KVPY Fellow; National Talent Search Scholar.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Served as a panelist at UCLA ACM AI; Outstanding Reviewer at ACL.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. IITD Academic Merit Award; KVPY Fellowship; National Talent Search Scholarship; Best Paper awards.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Served as a panelist at UCLA ACM AI; Teaching Assistant for Machine Learning and Calculus.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. IITD Academic Merit Award (Top 7%); KVPY Fellow (Top 1000 nationwide); National Standard Examination in Physics (Top 1%).

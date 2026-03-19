@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Georgios Liargkovas
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,georgios-liargkovas-796259175/
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"New York, NY, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,N/A
+Education,entityNumeric,What is the highest level of education the applicant has completed?,PhD in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,Columbia University; Athens University of Economics and Business (AUEB)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,9.37/10 (BSc GPA)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science (PhD); Management Science & Technology (BSc - Software Engineering and Data Analysis)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Brown University
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Visiting Research Fellow
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional experience since 2020 (~5+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Head Teaching Assistant; Co-Chair of Web Presence for MSR '23; leadership in open-source projects.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducts systems research; develops tools for OS tuning and shell execution; full-stack software engineering.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Brown University, AUEB, SecOPERA, Ubitech Ltd."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Publications in HotOS, IEEE Transactions, NeurIPS/ICLR workshops; multiple academic awards and fellowships."
+Professional Experience,descriptive,What key metric did they improve?,Co-developed 'try' tool (5.3k+ GitHub stars); created speculative execution engine for shell scripts; researched software engineering education gaps.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,"Speculative Actions; An Expert in Residence; Set It and Forget It; Executing Shell Scripts in the Wrong Order, Correctly"
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"C, C++, Java, Go, Python, Shell scripting; Docker, Git, PyTorch, TensorFlow, LLM Agents, React, Vue.js"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To advance systems research, particularly in OS tuning, speculative execution, and LLM agents for computing systems."
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple conference/workshop papers (HotOS, NeurIPS ML4Sys, PACMI, eBPF, IEEE TE) and preprints."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Describes tool creation, experimental setup, and research methodology in publications and project descriptions."
+Research and Projects,descriptive,What are the applicant's research areas?,"Operating Systems, Systems Research, LLM Agents, Software Engineering, Static Analysis, Computer Networks"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentoring, research collaboration, open-source contribution, academic service"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. PhD candidate; SEAS Doctoral Fellowship; HotOS Student Grant; ACM SIGSOFT grants; honorary awards.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied research to build tools like 'try'; used static analysis in research; developed educational software.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. SEAS Doctoral Fellowship; HotOS Student Grant; Research Scholarship Award; multiple honorary awards.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,"Yes. Teaching Assistant roles; conference volunteering (ICSE, ESEC/FSE); open-source contributor (JabRef)."
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. BSc GPA 9.37/10 (top 1.6%); multiple university awards; research grants and fellowships.

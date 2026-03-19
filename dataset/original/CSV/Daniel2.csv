@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Jacob Daniel Moss
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+44 7817200229
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Cambridge, UK"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. PhD candidate researching mechanistic inductive biases for dynamical models in biology, with freelance AI contracting experience in bioinformatics, game theory, and algorithmic trading."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Doctor of Philosophy (PhD) in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,University of Cambridge; University College London
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,First class honours (BSc); Distinction (MPhil)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science (PhD); Advanced Computer Science (MPhil); Computer Science (BSc)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Freelance AI Contracting
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Freelance AI Contractor / Researcher
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional experience since 2016 (~9+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Develops graph databases and sequence models for antibiotic discovery; builds superhuman Poker bots; creates algorithmic trading systems; deploys ML pipelines; leads industry workshops.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Freelance AI Contracting, GlaxoSmithKline, Synteny, Cassandre Investments, Ocado Technology, freelance R&D projects."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Publications in NeurIPS, ICML, ICLR workshops; Accelerate C2D3 Grant; exhibited at Wearable Technology Show; improved RNA velocity framework."
+Professional Experience,descriptive,What key metric did they improve?,Improved inference accuracy and scalability of dynamical models; developed sentiment classifier with 80% accuracy; built superhuman Poker bot.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Pseudotime Diffusion (RNA velocity improvement); Deep Kernel Learning of Nonlinear Dynamical Systems; Neural ODE Processes; Visijaz smart jacket.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C++, Java, C#, JavaScript; TensorFlow, PyTorch, numpy, pandas; AWS (Neuron), GCP, React, .NET, Django, Kubernetes."
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To improve biophysical models of RNA velocity and cell fate; to scale latent force models for dynamical systems; to build practical AI solutions for biotech, gaming, and finance."
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple workshop publications at NeurIPS, ICML, ICLR, AAAI; one publication in ICLR main conference."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses transformer-based diffusion models, deep kernel learning, variational inference, neural operators, counterfactual regret minimization, and Gaussian processes."
+Research and Projects,descriptive,What are the applicant's research areas?,"Machine Learning in Single Cell Genetics, Dynamical Modelling, Probabilistic Machine Learning, Bioinformatics, Algorithmic Game Theory, AI for Science."
+Skills,entityNumeric,What are the applicant s key soft skills?,"Workshop leadership, teaching (implied via Stanford certs), interdisciplinary collaboration, freelance client management."
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Stanford Coursera certificates in Sequence Models and Deep Learning.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied ML skills to publish multiple papers; applied engineering skills to build and exhibit a smart wearable product; applied freelance skills to deliver client projects.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Accelerate C2D3 Grant (2023); Exhibited at Wearable Technology Show (2016). Most significant: Accelerate C2D3 Grant.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Developed and exhibited Visijaz smart cyclist jacket; led AI workshop for Aviva executives.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. First class honours BSc; Distinction in MPhil; top 10% of cohort; Accelerate C2D3 grant; publication record.

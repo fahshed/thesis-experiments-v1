@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Kimia Hassibi
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,(626) 818-4671
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Cambridge, MA, USA (based on MIT affiliation)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Ph.D. candidate at MIT researching machine learning for optimization, game theory, and physics-informed neural operators for scientific applications."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Doctor of Philosophy (Ph.D.) in Electrical Engineering and Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,Massachusetts Institute of Technology (MIT); California Institute of Technology (Caltech)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,Electrical Engineering and Computer Science (Ph.D.); Computer Science (B.S.)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,MIT LIDS (Laboratory for Information and Decision Systems)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional research experience since 2021 (~4+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Investigates ML for optimization; analyzes game theory dynamics; develops algorithms for autonomous systems; implements neural operators for PDEs; extends atmospheric models.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. MIT LIDS, Caltech (multiple research groups)."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"IEEE URTC 2023 Best Paper (1st Place); multiple prestigious fellowships (Siebel Scholar, Cadence, etc.); conference presentations."
+Professional Experience,descriptive,What key metric did they improve?,Improved hyperparameter tuning for FNO models; extended atmospheric model of Titan; developed safety guarantees for novel cryptocurrency architecture.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Physics-informed Neural-operator Predictive Control for Drag Reduction; Proof-of-Stake Bounty System; Variational Autoencoder for Music Generation; FNO for Navier-Stokes PDEs.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, PyTorch, C, Java, MATLAB, Fortran, Shell Scripts; Git, Pandas, NumPy, NetworkX, SKLearn, Keras, Tul:IP, CVXPY, Weights & Biases."
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To adapt ML models for optimization and control; to democratize computation via novel cryptocurrency; to solve PDEs with neural operators; to analyze game theory and autonomous systems.
+Research and Projects,descriptive,What are the applicant s publications?,"Two publications: one preprint on arXiv, one conference paper in IEEE URTC 2023."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses diffusion models, graph neural networks, quantal response dynamics, linear temporal logic, Fourier neural operators, and proof-of-stake mechanisms."
+Research and Projects,descriptive,What are the applicant's research areas?,"Machine Learning for Optimization, Game Theory, Physics-Informed Neural Operators, Autonomous Systems, Atmospheric Chemistry, Computational Democratization."
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentoring (as head TA), collaboration, interdisciplinary research communication."
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied ML skills to win Best Paper award; applied teaching skills as Head TA; applied research skills to secure multiple fellowships.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",IEEE URTC 2023 Best Paper (1st Place); Siebel Scholar (2025); Cadence Design Systems Fellowship (2024); multiple Caltech SURF fellowships.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Head Teaching Assistant and Teaching Assistant for undergraduate courses at Caltech.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Siebel Scholar; multiple research fellowships; Best Paper award; valedictorian-level achievements implied by prestigious scholarships.

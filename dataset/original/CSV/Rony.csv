@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Jahid Hasan Rony
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://www.linkedin.com/in/j-h-r
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+8801753296896
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Dhaka, Bangladesh (based on institutional affiliations)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Research Assistant and educator focused on ML, UAV applications, and IoT systems, with emphasis on practical and theoretical integration."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"B.Sc. in Computer Science and Engineering (Dhaka University of Engineering and Technology, 2023)"
+Education,entityNumeric,Which institutions did the applicant attend?,Dhaka University of Engineering and Technology; Bogura Polytechnic Institute
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science and Engineering (BSc), Computer Technology (Diploma)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,"Independent University, Bangladesh (Research Assistant & Teaching Assistant)"
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Research Assistant / Teaching Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,"Approx. 1 year professional (since 2023), plus research experience during studies"
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,President and General Secretary of DUET Robotics Club; Convener of national robotics festivals.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Teaching CS courses; researching UAV obstacle detection, depression prediction, IoT monitoring; developing robotics projects."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (Independent University Bangladesh, DUET, RIoT Research Centre)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Publications in ISCIT, Journal of Imaging, Springer conferences; multiple robotics competition championships."
+Professional Experience,descriptive,What key metric did they improve?,Improved real-time obstacle detection for UAVs; developed cost-effective IoT monitoring systems.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,UAV obstacle detection with YOLO; smart sewerage IoT system; depression prediction with XAI.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C/C++, TensorFlow, YOLO, Flutter, Arduino, Raspberry Pi, Git, Firebase"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A 
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Advance UAV applications with ML; develop accessible IoT solutions; improve mental health prediction models.
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple papers in ISCIT, Journal of Imaging, Springer books, IJIGSP, NCIM, etc."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,Uses YOLO for real-time detection; hybrid ML for classification; IoT sensor integration; XAI for interpretability.
+Research and Projects,descriptive,What are the applicant's research areas?,"Machine Learning, UAV Technology, Internet of Things, Computer Vision, Robotics"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership, teaching, project management, teamwork, technical communication"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A 
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Led DUET Robotics Club to national/international competitions; developed and maintained club website.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Best Poster Presentation at ICSED 2023; Champion at Techfest IIT Bombay 2023.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,President of DUET Robotics Club; convener of tech festivals; volunteer at international conferences.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Multiple competition championships; best poster award; top rankings in national idea contests.

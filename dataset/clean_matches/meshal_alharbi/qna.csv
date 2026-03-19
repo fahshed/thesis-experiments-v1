@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Meshal Alharbi
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Cambridge, MA, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Graduate student at MIT researching data-efficient online reinforcement learning, power demand forecasting, anomaly detection in electrical grids, and modulation classification."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Doctor of Philosophy (PhD) in Electrical Engineering and Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,Massachusetts Institute of Technology (MIT); King Saud University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,"5.00/5.00 GPA (MIT PhD, Masters); 5.00/5.00 GPA (B.S); Valedictorian"
+Education,descriptive,What was the applicant's field of study or major?,Electrical Engineering and Computer Science (PhD); Computational Science and Engineering & EECS (M.S); Electrical Engineering (B.S)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Massachusetts Institute of Technology (MIT)
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional experience since 2018 (~7+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Develops sample-efficient RL methods; enhances time-series forecasting models; designs anomaly detection systems; organizes research workshops; collaborates with industry stakeholders.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. MIT, Center for Complex Engineering Systems (KACST/MIT), Saudi Telecom Company, Alsalam Aerospace Industries."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Valedictorian (B.S); Dean's List all years; multiple fully funded scholarships (KACST TLP); commercialization of forecasting algorithms; publications at AAAI, IEEE conferences."
+Professional Experience,descriptive,What key metric did they improve?,Improved electricity demand forecasting accuracy; developed anomaly detection models with high precision/recall; created sample-efficient RL algorithms with theoretical bounds.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Data-Efficient Online Reinforcement Learning; E-Cast: Electricity Power Demand Forecasting; Anomaly and Loss Detection in Electrical Grids; Modulation Classification for Millimeter Wave.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, Julia, MATLAB, C++, PyTorch, TensorFlow, Pyomo; VPlphotonics, NI Multisim, CST Studio, QGIS."
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,Fully funded scholarship for Masters and PhD (KACST Technology Leaders Program).
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To develop data-efficient reinforcement learning methods; to improve forecasting and anomaly detection in power systems; to advance modulation classification for communication systems.
+Research and Projects,descriptive,What are the applicant s publications?,"Publications in AAAI 2024, IEEE PES ISGT NA 2021, IEEE Photonics Technology Letters 2019."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses low-rank approximation, deep learning, ensemble methods, gradient boosting, synthetic control, autoencoders, and physics-based simulation."
+Research and Projects,descriptive,What are the applicant's research areas?,"Reinforcement Learning, Time-Series Forecasting, Anomaly Detection, Power Systems, Signal Processing, Modulation Classification, Optimization."
+Skills,entityNumeric,What are the applicant s key soft skills?,"Workshop organization and presentation, stakeholder engagement, interdisciplinary collaboration, teaching assistant roles implied through research assistantship."
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied research skills to commercialize forecasting algorithms; applied engineering skills to develop detection systems used by national electricity company.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Valedictorian with First-Class Honors; Dean's List Award; Fully Funded KACST Technology Leaders Program Scholarship. Most significant: Valedictorian.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Organized and presented at multiple MIT IDSS workshops; presented at Saudi IoT Conference and KACST.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Valedictorian; Dean's List all years; fully funded scholarships; excellence awards for capstone projects and scientific distinction.

@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Ajanta Saha
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://linkedin.com/in/ajanta-saha
+Personal Information,entityNumeric,What is the applicant's primary contact number?,(765)4094631
+Personal Information,descriptive,In which city and country is the applicant currently located?,"West Lafayette, Indiana, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. PhD candidate seeking full-time engineering/research roles in device/circuit modeling, characterization, and reliability analysis with extensive hands-on and modeling experience in electrochemical systems."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,PhD in Electrical and Computer Engineering 
+Education,entityNumeric,Which institutions did the applicant attend?,Purdue University; Bangladesh University of Engineering and Technology (BUET)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,4.0/4.0 (PhD); 3.92/4.0 (M.Sc.); 3.98/4.0 (B.Sc.)
+Education,descriptive,What was the applicant's field of study or major?,Electrical and Electronic Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Purdue University
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Graduate Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,6
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Taught as faculty member at BUET; supervised 200+ students; collaborated in multi-disciplinary research teams.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducted high-impact sensor design and modeling research; taught lab and theory courses; developed industrial monitoring systems and sensor calibration models.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Created energy harvester sensor with 400× yield; developed thermometer-free temperature estimation method; published in top journals; earned highest CGPA in undergrad batch.
+Professional Experience,descriptive,What key metric did they improve?,400× improvement in energy yield; 99% pH sensing accuracy; 3× energy reduction in IoT; nitrate concentration estimation within 10% of lab precision.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?, Energy harvester with dual sensor; Thermometer-free analyte temperature estimation; Indoor photovoltaic optimization; 8T-SRAM with CiM; Industrial production monitoring
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C, C++, Verilog, MATLAB, PSPICE, Cadence Virtuoso, COMSOL, Lumerical, Proteus, Arduino"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,Yes. 400× power yield improvement; 99% sensing accuracy; industrial system achieved 98% classification accuracy.
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To design robust electrochemical sensors and harvesters; to improve sensing accuracy and device efficiency; to develop modeling frameworks for real-world deployment.
+Research and Projects,descriptive,What are the applicant s publications?,1) Scientific Reports (2023); 2) ACS Sensors (2022 & 2023); 3) IEEE Trans. on Biomedical Engineering (2022); 4) AIP Advances (2022); 5) IEEE JPV (2019); and others
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Applied analytical modeling, COMSOL simulations, MLE-based statistical analysis, physics-guided ML, and drift detection using voltage data."
+Research and Projects,descriptive,What are the applicant's research areas?,"Electrochemical Sensors, Energy Harvesters, Circuit Modeling, IoT Devices, Photovoltaics, Reliability Analysis"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Analytical thinking, communication, teaching, teamwork, problem-solving, programming"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes. Extensive hands-on experience with COMSOL, Cadence, Lumerical, data analytics, circuit design, and microcontroller systems."
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Used EIS and Arduino to validate sensor model; created nitrate sensor with ambient calibration achieving near-lab accuracy; supervised students in labs.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. University Gold Medal (for highest CGPA in entire batch) and Undergraduate Program Excellency Award (top student in department).
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Served as faculty member at BUET; supervised labs and mentored students in electronic and power courses
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. First in class with 3.98 CGPA; Gold Medal recipient; multiple high-impact publications

@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Mohammad Abrarul Hasanat
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://linkedin.com/in/ab23rar
+Personal Information,entityNumeric,What is the applicant's primary contact number?,8.80176E+12
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Dhaka, Bangladesh"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. A software engineer and researcher with interests in distributed machine learning, databases, and software systems, aiming to reduce heterogeneity and communication costs in federated learning systems."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Bachelor of Science in Computer Science and Engineering
+Education,entityNumeric,Which institutions did the applicant attend?,Bangladesh University of Engineering and Technology (BUET)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.72/4.00
+Education,descriptive,What was the applicant's field of study or major?,Computer Science and Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,IQVIA
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Software Development Engineer 1
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,N/A
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Collaborated efficiently across teams in a professional role and participated in ICPC team contests.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Developed full-stack applications, worked with distributed machine learning setups using Docker and cloud tools, and applied software engineering principles in both research and industry settings."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Developed federated learning clustering model using PCA; built compiler and ray tracer; ranked 31st in ICPC 2021; solved 1500+ algorithm problems.
+Professional Experience,descriptive,What key metric did they improve?,Improved model performance and communication efficiency in federated learning; optimized distributed ML buffer usage.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Multi-Cluster Federated Learning Based on Statistical Similarity; VaccineForAll; A Simple C-Compiler
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"C, C++, Python, Java, JavaScript, SQL, Bash, React.js, Spring Boot, Redux, PostgreSQL, Docker, YACC, Lex"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes. VaccineForAll project involved vaccine storage, appointments, and dynamic allocation across centers."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To reduce communication costs and improve accuracy in federated learning; to deliver scalable, user-centric full-stack applications for health and tourism sectors."
+Research and Projects,descriptive,What are the applicant s publications?,N/A
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,Yes. Used Principal Component Analysis for clustering in federated learning; implemented distributed setups using Docker and synchronization policies.
+Research and Projects,descriptive,What are the applicant's research areas?,"Distributed Machine Learning, Federated Learning, Systems for ML, Software Engineering"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teamwork, communication, problem-solving, software design, adaptability"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes. Proficient with Docker, Kubernetes, AWS, and multiple programming languages and frameworks."
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied statistical analysis (PCA) to enhance federated learning; led full-stack development in project-based environments.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. 31st in ICPC Asia Dhaka Preliminary 2021; solved 1500+ algorithm problems; consistent recognition in contests.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Participated in ICPC competitions and online programming contests; maintained strong coding presence in developer communities.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Consistently ranked in ICPC; solved 1500+ DS & Algo problems; high Codeforces rating (Max 1717)

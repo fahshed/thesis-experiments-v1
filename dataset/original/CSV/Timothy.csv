@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Timothy J. Aveni
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Berkeley, California, USA "
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Focuses on human-computer interaction, teaching people to construct digital workflows, and prototyping AI-backed tools."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"Ph.D. in Computer Science (in progress, 2022–present)"
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Berkeley; Georgia Institute of Technology"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,4.0 (both degrees)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,"University of California, Berkeley (as Ph.D. student)"
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Ph.D. Student / Graduate Student Instructor
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Industry experience 2017–2022 (~5 years); research since 2016 (~9+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Head Teaching Assistant (managed 30 TAs); Lead TA for software engineering; Senior Software Engineer at Gradescope.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Researches AI-assisted prototyping and context-aware interfaces; develops educational tools; builds full-stack software.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. UC Berkeley, Georgia Tech, Gradescope/Turnitin, Facebook, volunteer teaching (TEALS)."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Published at ITiCSE, UIST, IEEE WHC; built reagent platform; saved ~$1MM annually at Facebook; app with 500k+ installs."
+Professional Experience,descriptive,What key metric did they improve?,Reduced compute costs by ~$1MM/year; improved video encoding speed by 10x; increased grading efficiency with automation.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,reagent AI prototyping platform; OmniFill context-aware form filler; passive haptic stenography training; Language Transfer app
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Ruby on Rails, React, GraphQL, Flux, Java, Python, Docker, AWS, hardware/firmware tools"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes. Projects involved cost savings (~$1MM), performance benchmarks (10x speed-up), and user metrics (500k installs)."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To improve how people instruct computers; accelerate prototyping of AI tools; enhance accessibility and education in computing.
+Research and Projects,descriptive,What are the applicant s publications?,"Publications in ITiCSE, UIST, IEEE WHC, ISWC, and arXiv; undergraduate thesis."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses human-centered design, prototyping, empirical evaluation, hardware/software co-development, and classroom studies."
+Research and Projects,descriptive,What are the applicant's research areas?,"Human-Computer Interaction, AI-assisted Tools, Educational Technology, Software Engineering, Accessibility"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentorship, leadership, public speaking, cross-functional collaboration"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Berkeley Fellowship; Outstanding Graduate Student Instructor Award; National Merit Scholar.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Built caching framework saving $1MM/year; developed AI prototyping platform for classrooms; created haptic training hardware.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Outstanding Graduate Student Instructor Award; Berkeley Fellowship; Thank a Teacher award; National Merit Scholar.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Head Teaching Assistant; volunteer teacher with TEALS; mentor for TAs and students; workshop presenter.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. 4.0 GPAs at top schools; prestigious awards; successful industry and research impact; high-rated published app.

@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Fabrice Harel-Canada
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Los Angeles, California, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,Yes. Recent UCLA Computer Science PhD specializing in robust and holistic evaluation frameworks for AI systems. Passionate about advancing trustworthy and beneficial AI.
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Los Angeles (UCLA); University of Florida (UF)"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.92 / 4.00 (Ph.D. GPA)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science (Ph.D./M.S. - AI + Software Engineering); Business Administration (B.S. - Management + ISOM)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Kairno
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Founder and CEO
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,N/A
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. President of Cooperative Living Organization (oversaw 17 managers); Project Manager + Developer Team Lead at Verox Tech (led team of 23).
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Conducts research in AI testing, data augmentation, watermarking, applied NLP; leads company; teaching assistant roles."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Kairno, UCLA, Verox Tech, People’s Trust Insurance, Cooperative Living Organization."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Outstanding Paper Award at EMNLP 2024 (Top 0.25%); developed novel AI evaluation frameworks; led drug misuse detection system achieving F1-scores of 0.95+.
+Professional Experience,descriptive,What key metric did they improve?,Improved clinical drug identification accuracy; demonstrated limitations of robust LLM watermarking; enhanced NLP model robustness.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Sibylvariant Transformations for Robust Text Classification; Enhancing Substance Use Detection in Clinical Notes with LLMs; Sandcastles in the Storm: Watermarking.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, SQL, Java, C#, LINQ, HTML, CSS, JS, Scala, Prolog, BFX; HuggingFace, PyTorch, TensorFlow, Keras, Spark, NumPy, Pandas; SSMS, SSIS, Azure DevOps, AWS, GCP."
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To pioneer robust and holistic evaluation frameworks for AI systems; enhance research critique; develop trustworthy AI.
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple publications in ACL, EMNLP, NAACL, ACM FSE, etc. (e.g., 'Measuring Psychological Depth in Language Models', 'Sandcastles in the Storm')."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Combines theoretical analysis, empirical evaluation, framework development, and open-source tool creation."
+Research and Projects,descriptive,What are the applicant's research areas?,"AI Evaluation, Natural Language Processing, Software Engineering, Machine Learning, Data Augmentation, Watermarking, Trustworthy AI."
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership, team management, teaching, mentorship, project management, collaboration."
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Ph.D. in Computer Science; Outstanding Paper Award; multiple research fellowships/roles.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Led team to launch a smarter insurance app; applied research to build a drug detection system; taught and mentored students.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Outstanding Paper Award at EMNLP 2024; research awards/fellowships.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. President of Cooperative Living Organization (student-run housing); Teaching Assistant for multiple CS courses.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. 3.92 GPA in Ph.D.; Outstanding Paper Award; successful leadership of student cooperative increasing net income 57%.

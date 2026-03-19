@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Alon Amid
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,"+972 (54) 425 7479, +1 (510) 371 2384"
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Yoque'am, Israel (based on NVIDIA location). Previously Haifa, Israel and Berkeley, CA, USA."
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Computer architect and system designer specializing in AI/ML acceleration, hyperscaler cloud systems, and open-source silicon/RISC-V ecosystems."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Electrical Engineering and Computer Sciences
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Berkeley; Technion - Israel Institute of Technology"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,"Cum Laude (Technion, GPA 92.5); 4.0 equivalent (Berkeley Ph.D./M.S.)"
+Education,descriptive,What was the applicant's field of study or major?,Electrical Engineering and Computer Sciences; Electrical Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,NVIDIA Corp.
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Senior System-on-Chip and Deep-Learning System Architect
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Industry experience since 2015 (~10+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Senior roles at NVIDIA and Microsoft; President/Treasurer of EE Graduate Student Association; project lead and mentor.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Performs architectural modeling, SoC feature definition, performance analysis, RTL development, and open-source framework design."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. NVIDIA, Microsoft, Google, Qualcomm, UC Berkeley, Infosys, IDF, B.M. Carmel Ltd."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Contributed to open-source projects FireSim, Chipyard, Gemmini; published 20+ research papers; received Demetri Angelakos Memorial Award."
+Professional Experience,descriptive,What key metric did they improve?,Improved system-level execution of data-center AI workloads; advanced RISC-V simulation and design methodologies; optimized cloud AI acceleration.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,FireSim; Chipyard; Gemmini; Nested-Parallelism PageRank on RISC-V; co-design of DNNs and accelerators
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"C, C++, Python, Verilog, VHDL, CUDA, Scala, Chisel/FIRRTL, RISC-V Assembly, MATLAB, R, SQL, Bash"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes. Projects involved performance benchmarks, power/area analysis, and system-level optimization targets."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To advance AI/ML hardware/software co-design; improve energy efficiency and performance of data-center systems; democratize chip design via open-source.
+Research and Projects,descriptive,What are the applicant s publications?,"Over 20 publications in IEEE Micro, ISCA, ASPLOS, DAC, IBM Journal, and workshops; multiple tutorials presented."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses generator-based design, FPGA-accelerated simulation, performance profiling, telemetry analysis, and hardware/software co-design."
+Research and Projects,descriptive,What are the applicant's research areas?,"Computer Architecture, AI/ML Acceleration, RISC-V, SoC Design, Distributed Systems, Energy-Efficient Computing, Open-Source Hardware"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership, mentoring, cross-cultural collaboration, teaching, technical communication"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Demetri Angelakos Memorial Achievement Award; Cum Laude (Technion); professional certifications implied by roles.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied architectural modeling to optimize GPU+CPU systems; developed open-source tools for hardware simulation and accelerator design.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Demetri Angelakos Memorial Achievement Award; Cum Laude; multiple best paper selections and tutorial presentations.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Advised undergraduate capstone projects; served as Graduate Student Instructor; mentored interns and junior engineers.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. Ph.D. from UC Berkeley; Cum Laude B.Sc.; leadership in graduate student organizations; extensive publication record.

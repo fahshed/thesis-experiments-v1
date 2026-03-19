@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Sarang Kadakia
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://linkedin.com/in/sarang-kadakia-463668182
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+1 347-901-6097
+Personal Information,descriptive,In which city and country is the applicant currently located?,"New York, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes, the resume includes a clear professional profile at the top summarizing expertise in AI/ML and technical leadership."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Master of Science in Computer Engineering (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,New York University; Dwarkadas J. Sanghvi College of Engineering
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.556 / 4.00 at NYU; 9.09 / 10.00 at DJSCE
+Education,descriptive,What was the applicant's field of study or major?,Computer Engineering; Information Technology with Minor in Web Application Development
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Cloud Counselage Pvt. Ltd
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,AI/ML Domain Lead
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Approximately 1.5 years of experience across internships and full-time roles
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,"AI/ML Domain Lead and Project Lead, mentoring over 200 interns and leading technical project execution."
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Led and mentored AI/ML projects, provided technical guidance, conducted interviews, and built ML systems for submission checks, NLP, and classification tasks"
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes, worked at Cloud Counselage, IIT, and Rejolut across AI/ML roles"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Achieved 95-98% accuracy in NLP classification, developed award-winning distributed ML systems and AI-driven assessment tools"
+Professional Experience,descriptive,What key metric did they improve?,"Improved inference time by 30%, accuracy by up to 98%, and response time by 15% in various AI systems"
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Evaluation of AI Agent Frameworks for Financial Data Extraction and Analysis
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, Java, R, SQL, MongoDB, Pinecone, ChromaDB, TensorFlow, PyTorch, JAX, LangChain, Hugging Face, Pandas, NumPy, Scikit-learn, CuDF, CuDNN, ONNX, TensorRT, TensorLLM, NVIDIA NIM, Ollama, Autogen, Phidata, CrewAI, AWS, GCP, Azure, Flask, Streamlit"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes, won Smart India Hackathon 2023; received 'Best Mentor' and 'Industry Academia Excellence Award 2024'; earned ‘Best Software Project’ award at DISCE Trinity TechExpo 2024"
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To build AI solutions for adaptive testing, real-time classification, and financial analysis with high accuracy and efficiency"
+Research and Projects,descriptive,What are the applicant s publications?,Comprehensive NLP System for Research Paper Discovery and Similarity Analysis; Car Damage Localization; Chatbot Enhanced House Price Prediction; Dent Detection and Price Prediction
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes, methodologies included PEFT (LORA, QLORA), real-time inference, model fine-tuning, token pricing analysis, and RAG architecture"
+Research and Projects,descriptive,What are the applicant's research areas?,"NLP, Adverse Drug Reaction Classification, Financial Data Analysis, Image Classification, Adaptive Testing Systems"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership, mentoring, problem-solving, collaboration, technical communication, innovation"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","No formal certifications listed, but significant technical training demonstrated through projects and roles"
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,"Yes, mentored interns and led AI model development, achieving high accuracy and system performance gains"
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?","Yes, received 'Best Mentor' and 'Industry Academia Excellence Award 2024'; won Smart India Hackathon 2023"
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,"Yes, mentored Smart India Hackathon 2024, involved in multiple national-level hackathons"
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Yes, selected by Ministry of Education as a mentor; earned â€˜Best Software Projectâ€™ award at TechExpo 2024"

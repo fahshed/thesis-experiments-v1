@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Nayoung Choi
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Seoul, South Korea (based on Yonsei University and NAVER location)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"AI/ML Engineer with research background in NLP, IR, and XAI, focusing on search engine safety and interpretability."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"M.S. in Digital Analytics / AI Convergence (Yonsei University, 2022)"
+Education,entityNumeric,Which institutions did the applicant attend?,Yonsei University; Sungkyunkwan University; Vilnius University (exchange)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,4.25/4.3 (Yonsei University); 3.7/4.5 (Sungkyunkwan University)
+Education,descriptive,What was the applicant's field of study or major?,"Digital Analytics / AI Convergence (MS), Library and Information Science (BA)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,NAVER Corporation
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,AI/ML Engineer
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,"Approx. 3+ years (professional from NAVER, research from 2020)"
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Developing safety modules for conversational search; improving document ranking; research in NLP, coreference, and crosslingual learning."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (NAVER, Yonsei University DeepText Lab, EmoryNLP collaboration)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"3rd place in NAVER AI RUSH 2021; publications at Big Data, CRAC, MRL workshops; industry-academic projects."
+Professional Experience,descriptive,What key metric did they improve?,Improved search result quality via WSD; developed toxic query detection; enhanced grammar error correction.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Breaking Down Word Semantics (ACL RR submission); SQ2SV; FantasyCoref; Crosslingual NER analysis.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C++, Scala, Java, PyTorch/TensorFlow implied, Apache Airflow, Spark, Django, Flask, SQL"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A (no specific budget mentioned)
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Enhance interpretability of pre-trained LMs; improve search safety and relevance; advance crosslingual NLP.
+Research and Projects,descriptive,What are the applicant s publications?,"Publications in IEEE Big Data, ACL workshops, CRAC, MRL; submitted to ACL Rolling Review."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Uses layer-wise dimension analysis, transformer architectures, multi-task learning, LSTM, word2vec, bipartite matching."
+Research and Projects,descriptive,What are the applicant's research areas?,"Natural Language Processing, Information Retrieval, Explainable AI, Crosslingual Learning, Search Engineering"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Collaboration, teaching (volunteer), technical communication, interdisciplinary project management"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Taught math and Korean as a volunteer; assisted in deploying de-identification software for research.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",3rd place in NAVER AI RUSH 2021 (most significant industry award)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Educational volunteer at Seocho Children’s Center and Sangaksan High School.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"YulGok Scholarship (4-year 50% tuition); competition awards in data preprocessing, AI, and big data contests."

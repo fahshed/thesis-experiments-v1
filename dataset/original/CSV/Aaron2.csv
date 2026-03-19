@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Aaron Stockdill
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"London, UK"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,Yes. Research focuses on automating representation change and developing cognitively-centered AI explanations.
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Doctor of Philosophy in Computer Science
+Education,entityNumeric,Which institutions did the applicant attend?,University of Cambridge; University of Canterbury
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,8.9/9 (Honours GPA); 8.83/9 (Undergraduate GPA)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science (PhD); Computer Science & Mathematics (BSc Hons)
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Qube Research and Technologies
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Quantitative Technologist
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional experience since 2017 (~8+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Computing Officer for Selwyn College MCR; committee roles in academic societies; project leadership.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducts research in AI and representation theory; develops software in finance; teaches and supervises students.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Qube Research, University of Sussex, Jane Street, University of Cambridge, University of Canterbury."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Best Student Paper at Diagrams 2021; multiple conference publications; Hamilton Cambridge International Scholarship.
+Professional Experience,descriptive,What key metric did they improve?,Developed theory of cross-domain correspondences; built tools for representation selection; improved teaching outcomes.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Automating representation change across domains; Representational Interpretive Structure (RIST); AquaSense (previous)
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"OCaml, ReScript, Python, Standard ML, C, JavaScript; React, web development tools"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,To advance AI explanation and problem-solving through automated representation selection and change.
+Research and Projects,descriptive,What are the applicant s publications?,"Six conference papers, one workshop paper, one under review; publications in Diagrams, VL/HCC, ICTAI."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Combines theoretical proofs, human participant evaluations, statistical analysis, and tool development."
+Research and Projects,descriptive,What are the applicant's research areas?,"Artificial Intelligence, Representation Theory, Human-Centric Computing, Diagrammatic Reasoning, Cognitive Science"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Teaching, mentoring, academic service, outreach, collaboration, leadership in committees"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. PhD in Computer Science; Hamilton Scholarship; multiple undergraduate awards and scholarships.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied representation theory to AI explanations; developed educational programmes; built financial software.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Best Student Paper Award; Hamilton Cambridge International Scholarship; multiple university prizes.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Volunteer with STIMULUS program; scholarship coordinator; tutorial organizer; committee roles.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. First Class Honours; highest cohort awards; Hamilton Scholarship; best paper award.

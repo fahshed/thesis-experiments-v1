@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Md Hasan Anowar
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://linkedin.com/in/hasananowar
+Personal Information,entityNumeric,What is the applicant's primary contact number?,956-360-1171
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Ames, Iowa, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. 4th year PhD student in computer engineering with 5+ years of experience in ML, neural networks, and spatio-temporal data mining, seeking a machine learning/AI intern position."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Msc in Computer Engineering 
+Education,entityNumeric,Which institutions did the applicant attend?,Iowa State University; University of Texas Rio Grande Valley; Bangladesh University of Engineering and Technology
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,GPA not explicitly mentioned
+Education,descriptive,What was the applicant's field of study or major?,Computer Engineering; Electrical Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Viasat
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Machine Learning Engineer Intern
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,5+
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Vice-President of GO-ECpE at Iowa State University; mentored senior design project team.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Built ML models for large-scale time series, developed GNNs, trained RNN/CNN models, performed spatio-temporal data mining, and mentored design students."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Developed data compression algorithm achieving 4× faster query and 5× storage gain; best paper award at ADBIS 2022; deployed ML models on AWS SageMaker.
+Professional Experience,descriptive,What key metric did they improve?,Query processing speed by 4×; storage usage reduced 5× using compression algorithms.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Bond-Aware Moving Cluster of Atomic Trajectories; Sentiment Analysis using RNN; Image Style Transfer using CNN
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, SQL, Java, PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, DGL, NetworkX, Apache Spark, Hadoop, Docker, AWS SageMaker, QGIS"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,Yes. Compression algorithm improved storage 5× and query performance 4×; supervised project led to SIGSPATIAL'24 demo paper.
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To uncover patterns from spatio-temporal data, optimize neural network models, and interpret biological signals using ML."
+Research and Projects,descriptive,What are the applicant s publications?,1) SIGSPATIAL 2024; 2) Information Systems 2024; 3) ADBIS 2022 (Best Paper); 4) ECCE 2019
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Used clustering algorithms for spatio-temporal data, GNNs for dynamic graphs, CNNs for style transfer, and regression models for time series on AWS."
+Research and Projects,descriptive,What are the applicant's research areas?,"Spatio-temporal Data Mining, Neural Networks, Time Series Modeling, Generative AI, Signal Processing"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Leadership, teamwork, data interpretation, research communication, problem-solving"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes. Courses and tools in AWS SageMaker, PyTorch Geometric, Apache Spark, Hadoop, Docker, and big data platforms"
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,"Yes. Designed and evaluated GNNs and RNNs for graph and sentiment analysis, built compression algorithms used in trajectory data mining."
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Best Paper Award at ADBIS 2022; SIGSPATIAL 2024 publication; IEEE ECCE 2019 presentation
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Vice-President of GO-ECpE club; organized workshops including IBM Qiskit event and managed finances and proposals.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Yes. Best Paper Award, multiple peer-reviewed publications, and mentored senior design demo paper selected at SIGSPATIAL 2024"

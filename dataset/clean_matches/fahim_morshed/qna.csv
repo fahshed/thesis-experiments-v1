@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Fahim Morshed
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://www.linkedin.com/in/fahshed/
+Personal Information,entityNumeric,What is the applicant's primary contact number?,8.80172E+12
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Dhaka, Bangladesh"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,No. N/A
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Bachelor of Science in Computer Science and Engineering
+Education,entityNumeric,Which institutions did the applicant attend?,Bangladesh University of Engineering and Technology (BUET)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.47/4.00 (last 2 years: 3.77/4.00)
+Education,descriptive,What was the applicant's field of study or major?,Computer Science and Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,IQVIA
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Software Developer
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,3
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Honourable Mention in Hackathon and led parts of projects under supervision of faculty at BUET
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Built enterprise features, wrote scalable code, collaborated with international teams, led modules for research projects."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Published paper in ACM COMPASS, developed COVID dashboard, created Bangla NLP tools, and sentiment analysis framework using tweets."
+Professional Experience,descriptive,What key metric did they improve?,3.77 GPA in final years; improved automation in exam processing; enhanced NLP evaluation with hybrid scoring methods.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,CORONOSIS; Downstream Tasks in Bangla NLP; Sentiment Change Analysis on Twitter
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, JavaScript, React, Angular, ASP.NET, React-native, Node.js, SQL, PostgreSQL, MongoDB, Huggingface, FAISS, Bash, YAML"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Projects had clear objectives (e.g., automate manual processes, build a dashboard) but no specific budget or numeric goals are listed."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To improve pandemic monitoring and sentiment tracking, automate exam evaluation, and explore Bangla LLM capabilities in NLP tasks."
+Research and Projects,descriptive,What are the applicant s publications?,"CORONOSIS (ACM COMPASS 2022); others under review (e.g., CHI 2023 submission on sentiment). Has manuscripts under preparation/preprint for other projects (e.g., Bangla NLP, sentiment analysis)."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Used epidemiology models, rule-based NLP dataset generation, manual and automatic evaluation metrics, image captioning models."
+Research and Projects,descriptive,What are the applicant's research areas?,"Applied Machine Learning, Computer Security, NLP, Sentiment Analysis, Low-resource Language Processing"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Collaboration, problem-solving, research communication, adaptability, initiative in exploring new technologies"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes. Learned enterprise-grade frameworks, received training through academic and industry projects"
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,"Yes. Applied evaluation scripting, NLP modeling, and collaborated on writing for research publication and government project execution."
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Dean’s List at BUET; Honourable Mention in BRAC University Hackathon
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Volunteered and presented in government stakeholder meetings for BANBEIS project.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Yes. Dean’s List, Hackathon recognition, and multiple national Board Merit Scholarships"

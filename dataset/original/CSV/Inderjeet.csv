@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Inderjeet Nair
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,+1-734-489-4505
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Ann Arbor, MI, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Research interests: Natural Language Processing, Information Extraction, Document Intelligence, Machine Learning."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,University of Michigan; Indian Institute of Technology Bombay
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,9.56/10.00 (B.Tech GPA)
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science (Ph.D.); Electrical Engineering (B.Tech major), Computer Science and Engineering (minor)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Adobe Inc.
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Research Associate
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional experience since 2019 (~5+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,Yes. Led research projects at Adobe; filed multiple patents; supervised interns and collaborations.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducts NLP/Document Intelligence research; develops ML models; files patents; teaches and mentors.
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Adobe Inc., StampMyVisa, University of Michigan (PhD), IIT Bombay (teaching assistant)."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,"Publications in ACL, EMNLP, EACL, AISTATS, MMSys; Best Paper Runner-up award at WISE '21; multiple patents filed."
+Professional Experience,descriptive,What key metric did they improve?,Developed MIDGARD for commonsense reasoning; improved legal language models; created frameworks for document relation detection.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,MIDGARD; Drilling Down into the Discourse Structure; Legal Domain-Specific LM Pretraining; Neural CRF-based Hierarchical Text Segmentation
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, C++, JavaScript, TypeScript; PyTorch, HuggingFace, TensorFlow, React, Node.js, MongoDB"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To advance natural language processing, document intelligence, and machine learning for practical applications."
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple publications in ACL, EMNLP, EACL, AISTATS, MMSys; several patents filed/accepted."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Describes model formulation, algorithm design, experimental validation, and patentable innovations in projects."
+Research and Projects,descriptive,What are the applicant's research areas?,"Natural Language Processing, Information Extraction, Document Intelligence, Machine Learning, Legal AI"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Research leadership, teaching, mentoring, collaboration, patent innovation"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Ph.D. candidate; B.Tech in Electrical Engineering; KVYP fellowship; Adobe Hackweek award.
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied ML to improve contract review; developed text segmentation models; built election winner estimation algorithms.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Best Paper Runner-up at WISE '21; special-mention award at Adobe Hackweek; top ranks in national exams.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Undergraduate Teaching Assistant for Differential Equations and Physics courses.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. 5th rank in MHT-CET; top 0.1% in JEE Advanced; KVYP fellowship; top 1% in national science exams.

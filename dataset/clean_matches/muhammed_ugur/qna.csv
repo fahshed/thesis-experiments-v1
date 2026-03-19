@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Muhammed Ugur
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,N/A
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"New Haven, CT, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. Research focuses on computer architecture, systems, compilers, and neural engineering, specifically hardware/software co-design, neural interfaces, accelerators, and datacenter optimizations."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Ph.D. in Computer Science (in progress)
+Education,entityNumeric,Which institutions did the applicant attend?,Yale University; University of Michigan
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,"Computer Science (Ph.D.); Computer Science and Engineering (M.S.); Computer Science with Honors, Minor in Mathematics (B.S.)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Yale University
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Graduate Student / Research Assistant
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Professional experience since 2017 (~7+ years)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Building low-power, multi-accelerator systems for brain-computer interfaces; optimizing Linux kernel and branch prediction for data centers; developing full-stack web platforms and NLP infrastructure."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes. Yale University, University of Michigan, Clinc Inc., Center for Healthcare Engineering and Patient Safety, Department of Biostatistics."
+Professional Experience,descriptive,What were the applicant's major accomplishments?,IEEE Micro 2024 Top Picks Selection; ISCA 2023 Best Paper Award; MICRO 2022 Best Paper Award.
+Professional Experience,descriptive,What key metric did they improve?,Optimized Linux kernel and branch prediction for data center applications; designed chips for efficient neural recording processing.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,SCALO (Scalable Brain-Computer Interfacing system); Whisper (Branch Misprediction Elimination); Swapping-Centric Neural Recording Systems.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"C/C++, Python, Rust, Verilog, High-Level Synthesis, Shell Scripting, Docker, Git, Linux perf, Intel TopLev, LLVM"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To build scalable, low-power systems for brain-computer interfacing; to optimize data center performance via profile-guided kernel and branch prediction improvements."
+Research and Projects,descriptive,What are the applicant s publications?,"Multiple publications in ISCA, MICRO, IEEE Micro, ACM SIGOPS OSR, NVMW, ASPLOS, and PLDI workshops."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Uses hardware/software co-design, profile-guided optimization, accelerator-rich distributed systems, and neural interface chip design."
+Research and Projects,descriptive,What are the applicant's research areas?,"Computer Architecture, Computer Systems, Compilers, Neural Engineering, Signal Processing, Hardware/Software Co-Design, Neural Interfaces, Accelerators, Datacenter Optimizations"
+Skills,entityNumeric,What are the applicant s key soft skills?,N/A
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied systems optimization skills to win Best Paper awards at ISCA and MICRO; applied full-stack skills to build surgical instrument management platform.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",IEEE Micro 2024 Top Picks Selection; ISCA 2023 Best Paper Award; MICRO 2022 Best Paper Award. Most significant: ISCA 2023 Best Paper Award.
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,N/A
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,Yes. B.S. in Computer Science with Honors; multiple Best Paper awards; Yale University Fellowship; various conference travel grants.

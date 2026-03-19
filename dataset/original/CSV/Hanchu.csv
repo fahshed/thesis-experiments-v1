@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Hanchu Zhou
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,LinkedIn profile mentioned but URL not provided
+Personal Information,entityNumeric,What is the applicant's primary contact number?,(+1)9167763625
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Davis, CA, USA (based on UC Davis location)"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Ph.D. candidate focused on world models, robotics, and autonomous driving, aiming to develop efficient and safe AI systems."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"Ph.D. in Electrical and Computer Engineering (UC Davis, in progress)"
+Education,entityNumeric,Which institutions did the applicant attend?,"University of California, Davis; Zhejiang University"
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A (GPA not specified)
+Education,descriptive,What was the applicant's field of study or major?,"Electrical and Computer Engineering (PhD), Control Science (BS)"
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,"University of California, Davis (PhD Researcher)"
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,PhD Researcher / Graduate Student
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Approx. 4+ years (research implied from PhD start)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A (no explicit leadership title listed)
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Research in world models, autonomous driving platforms, robotics policies, and hierarchical planning; open-source development."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (UC Davis, Zhejiang University, implied collaborations via publications)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Developed CarDreamer (250+ stars on GitHub); proposed VITA policy reducing inference latency by 50-130%; improved success rates by up to 633% in robotics.
+Professional Experience,descriptive,What key metric did they improve?,Enhanced autonomous driving safety/efficiency by 116% with HANSOME; reduced inference latency significantly with VITA.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,CarDreamer; VITA; IN-RIL; HANSOME; EI-Drive.
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"JAX, PyTorch, TensorFlow, ROS, OpenCV, YOLO, Git, Linux, Conda"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A (no specific budget mentioned)
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Advance world-model-based autonomous driving; improve robotics manipulation stability; enable efficient vision-to-action mapping.
+Research and Projects,descriptive,What are the applicant s publications?,"Publications in IEEE IoT-J, arXiv preprints, JMLR under review; CarDreamer platform documented."
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Uses flow matching, interleaved imitation/RL training, hierarchical planning, semantic communication, edge intelligence."
+Research and Projects,descriptive,What are the applicant's research areas?,"World Models, Autonomous Driving, Robotics, Reinforcement Learning, Computer Vision, Edge AI"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Research collaboration, open-source contribution, technical writing, interdisciplinary integration"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A (no certifications listed)
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Built open-source platform CarDreamer to democratize WM research; developed EI-Drive for V2X exploration.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",N/A (no awards explicitly listed in provided excerpt)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Open-source project maintenance (CarDreamer); implied academic service through research.
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,N/A (no specific academic honors listed in provided excerpt)

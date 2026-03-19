@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Li-Yun (James) Wang
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://linkedin.com/in/li-yunwang/
+Personal Information,entityNumeric,What is the applicant's primary contact number?,N/A
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Portland, Oregon, USA"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"AI/ML Engineer and PhD candidate specializing in Computer Vision, Generative Adversarial Networks (GANs), and Multimodal Learning."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,"Ph.D. in Computer Science (Portland State University, 2024)"
+Education,entityNumeric,Which institutions did the applicant attend?,Portland State University; Fu Jen Catholic University
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,N/A
+Education,descriptive,What was the applicant's field of study or major?,Computer Science
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Tiposi Inc.
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,AI/ML Engineer
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,Approx. 9 years (Research/Academic roles since ~2015)
+Professional Experience,entityNumeric,What leadership position did the applicant hold?,N/A (Primary roles are Researcher/Engineer)
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Researching computer vision and machine learning; Developing generative models (GANs, Diffusion); Prototyping visual analytical software."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,"Yes (Tiposi Inc., Portland State University, Independent Researcher)"
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Proposed 'Video as Text' framework; Developed Dual Attentive Feature Fusion (DaFF) for pedestrian detection; Published in CVPR and IEEE ISM.
+Professional Experience,descriptive,What key metric did they improve?,Achieved best top-1 classification accuracy using GK-means-based algorithms on ImageNet subset.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,Video as Text (vText); Dual Attentive Feature Fusion (DaFF)
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Python, Computer Vision, Generative Adversarial Networks (GANs), Diffusion Models, Deep Learning, Image Processing"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,N/A
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,Improve reusability of video analysis tools; Bolster robustness of deep neural networks against adversaries; Address deployment challenges of DNNs.
+Research and Projects,descriptive,What are the applicant s publications?,DaFF: Dual Attentive Feature Fusion (CVPR 2024); Video as Text (IEEE ISM 2023); Class Specialized Knowledge Distillation (ACCV 2022).
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,Proposed Renormalized Knowledge Distillation (RKD) and Intra-Class Variance (ICV) losses; Used Gaussian smoothing and color reduction for adversarial defense.
+Research and Projects,descriptive,What are the applicant's research areas?,"Computer Vision, Deep Learning, Generative AI, Multimodal Learning, Neural Network Compression"
+Skills,entityNumeric,What are the applicant s key soft skills?,N/A 
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?",N/A
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,Applied GANs for night-to-day image translation to improve pedestrian detection; Developed vText for flexible video analysis.
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?",N/A (Publications in top conferences like CVPR are primary recognition)
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,N/A
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Ph.D. Dissertation: 'Designing for Deployable, Secure, and Generic Machine Learning Systems'."

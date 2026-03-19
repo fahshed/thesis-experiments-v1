@@ -1,0 +1,31 @@
+section,type,question,answer
+Personal Information,entityNumeric,What is the applicant's full name?,Md Atik Shahriar
+Personal Information,entityNumeric,What is the applicant's LinkedIn?,https://www.linkedin.com/in/mdatikshahriar
+Personal Information,entityNumeric,What is the applicant's primary contact number?,8.80178E+12
+Personal Information,descriptive,In which city and country is the applicant currently located?,"Dhaka, Bangladesh"
+Personal Information,descriptive,Did the applicant provide a brief professional summary or career objective?,"Yes. A computer science graduate with a strong interest in security, privacy, cryptography, and blockchain systems with real-world development experience."
+Education,entityNumeric,What is the highest level of education the applicant has completed?,Bachelor of Science in Computer Science and Engineering
+Education,entityNumeric,Which institutions did the applicant attend?,Shahjalal University of Science and Technology (SUST)
+Education,entityNumeric,What is the applicant's score or GPA for his highest level of education?,3.55/4.00
+Education,descriptive,What was the applicant's field of study or major?,Computer Science and Engineering
+Professional Experience,entityNumeric,What is the name of the applicant's current (or most recent) employer?,Dynamic Solution Innovators
+Professional Experience,entityNumeric,What is the applicant's job title in the most recent role?,Associate Software Engineer
+Professional Experience,entityNumeric,How many years of experience does the applicant have?,3
+Professional Experience,entityNumeric,What leadership position did the applicant hold?, Yes. Instructor of a blockchain course and was fully responsible for a module in a government project.
+Professional Experience,descriptive,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Built nationwide systems for education management, performed full-stack development, conducted security research, and instructed blockchain technologies."
+Professional Experience,descriptive,Has the applicant worked in more than one job or organization?,Yes
+Professional Experience,descriptive,What were the applicant's major accomplishments?,Created education platforms used by all primary schools in Bangladesh; published in Springer and IEEE; built counterfeit detection app using blockchain.
+Professional Experience,descriptive,What key metric did they improve?,Reduced response time using Spring Batch; developed government modules for millions of users; secured blockchain models against vulnerabilities.
+Research and Projects,entityNumeric,What is the name of a key project the applicant has worked on?,PEMIS and TTMS Systems; IEIMS; Blockchain-based e-KYC; GoodsLedger App
+Research and Projects,entityNumeric,Which tools or technologies did the applicant use in their projects?,"Java, Spring Boot, React, Next.js, Node.js, Hyperledger Fabric, Oracle, MongoDB, Docker, MySQL, JSP, Kubernetes"
+Research and Projects,entityNumeric,Did any project have a specific budget or numeric goal?,"Yes. Government projects for national education systems, used by millions of students and teachers."
+Research and Projects,descriptive,What were the main objectives of the applicant's projects?,"To enhance access to education management, secure blockchain-based identity and reputation, and build scalable software for public institutions."
+Research and Projects,descriptive,What are the applicant s publications?,1) A systematic literature review of blockchain-based e-KYC systems – Springer (2023); 2) Modelling Attacks in Blockchain Systems using Petri Nets – IEEE (2020)
+Research and Projects,descriptive,Did the applicant outline the approach or methodology they used?,"Yes. Used systematic literature review, Petri net modeling for attacks, and full-stack development with Spring Boot and React."
+Research and Projects,descriptive,What are the applicant's research areas?,"Computer Security, Privacy, Blockchain, Cryptography, Distributed Systems, Privacy-preserving AI"
+Skills,entityNumeric,What are the applicant s key soft skills?,"Problem-solving, teaching, research writing, full-stack development, collaboration"
+Skills,descriptive,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes. Practical experience instructing a blockchain course and using technologies like Hyperledger Fabric, Docker, and full-stack frameworks."
+Skills,descriptive,Did the applicant describe a situation where they applied one of their key skills effectively?,"Yes. Led blockchain education course, implemented national-scale systems, conducted security reviews for blockchain-based e-KYC systems."
+Awards & Extracurricular Activities,entityNumeric,"Has the applicant received any awards or recognitions? If so, which is the most significant?","Yes. Significant achievements including publications, high test scores, and leadership on national projects."
+Awards & Extracurricular Activities,descriptive,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,"Yes. Solved 500+ competitive programming problems on various online judges (Codeforces, HackerRank, UVA, etc.)"
+Awards & Extracurricular Activities,descriptive,Did the applicant describe any notable academic achievements or honors received?,"Yes. Research publications, top national project responsibilities, and strong standardized test scores (GRE: 312, IELTS: 7.5)"

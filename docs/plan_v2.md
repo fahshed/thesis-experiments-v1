@@ -1,27 +1,27 @@
 ## Strategies
 
-**Strategy 1: Full Resume + LLM**
-Give the whole resume and the question to the model, and let it answer directly.
+**Strategy 1: Full CV + LLM**
+Give the whole cv and the question to the model, and let it answer directly.
 
 **Strategy 2: Retrieve Section, then LLM**
-First find the most relevant part of the resume, then give that part plus the question to the model.
+First find the most relevant part of the cv, then give that part plus the question to the model.
 
 **Strategy 3: RAG System**
-Use retrieval-augmented generation to pull relevant resume content while answering.
+Use retrieval-augmented generation to pull relevant cv content while answering.
 
 **Strategy 4: Layout-Aware Model**
-Use a model that reads both the resume text and the visual page structure.
+Use a model that reads both the cv text and the visual page structure.
 
 **Strategy 5: Structured JSON Pipeline**
-First convert the resume into structured JSON fields, then answer questions from that structured representation.
+First convert the cv into structured JSON fields, then answer questions from that structured representation.
 
 ## Experiments
 
 **Experiment 1: Structured Field Extraction**
-Test how well each strategy can extract specific resume fields such as GPA, skills, publications, education, or work history.
+Test how well each strategy can extract specific cv fields such as GPA, skills, publications, education, or work history.
 
-**Experiment 2: Resume QA Accuracy**
-Test how accurately each strategy can answer the predefined questions about each resume.
+**Experiment 2: CV QA Accuracy**
+Test how accurately each strategy can answer the predefined questions about each cv.
 
 **Experiment 3: Retrieval Strategy Impact**
 Compare direct answering, retrieve-then-answer, and RAG to see whether retrieval improves answer quality and efficiency.
@@ -33,14 +33,14 @@ Test whether the model can justify its answers with valid evidence and whether i
 Compare smaller and larger models to see whether increased model size leads to better results worth the added time or cost.
 
 **Experiment 6: Context Ablation**
-Test how performance changes when the model is given different amounts of resume context, such as the full resume, top 1 chunk, or top 3 chunks.
+Test how performance changes when the model is given different amounts of cv context, such as the full cv, top 1 chunk, or top 3 chunks.
 
 ## Experiment matrix
 
 | Exp    | Plain English                                                       | Use these strategies                                                      | Main metrics                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------ |
 | **E1** | Extract fields like GPA, skills, publications                       | **S1, S2, S3, S4, S5**                                                    | Precision, Recall, **F1**, field fill rate             |
-| **E2** | Answer the 30 resume questions                                      | **S1, S2, S3, S4, S5**                                                    | **Exact Match**, F1, semantic match, latency, cost     |
+| **E2** | Answer the 30 cv questions                                      | **S1, S2, S3, S4, S5**                                                    | **Exact Match**, F1, semantic match, latency, cost     |
 | **E3** | Check whether retrieval helps                                       | **S1, S2, S3**                                                            | Accuracy, latency, cost                                |
 | **E4** | Check whether answers are explainable and confidence is trustworthy | **S1, S2, S3, S5**                                                        | Rationale accuracy, faithfulness, **ECE**, Brier score |
 | **E5** | Check whether bigger models are worth it                            | **Run inside one strategy at a time**: mainly **S3**, then maybe S1/S2/S5 | Accuracy, latency, cost                                |
@@ -48,9 +48,9 @@ Test how performance changes when the model is given different amounts of resume
 
 ## Core data points (Output Schema) to generate for almost every run
 
-For each **resume + question + strategy + model**, generate:
+For each **cv + question + strategy + model**, generate:
 
-- **resume_id**
+- **cv_id**
 - **question_id**
 - **question_category**
 - **question_text**
@@ -87,7 +87,7 @@ Extra data points:
 
 This is more field-level than question-level.
 
-### Experiment 2: Resume QA Accuracy
+### Experiment 2: CV QA Accuracy
 
 Main data points:
 
@@ -118,7 +118,7 @@ This is where **rationale** really matters.
 
 Add:
 
-- **rationale_supported_by_resume**
+- **rationale_supported_by_cv**
 - **rationale_quality_score**
 - **confidence_bin**
 - **correct_or_not**
@@ -146,7 +146,7 @@ This one is more about aggregation than new row fields.
 
 Add:
 
-- **context_type** _(full resume, top 1 chunk, top 3 chunks, etc.)_
+- **context_type** _(full cv, top 1 chunk, top 3 chunks, etc.)_
 - **context_length**
 - **tokens_in_context**
 

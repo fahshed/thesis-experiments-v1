@@ -11,16 +11,16 @@ This document maps applicant names to their respective CSV and PDF filenames.
 | 3 | Ajanta Saha | answers_Ajanta_Saha.csv | Ajanta Saha.pdf |
 | 4 | Alan Zhu | Alan.csv | cv (5).pdf |
 | 5 | Alejandro Escontrela | Alejandro Escontrela.csv | aescontrela_cv.pdf |
-| 6 | Alfredo De Goyeneche Macaya | Goyeneche.csv | ResumeDeGoyeneche.pdf |
+| 6 | Alfredo De Goyeneche Macaya | Goyeneche.csv | CVDeGoyeneche.pdf |
 | 7 | Alon Amid | Alon.csv | AlonAmid_cv.pdf |
 | 8 | Andrew Blinn | Andrew.csv, Anna.csv | andrewblinncv.pdf |
-| 9 | Aryaman Arora | Aryaman.csv, Joshi.csv | resume (2).pdf |
+| 9 | Aryaman Arora | Aryaman.csv, Joshi.csv | cv (2).pdf |
 | 10 | Ben Limpanukorn | Ben.csv | BenLimpanukornCV-2025-10.pdf |
 | 11 | Benyu Wang | Benyu.csv | Benyu Wang.pdf |
 | 12 | Burak Yetistiren | Burak.csv | burak_yetistiren_cv.pdf |
 | 13 | Chang Xiao | Chang.csv | Chang_Xiao_CV_2025_web.pdf |
 | 14 | Cătălina Cangea | Cangea2.csv | cv (2).pdf |
-| 15 | Dhanvi Bharadwaj | Daniel.csv, Dhanvi.csv | Dhanvi_Bharadwaj_Resume.pdf |
+| 15 | Dhanvi Bharadwaj | Daniel.csv, Dhanvi.csv | Dhanvi_Bharadwaj_CV.pdf |
 | 16 | Dronguo Zhou | Dronguo.csv | Dongruo_Zhou_CV.pdf |
 | 17 | Eun Jeong Kang | Huang.csv, Jeong.csv | Eun Jeong Kang- CURRICULUM VITAE.pdf |
 | 18 | Fabrice Harel-Canada | Fabrice.csv | Fabrice Harel.pdf |
@@ -29,7 +29,7 @@ This document maps applicant names to their respective CSV and PDF filenames.
 | 21 | Georgios Liargkovas | Georgios.csv | LiargkovasGeorgiosCV.pdf |
 | 22 | Han Yi | answers_Han_Yi.csv | HAN_YI_CV_latest.pdf |
 | 23 | Hanchu Zhou | Hanchu.csv | CV_Hanchu_Zhou.pdf |
-| 24 | Harsh S. Desai | Desai2.csv | resume (1).pdf |
+| 24 | Harsh S. Desai | Desai2.csv | cv (1).pdf |
 | 25 | Harshit Joshi | Prama.csv | harshit_joshi_cv.pdf |
 | 26 | Hritik Bansal | Hritik.csv | Hritik_Bansal_UCLA.pdf |
 | 27 | Hyelin Nam | Hyelin.csv | Hyelin Nam.pdf |
@@ -40,13 +40,13 @@ This document maps applicant names to their respective CSV and PDF filenames.
 | 32 | Jahid Hasan Rony | Rony.csv | CV_Jahid Hasan Rony Aug24.pdf |
 | 33 | Jay P. Lim | Jay2.csv | JayLimCV.pdf |
 | 34 | Jessy (Xinyi) Han | Jessy2.csv | public_academic_cv.pdf |
-| 35 | Jinming Nian | answers_Jinming_Nian.csv | Jinming_Nian_Resume.pdf |
+| 35 | Jinming Nian | answers_Jinming_Nian.csv | Jinming_Nian_CV.pdf |
 | 36 | Jiuhong Xiao | Jiafan.csv, Jiuhong.csv | Jiuhong_Xiao_CV.pdf |
 | 37 | Joan Nwatu | Joan.csv | CV (Joan Nwatu).pdf |
-| 38 | Joel Samuel Rhine | Samuel.csv | jr-resume.pdf |
+| 38 | Joel Samuel Rhine | Samuel.csv | jr-cv.pdf |
 | 39 | Julie Kallini | Julie.csv | JulieKalliniCV.pdf |
-| 40 | Kalab Y. Assefa | Kalab.csv | Kalab's Final Resume.docx (10).pdf |
-| 41 | Kimia Hassibi | Hassibi2.csv | Hassibi_Kimia_Resume-1.pdf |
+| 40 | Kalab Y. Assefa | Kalab.csv | Kalab's Final CV.docx (10).pdf |
+| 41 | Kimia Hassibi | Hassibi2.csv | Hassibi_Kimia_CV-1.pdf |
 | 42 | Kumail Alhamoud | Kumail2.csv | Kumail_CV_12_2025.pdf |
 | 43 | Li-Yun (James) Wang | Wang.csv | Li-Yun.pdf |
 | 44 | Lily Wang | Lily.csv | LILY WANG.pdf |
@@ -62,14 +62,14 @@ This document maps applicant names to their respective CSV and PDF filenames.
 | 54 | Omar Rayyan | Omar.csv | Omar.pdf |
 | 55 | Paul Scherer | Paul2.csv | CV_PH.pdf |
 | 56 | Qijing Jenny Huang | Qijing.csv | QIJING JENNY HUANG.pdf |
-| 57 | Renato Berlinghieri | Berlinghieri2.csv | resume.pdf |
+| 57 | Renato Berlinghieri | Berlinghieri2.csv | cv.pdf |
 | 58 | Robert Soulé | Robert2.csv | CV_Soule.pdf |
 | 59 | Rui Ai | Rui2.csv | cv.pdf |
 | 60 | Ruzica Piskac | Piskac2.csv | rpiskac_cv.pdf |
 | 61 | Sen Fang | answers_Sen_Fang.csv | Sen_s_CV.pdf |
-| 62 | Shakib Sadat Shanto | Shakib.csv | Shakib_Sadat_Shanto_Resume.pdf |
+| 62 | Shakib Sadat Shanto | Shakib.csv | Shakib_Sadat_Shanto_CV.pdf |
 | 63 | Siddharth Bhat | Siddharth2.csv | main.pdf |
-| 64 | Sitota Ezra Mersha | Sitota.csv | Sitota_Ezra_Mersha_Resume .pdf |
+| 64 | Sitota Ezra Mersha | Sitota.csv | Sitota_Ezra_Mersha_CV .pdf |
 | 65 | Soham Kulkarni | Soham.csv | soham_cv_feb25.pdf |
 | 66 | Sophia Chan Davis | answers_lisdglslgjames.csv | 1753043325371.pdf |
 | 67 | Steven Y. Feng | Steven.csv | steven_feng_CV.pdf |
@@ -81,9 +81,9 @@ This document maps applicant names to their respective CSV and PDF filenames.
 | 73 | Vaibhav Balloli | Vaibhav.csv | Vaibhav_Balloli_CV.pdf |
 | 74 | Weirui Peng | Weirui.csv | WEIRUI PENG.pdf |
 | 75 | Weitong Zhang | Weitong.csv | Weitong Zhang.pdf |
-| 76 | Xiaocong Yang | answers_Xiaocong_Yang.csv | Personal resume Yang Xiaocong (1).pdf |
-| 77 | Xinyi Lu | Xinyi.csv | Resume_XinyiLu.pdf |
-| 78 | Zayed Bin Ahmed | answers_Zayed_Ahmed.csv, answers_rafi_zayed.csv | Resume_Zayed.pdf |
+| 76 | Xiaocong Yang | answers_Xiaocong_Yang.csv | Personal cv Yang Xiaocong (1).pdf |
+| 77 | Xinyi Lu | Xinyi.csv | CV_XinyiLu.pdf |
+| 78 | Zayed Bin Ahmed | answers_Zayed_Ahmed.csv, answers_rafi_zayed.csv | CV_Zayed.pdf |
 | 79 | Zhengxuan Wu | Zhen.csv, Zhengxuan.csv | cv (4).pdf |
 | 80 | Zitong (Eric) Zhou | Xinyun.csv | ZITONG (ERIC) ZHOU.pdf |
 | 81 | Zixiang Chen | Zixiang.csv | CV-Zixiang.pdf |

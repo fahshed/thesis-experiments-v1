@@ -57,6 +57,7 @@ JSON Response:
         return result
 
     def run(self, cv_text: str, question: str, **kwargs) -> Dict[str, Any]:
+        print(f"  -> [{self.strategy_name}] Q: {question[:80]}...")
         start_time = time.time()
         
         prompt = self._build_prompt(cv_text, question)

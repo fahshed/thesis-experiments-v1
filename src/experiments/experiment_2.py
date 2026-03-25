@@ -14,8 +14,10 @@ class Experiment2QA(BaseExperiment):
 
     def run(self, dataset: List[QARecord], cv_texts: Dict[str, str]) -> List[RunResult]:
         results = []
+        total_records = len(dataset)
         
-        for record in dataset:
+        for i, record in enumerate(dataset, 1):
+            print(f"[{self.experiment_name}] Processing record {i}/{total_records} - CV ID: {record.cv_id}")
             cv_text = cv_texts.get(record.cv_id, "")
             if not cv_text:
                 continue

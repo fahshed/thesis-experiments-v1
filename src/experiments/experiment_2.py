@@ -1,7 +1,6 @@
 from typing import List, Dict
 from src.core.schemas import QARecord, RunResult
 from src.experiments.base import BaseExperiment
-from src.utils.evaluation import compute_exact_match, compute_f1, compute_overlap
 
 class Experiment2QA(BaseExperiment):
     """
@@ -26,10 +25,6 @@ class Experiment2QA(BaseExperiment):
             pred = out.get("predicted_answer", "")
             truth = record.ground_truth_answer
             
-            ex_match = compute_exact_match(pred, truth)
-            f1_score = compute_f1(pred, truth)
-            overlap = compute_overlap(pred, truth)
-            
             res = RunResult(
                 cv_id=record.cv_id,
                 question_id=record.question_id,
@@ -46,17 +41,15 @@ class Experiment2QA(BaseExperiment):
                 output_tokens=out.get("output_tokens"),
                 estimated_cost=out.get("estimated_cost", 0.0),
                 normalized_answer=pred.lower().strip(),
-                score_exact_match=ex_match,
-                score_f1=f1_score,
-                overlap=overlap,
-                # In real scenario, Semantic Score might use cross-enoder
-                semantic_score=f1_score,
                 experiment_metadata={
                     "experiment_name": self.experiment_name
                 }
             )
             
-            res.experiment_metadata.update({k: v for k, v in out.items() if k not in res.dict()})
+            # Incorporate ONLY retrieved_text if provided by strategy
+            if "retrieved_text" in out:
+                res.experiment_metadata["retrieved_text"] = out["retrieved_text"]
+
             results.append(res)
             
         return results

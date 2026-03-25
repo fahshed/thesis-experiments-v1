@@ -1,9 +1,8 @@
 import argparse
 import os
-import pandas as pd
-from typing import List
+from datetime import datetime
 
-from src.core.schemas import QARecord
+from src.utils.dataset_loader import mock_dataset, mock_cv_texts, load_real_dataset
 from src.llm.huggingface import HuggingFaceLLM
 from src.strategies.strategy_1_full_cv import Strategy1FullCV
 from src.strategies.strategy_2_retrieve_section import Strategy2RetrieveSection
@@ -12,29 +11,6 @@ from src.experiments.experiment_2 import Experiment2QA
 from src.utils.logger import CSVLogger
 
 
-def mock_dataset() -> List[QARecord]:
-    return [
-        QARecord(
-            cv_id="CV_001",
-            question_id="Q_01",
-            question_category="GPA",
-            question_text="What is the GPA of the candidate?",
-            ground_truth_answer="3.9",
-        ),
-        QARecord(
-            cv_id="CV_001",
-            question_id="Q_02",
-            question_category="Skills",
-            question_text="Does the candidate know Python?",
-            ground_truth_answer="Yes",
-        ),
-    ]
-
-
-def mock_cv_texts() -> dict:
-    return {
-        "CV_001": "John Doe. Education: BSc in Computer Science, GPA: 3.9 out of 4.0. Skills: Python, Java, C++."
-    }
 
 
 def main():
@@ -44,8 +20,8 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt2",
-        help="HuggingFace model ID (default gpt2 for quick dry-run)",
+        default="mistralai/Mistral-7B-Instruct-v0.3",
+        help="HuggingFace model ID (default Mistral for real runs)",
     )
     parser.add_argument(
         "--strategy", type=int, choices=[1, 2], default=1, help="Which strategy to run"
@@ -69,37 +45,45 @@ def main():
 
     args = parser.parse_args()
 
-    print(f"Initializing LLM: {args.model}")
+    print(f"=== Initializing LLM: {args.model}")
     llm = HuggingFaceLLM(model_name=args.model, device="cpu")
 
-    print(f"Initializing Strategy {args.strategy}")
+    print(f"=== Initializing Strategy {args.strategy}")
     if args.strategy == 1:
         strategy = Strategy1FullCV(llm)
     else:
         strategy = Strategy2RetrieveSection(llm)
 
-    print(f"Initializing Experiment {args.experiment}")
+    print(f"=== Initializing Experiment {args.experiment}")
     if args.experiment == 1:
         experiment = Experiment1Extraction(strategy)
     else:
         experiment = Experiment2QA(strategy)
 
-    print(f"Starting Generation targeting: {args.output}")
+    # Modify output path with timestamp and mock status
+    base_dir = os.path.dirname(args.output) or "."
+    file_name = os.path.basename(args.output)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    prefix = f"{timestamp}_mock_" if args.dry_run else f"{timestamp}_"
+    args.output = os.path.join(base_dir, prefix + file_name)
+
+    print(f"=== Starting Generation targeting: {args.output}")
     logger = CSVLogger(args.output)
 
     if args.dry_run:
-        print("Running DRY RUN with mock dataset.")
+        print("=== Running DRY RUN with mock dataset.")
         dataset = mock_dataset()
         cv_texts = mock_cv_texts()
     else:
-        print("To run with real data, implement your standard dataset loading here.")
-        # E.g. dataset = load_aaron_csv("dataset/Aaron2.csv")
-        # cv_texts = load_cv_texts("dataset/cvs/")
-        return
+        print("=== Loading REAL dataset (limited to 2 directories) ===")
+        dataset, cv_texts = load_real_dataset(limit=2)
+        if not dataset:
+            print("No dataset loaded. Exiting.")
+            return
 
     results = experiment.run(dataset, cv_texts)
     logger.log_batch(results)
-    print(f"Phase 1 complete! Logged {len(results)} generations to {args.output}")
+    print(f"=== Phase 1 complete! Logged {len(results)} generations to {args.output}")
 
 
 if __name__ == "__main__":

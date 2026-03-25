@@ -44,12 +44,21 @@ class HuggingFaceLLM(BaseLLM):
             
         latency = time.time() - start_time
         
-        # NOTE: token counts would usually come from tokenizer explicit usage if needed,
-        # but sticking to a simpler return structure for now.
+        # Calculate tokens using the pipeline's tokenizer
+        input_tokens = 0
+        output_tokens = 0
+        if hasattr(self.pipe, "tokenizer") and self.pipe.tokenizer:
+            # We use add_special_tokens=False to avoid double counting for outputs
+            try:
+                input_tokens = len(self.pipe.tokenizer.encode(prompt))
+                output_tokens = len(self.pipe.tokenizer.encode(generated_text))
+            except Exception:
+                pass # fallback to 0 if tokenizer fails for some reason
+        
         return {
             "text": generated_text.strip(),
             "latency": latency,
-            "input_tokens": 0,   # Stub
-            "output_tokens": 0,  # Stub
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens,
             "estimated_cost": 0.0 # Open source local models cost 0 in API fees
         }

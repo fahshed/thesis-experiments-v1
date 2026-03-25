@@ -1,1 +1,2 @@
-ssh fahim@35.39.206.19
+- ssh fahim@35.39.206.19
+- python generate.py --model mistralai/Mistral-7B-Instruct-v0.3 --experiment 2 --strategy 1

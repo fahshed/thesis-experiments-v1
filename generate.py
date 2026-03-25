@@ -46,7 +46,8 @@ def main():
     args = parser.parse_args()
 
     print(f"=== Initializing LLM: {args.model}")
-    llm = HuggingFaceLLM(model_name=args.model, device="cpu")
+    print("=== Using GPU with device_map='auto'.")
+    llm = HuggingFaceLLM(model_name=args.model, device=None, device_map="auto")
 
     print(f"=== Initializing Strategy {args.strategy}")
     if args.strategy == 1:

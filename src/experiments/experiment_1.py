@@ -42,7 +42,6 @@ class Experiment1Extraction(BaseExperiment):
                 input_tokens=out.get("input_tokens"),
                 output_tokens=out.get("output_tokens"),
                 estimated_cost=out.get("estimated_cost", 0.0),
-                normalized_answer=pred.lower().strip(),
                 experiment_metadata={
                     "experiment_name": self.experiment_name,
                     "target_field": record.question_category

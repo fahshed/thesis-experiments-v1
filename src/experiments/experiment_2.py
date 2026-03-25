@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import List, Dict, Any
 from src.core.schemas import QARecord, RunResult
 from src.experiments.base import BaseExperiment
 
@@ -12,7 +12,7 @@ class Experiment2QA(BaseExperiment):
     def experiment_name(self) -> str:
         return "E2_QA_Accuracy"
 
-    def run(self, dataset: List[QARecord], cv_texts: Dict[str, str]) -> List[RunResult]:
+    def run(self, dataset: List[QARecord], cv_texts: Dict[str, str], logger: Any = None) -> List[RunResult]:
         results = []
         total_records = len(dataset)
         
@@ -24,7 +24,6 @@ class Experiment2QA(BaseExperiment):
                 
             out = self.strategy.run(cv_text, record.question_text)
             
-            pred = out.get("predicted_answer", "")
             truth = record.ground_truth_answer
             
             res = RunResult(
@@ -35,9 +34,7 @@ class Experiment2QA(BaseExperiment):
                 ground_truth_answer=truth,
                 strategy=self.strategy.strategy_name,
                 model_name=self.strategy.llm.model_name,
-                predicted_answer=pred,
-                confidence_score=out.get("confidence_score"),
-                rationale=out.get("rationale"),
+                raw_response=out.get("raw_response"),
                 latency=out.get("latency", 0.0),
                 input_tokens=out.get("input_tokens"),
                 output_tokens=out.get("output_tokens"),
@@ -50,6 +47,9 @@ class Experiment2QA(BaseExperiment):
             # Incorporate ONLY retrieved_text if provided by strategy
             if "retrieved_text" in out:
                 res.experiment_metadata["retrieved_text"] = out["retrieved_text"]
+
+            if logger:
+                logger.log_result(res)
 
             results.append(res)
             

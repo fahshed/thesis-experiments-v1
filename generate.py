@@ -82,8 +82,7 @@ def main():
             print("No dataset loaded. Exiting.")
             return
 
-    results = experiment.run(dataset, cv_texts)
-    logger.log_batch(results)
+    results = experiment.run(dataset, cv_texts, logger=logger)
     print(f"=== Phase 1 complete! Logged {len(results)} generations to {args.output}")
 
 

@@ -1,6 +1,4 @@
 import time
-import json
-import re
 from typing import Dict, Any, List
 from src.strategies.base import BaseStrategy
 
@@ -57,26 +55,6 @@ Respond ONLY in valid JSON format with the following keys:
 JSON Response:
 """
 
-    def _parse_response(self, text: str) -> Dict[str, Any]:
-        result = {
-            "predicted_answer": "",
-            "rationale": "",
-            "confidence_score": 0.0,
-        }
-        match = re.search(r'\{.*\}', text, re.DOTALL)
-        if match:
-            try:
-                data = json.loads(match.group(0))
-                result["predicted_answer"] = data.get("predicted_answer", str(data.get("answer", "")))
-                result["rationale"] = data.get("rationale", "")
-                result["confidence_score"] = float(data.get("confidence_score", 0.0))
-            except (json.JSONDecodeError, ValueError):
-                result["predicted_answer"] = text.strip()
-        else:
-            result["predicted_answer"] = text.strip()
-            
-        return result
-
     def run(self, cv_text: str, question: str, **kwargs) -> Dict[str, Any]:
         print(f"  -> [{self.strategy_name}] Q: {question[:80]}...")
         start_time = time.time()
@@ -87,20 +65,28 @@ JSON Response:
         relevant_context = "\n...\n".join(best_chunks)
         
         prompt = self._build_prompt(relevant_context, question)
-        llm_output = self.llm.generate(prompt)
         
-        parsed = self._parse_response(llm_output["text"])
-        
+        try:
+            llm_output = self.llm.generate(prompt)
+            raw_response = llm_output.get("text", "")
+            input_tokens = llm_output.get("input_tokens", 0)
+            output_tokens = llm_output.get("output_tokens", 0)
+            estimated_cost = llm_output.get("estimated_cost", 0.0)
+        except Exception as e:
+            print(f"  -> [ERROR] LLM Generation failed: {e}")
+            raw_response = f"ERROR: {str(e)}"
+            input_tokens = 0
+            output_tokens = 0
+            estimated_cost = 0.0
+            
         latency = time.time() - start_time
         
         return {
-            "predicted_answer": parsed.get("predicted_answer", ""),
-            "confidence_score": parsed.get("confidence_score", 0.0),
-            "rationale": parsed.get("rationale", ""),
+            "raw_response": raw_response,
             "latency": latency,
-            "input_tokens": llm_output.get("input_tokens", 0),
-            "output_tokens": llm_output.get("output_tokens", 0),
-            "estimated_cost": llm_output.get("estimated_cost", 0.0),
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens,
+            "estimated_cost": estimated_cost,
             "context_used": f"Top {self.top_k} chunks",
             # E3 specific data:
             "retrieved_chunk_ids": [chunks.index(c) for c in best_chunks],

@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import List, Dict
+from typing import List, Dict, Any
 from src.core.schemas import QARecord, RunResult
 from src.strategies.base import BaseStrategy
 
@@ -11,10 +11,11 @@ class BaseExperiment(ABC):
         self.strategy = strategy
     
     @abstractmethod
-    def run(self, dataset: List[QARecord], cv_texts: Dict[str, str]) -> List[RunResult]:
+    def run(self, dataset: List[QARecord], cv_texts: Dict[str, str], logger: Any = None) -> List[RunResult]:
         """
         Runs the experiment on the given dataset.
         cv_texts maps cv_id to raw text.
+        If logger is provided, it writes results incrementally.
         """
         pass
     

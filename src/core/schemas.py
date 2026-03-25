@@ -23,7 +23,8 @@ class RunResult(BaseModel):
     model_name: str
     
     # Model Outputs
-    predicted_answer: str
+    raw_response: Optional[str] = None
+    predicted_answer: Optional[str] = None
     confidence_score: Optional[float] = None
     rationale: Optional[str] = None
     

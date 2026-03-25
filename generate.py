@@ -40,6 +40,12 @@ def main():
         help="Output CSV path for generations",
     )
     parser.add_argument(
+        "--limit",
+        type=int,
+        default=2,
+        help="Limit the number of CVs to process (default 2 for testing)",
+    )
+    parser.add_argument(
         "--dry-run", action="store_true", help="Run with mock data to verify pipeline"
     )
 
@@ -76,8 +82,8 @@ def main():
         dataset = mock_dataset()
         cv_texts = mock_cv_texts()
     else:
-        print("=== Loading REAL dataset (limited to 2 directories) ===")
-        dataset, cv_texts = load_real_dataset(limit=2)
+        print(f"=== Loading REAL dataset (limited to {args.limit} directories) ===")
+        dataset, cv_texts = load_real_dataset(limit=args.limit)
         if not dataset:
             print("No dataset loaded. Exiting.")
             return

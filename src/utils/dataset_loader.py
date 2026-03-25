@@ -30,7 +30,7 @@ def mock_cv_texts() -> dict:
 def load_real_dataset(limit: int = 2) -> tuple[List[QARecord], dict]:
     dataset = []
     cv_texts = {}
-    base_dir = "dataset/clean_matches"
+    base_dir = "dataset/clean_matches_50"
     
     if not os.path.exists(base_dir):
         print(f"Dataset directory {base_dir} not found.")

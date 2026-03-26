@@ -96,7 +96,7 @@ def main():
         print(f"=== Loading REAL dataset (limited to {args.limit} directories, offset {args.offset}) ===")
         dataset, cv_texts = load_real_dataset(limit=args.limit, offset=args.offset)
         if not dataset:
-            print("No dataset loaded. Exiting.")
+            print("=== No dataset loaded. Exiting.")
             return
 
     results = experiment.run(dataset, cv_texts, logger=logger)

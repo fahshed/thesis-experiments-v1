@@ -17,7 +17,7 @@ class Experiment1Extraction(BaseExperiment):
         total_records = len(dataset)
         
         for i, record in enumerate(dataset, 1):
-            print(f"[{self.experiment_name}] Processing record {i}/{total_records} - CV ID: {record.cv_id}")
+            print(f"=== [{self.experiment_name}] Processing record {i}/{total_records} - CV ID: {record.cv_id}")
             cv_text = cv_texts.get(record.cv_id, "")
             if not cv_text:
                 continue

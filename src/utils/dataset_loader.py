@@ -33,7 +33,7 @@ def load_real_dataset(limit: int = 2, offset: int = 0) -> tuple[List[QARecord], 
     base_dir = "dataset/clean_matches_50"
     
     if not os.path.exists(base_dir):
-        print(f"Dataset directory {base_dir} not found.")
+        print(f"=== Dataset directory {base_dir} not found.")
         return dataset, cv_texts
         
     applicants = [d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
@@ -56,7 +56,7 @@ def load_real_dataset(limit: int = 2, offset: int = 0) -> tuple[List[QARecord], 
                     text += page.extract_text() + "\n"
                 cv_texts[cv_id] = text
             except Exception as e:
-                print(f"Error reading PDF {pdf_path}: {e}")
+                print(f"=== Error reading PDF {pdf_path}: {e}")
                 cv_texts[cv_id] = ""
         else:
             cv_texts[cv_id] = ""
@@ -75,6 +75,6 @@ def load_real_dataset(limit: int = 2, offset: int = 0) -> tuple[List[QARecord], 
                     )
                     dataset.append(record)
             except Exception as e:
-                print(f"Error reading CSV {csv_path}: {e}")
+                print(f"=== Error reading CSV {csv_path}: {e}")
                 
     return dataset, cv_texts

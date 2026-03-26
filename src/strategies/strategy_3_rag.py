@@ -23,7 +23,7 @@ class Strategy3RAG(BaseStrategy):
         if SentenceTransformer is None:
             raise ImportError("Please install sentence-transformers: pip install sentence-transformers")
             
-        print(f"Loading embedding model '{model_name}'...")
+        print(f"=== Loading embedding model '{model_name}'...")
         self.embedding_model = SentenceTransformer(model_name)
 
     @property
@@ -77,7 +77,7 @@ JSON Response:
 """
 
     def run(self, cv_text: str, question: str, **kwargs) -> Dict[str, Any]:
-        print(f"  -> [{self.strategy_name}] Q: {question[:80]}...")
+        print(f"=== -> [{self.strategy_name}] Q: {question[:80]}...")
         start_time = time.time()
         
         # Retrieval step (Semantic)
@@ -99,7 +99,7 @@ JSON Response:
             output_tokens = llm_output.get("output_tokens", 0)
             estimated_cost = llm_output.get("estimated_cost", 0.0)
         except Exception as e:
-            print(f"  -> [ERROR] LLM Generation failed: {e}")
+            print(f"=== -> [ERROR] LLM Generation failed: {e}")
             raw_response = f"ERROR: {str(e)}"
             input_tokens = 0
             output_tokens = 0

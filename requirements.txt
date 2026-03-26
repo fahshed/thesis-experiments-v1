@@ -5,3 +5,4 @@ pandas
 scikit-learn
 pypdf
 accelerate
+sentence-transformers

@@ -47,6 +47,12 @@ def main():
         help="Limit the number of CVs to process (default 2 for testing)",
     )
     parser.add_argument(
+        "--offset",
+        type=int,
+        default=0,
+        help="Number of CVs to skip from the beginning",
+    )
+    parser.add_argument(
         "--dry-run", action="store_true", help="Run with mock data to verify pipeline"
     )
 
@@ -74,7 +80,7 @@ def main():
     base_dir = os.path.dirname(args.output) or "."
     file_name = os.path.basename(args.output)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    prefix = f"{timestamp}_s{args.strategy}_e{args.experiment}_limit{args.limit}_"
+    prefix = f"{timestamp}_s{args.strategy}_e{args.experiment}_limit{args.limit}_offset{args.offset}_"
     if args.dry_run:
         prefix += "mock_"
     args.output = os.path.join(base_dir, prefix + file_name)
@@ -87,8 +93,8 @@ def main():
         dataset = mock_dataset()
         cv_texts = mock_cv_texts()
     else:
-        print(f"=== Loading REAL dataset (limited to {args.limit} directories) ===")
-        dataset, cv_texts = load_real_dataset(limit=args.limit)
+        print(f"=== Loading REAL dataset (limited to {args.limit} directories, offset {args.offset}) ===")
+        dataset, cv_texts = load_real_dataset(limit=args.limit, offset=args.offset)
         if not dataset:
             print("No dataset loaded. Exiting.")
             return

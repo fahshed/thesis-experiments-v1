@@ -27,7 +27,7 @@ def mock_cv_texts() -> dict:
         "CV_001": "John Doe. Education: BSc in Computer Science, GPA: 3.9 out of 4.0. Skills: Python, Java, C++."
     }
 
-def load_real_dataset(limit: int = 2) -> tuple[List[QARecord], dict]:
+def load_real_dataset(limit: int = 2, offset: int = 0) -> tuple[List[QARecord], dict]:
     dataset = []
     cv_texts = {}
     base_dir = "dataset/clean_matches_50"
@@ -39,8 +39,8 @@ def load_real_dataset(limit: int = 2) -> tuple[List[QARecord], dict]:
     applicants = [d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
     applicants.sort()
     
-    # Process only the first 'limit' applicants
-    for applicant_dir in applicants[:limit]:
+    # Process 'limit' applicants starting from 'offset'
+    for applicant_dir in applicants[offset:offset+limit]:
         applicant_path = os.path.join(base_dir, applicant_dir)
         csv_path = os.path.join(applicant_path, "qna.csv")
         pdf_path = os.path.join(applicant_path, "cv.pdf")

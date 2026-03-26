@@ -4,3 +4,23 @@ kalab_y_assefa,kalab_y_assefa_Q1,Personal Information,What is the applicant's fu
   ""rationale"": ""The full name is listed at the beginning of the CV."",
   ""confidence_score"": 1.0
 }",,,,82.84552311897278,2048,52,0.0,,,,,,,,E2_QA_Accuracy
+kalab_y_assefa,kalab_y_assefa_Q2,Personal Information,What is the applicant's LinkedIn?,nan,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant's LinkedIn is not provided in the CV."",
+  ""rationale"": ""The CV does not contain any information about the applicant's LinkedIn."",
+  ""confidence_score"": 1.0
+}",,,,84.71841192245483,2048,62,0.0,,,,,,,,E2_QA_Accuracy
+kalab_y_assefa,kalab_y_assefa_Q3,Personal Information,What is the applicant's primary contact number?,+ (734)-819-1368,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""+(734)-819-1368"",
+  ""rationale"": ""The primary contact number is provided at the beginning of the CV."",
+  ""confidence_score"": 1.0
+}",,,,84.52325439453125,2049,59,0.0,,,,,,,,E2_QA_Accuracy
+kalab_y_assefa,kalab_y_assefa_Q4,Personal Information,In which city and country is the applicant currently located?,"Ann Arbor, MI, USA",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Ann Arbor, MI, USA"",
+  ""rationale"": ""The city and country are explicitly stated in the CV."",
+  ""confidence_score"": 1.0
+}",,,,83.55005550384521,2050,51,0.0,,,,,,,,E2_QA_Accuracy
+kalab_y_assefa,kalab_y_assefa_Q5,Personal Information,Did the applicant provide a brief professional summary or career objective?,Yes. Computer engineering graduate student enthusiastic to contribute to team success and excel in big tech companies.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant did not provide a brief professional summary or career objective."",
+  ""rationale"": ""The CV does not contain a specific section or statement that can be interpreted as a professional summary or career objective."",
+  ""confidence_score"": 1.0
+}",,,,86.08115339279175,2051,68,0.0,,,,,,,,E2_QA_Accuracy

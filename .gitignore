@@ -208,3 +208,7 @@ __marimo__/
 
 
 .DS_Store
+
+# Track tmux experiment logs
+!tmux-logs/
+!tmux-logs/*.log

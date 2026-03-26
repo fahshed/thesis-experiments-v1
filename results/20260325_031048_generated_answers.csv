@@ -3224,3 +3224,574 @@ jessy_xinyi_han,jessy_xinyi_han_Q7,Education,Which institutions did the applican
   ""rationale"": ""The CV mentions two institutions that the applicant attended: Massachusetts Institute of Technology and Columbia University."",
   ""confidence_score"": 1.0
 }",,,,212.74945068359375,4719,64,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q8,Education,What is the applicant's score or GPA for his highest level of education?,5.0/5.0 (MIT Ph.D.); 4.10/4.0 (Columbia B.S.); Summa Cum Laude,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""5.0/5.0"",
+  ""rationale"": ""The applicant's GPA for his highest level of education, a Ph.D. from Massachusetts Institute of Technology, is stated as 5.0/5.0."",
+  ""confidence_score"": 1.0
+}",,,,215.07643508911133,4729,77,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q9,Education,What was the applicant's field of study or major?,Social & Engineering Systems and Statistics (Ph.D.); Computer Science (B.S.); minors in Applied Mathematics and Economics,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Computer Science"",
+  ""rationale"": ""The applicant graduated from Columbia University with a B.S. in Computer Science."",
+  ""confidence_score"": 1.0
+}",,,,210.98854088783264,4724,53,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q10,Professional Experience,What is the name of the applicant's current (or most recent) employer?,Massachusetts Institute of Technology (MIT),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant's current (or most recent) employer is not specified in the CV."",
+  ""rationale"": ""The CV does not provide any information about the applicant's current or most recent employer."",
+  ""confidence_score"": 1.0
+}",,,,214.04588913917542,4729,70,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q11,Professional Experience,What is the applicant's job title in the most recent role?,Ph.D. Student / Research Assistant,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Software Engineer Intern"",
+  ""rationale"": ""The applicant worked as a 'Google Ads Risk Engine (Software Engineer Intern)' in the year 2019."",
+  ""confidence_score"": 1.0
+}",,,,213.4407250881195,4726,67,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q12,Professional Experience,How many years of experience does the applicant have?,Professional experience since 2017 (~9+ years),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""6"",
+  ""rationale"": ""The applicant graduated in 2020 and the CV is expected to be updated until May 2026, so the total years of experience would be 6."",
+  ""confidence_score"": 1.0
+}",,,,213.56695556640625,4722,71,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q13,Professional Experience,What leadership position did the applicant hold?,nan,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant did not hold any explicitly stated leadership position in the provided CV."",
+  ""rationale"": ""The CV does not mention any leadership position held by the applicant."",
+  ""confidence_score"": 1.0
+}",,,,212.16290807724,4720,62,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q14,Professional Experience,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Develops causal survival analysis frameworks; builds prognostic tools for healthcare; evaluates policy impacts in criminal justice; models customer churn; creates open data resources.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant has worked as a research intern at IBM Research, Google Ads Risk Engine, and Google Fuchsia OS. At IBM Research, they collaborated on the time-to-recidivism project. At Google Ads Risk Engine, they designed and implemented improved anomaly detection models. At Google Fuchsia OS, they instrumented storage devices and analyzed traces, and built deterministic latency models."",
+  ""rationale"": ""This information is directly stated in the 'Research Projects' and 'Additional Professional Experience' sections",,,,223.2266206741333,4725,129,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q15,Professional Experience,Has the applicant worked in more than one job or organization?,"Yes. MIT, Ikigai Labs, IBM Research, Google (Ads Risk Engine, Fuchsia OS), Columbia University teaching roles.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The applicant has worked in at least two organizations: Massachusetts Institute of Technology and Columbia University, as stated in the 'Education' section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,213.6138927936554,4724,67,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q16,Professional Experience,What were the applicant's major accomplishments?,"Google-MIT Schwarzman College of Computing Fellow; Michael Hammer Society Fellow; Honorable Mention for Outstanding Undergraduate Researcher; multiple first-author publications in Blood, AAAI, etc.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""Developed a tensor-based causal survival analysis framework for counterfactual hazard trajectories under interventions (Synthetic Survival Control Method)"",
+    ""Collaborated with Massachusetts General Hospital and the PETAL consortium to build a prognostic risk assessment tool for T-Cell Lymphoma"",
+    ""Applied causal time-to-event framework to COMPAS recidivism data with IBM Research to uncover long-term racial disparities"",
+    ""Analyzed Body-Worn Camera data",,,,223.39597153663635,4722,129,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q17,Professional Experience,What key metric did they improve?,Developed Synthetic Survival Control method; created prognostic score for T-cell lymphoma (PIRT); improved anomaly detection at Google reducing suspension time by 13 minutes.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""They did not provide a specific key metric they improved."",
+  ""rationale"": ""The CV does not mention a specific key metric that was improved."",
+  ""confidence_score"": 1.0
+}",,,,211.2467303276062,4718,56,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q18,Research and Projects,What is the name of a key project the applicant has worked on?,Synthetic Survival Control (SSC) method; PETAL Consortium prognostic tool (PIRT); Causal Framework for Racial Bias in Policing; Open Data Hub for Policing.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Causal Survival Analysis for T-Cell Lymphoma"",
+  ""rationale"": ""The project is mentioned in the 'Application: Healthcare' section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,212.95825266838074,4726,65,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q19,Research and Projects,Which tools or technologies did the applicant use in their projects?,Python; causal inference packages; machine learning tools; data analysis frameworks.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Tensor-based causal survival analysis framework"", ""Synthetic Survival Control (SSC) Method"", ""Universal Time Series Embeddings"", ""Causal Inference (Panel Data) Package""],
+  ""rationale"": ""The CV mentions the development of a tensor-based causal survival analysis framework (Synthetic Survival Control) and novel time series embeddings (Universal Time Series Embeddings) in the 'Research Projects' section. Additionally, the applicant mentions a prototype Python package for synthetic interventions and related",,,,222.72533631324768,4724,129,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q20,Research and Projects,Did any project have a specific budget or numeric goal?,Google-MIT Schwarzman College of Computing Fellowship; Michael Hammer Society Fellowship.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, there is no specific budget or numeric goal mentioned for any project in the CV."",
+  ""rationale"": ""The CV does not provide any information about specific budgets or numeric goals for any of the research projects or applications."",
+  ""confidence_score"": 1.0
+}",,,,213.79924273490906,4723,75,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q21,Research and Projects,What were the main objectives of the applicant's projects?,To enable data-driven 'when-if' decisions using causal survival analysis; to improve healthcare outcomes and policy evaluation; to combat systemic racism via data science.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The main objectives of the applicant's projects were to develop methods in causal inference and survival analysis for decision making, with applications in healthcare, policy evaluation (criminal justice), and business."",
+  ""rationale"": ""The objectives are stated in the first section of the CV under 'Research Interests'."",
+  ""confidence_score"": 1.0
+}",,,,216.86785793304443,4724,92,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q22,Research and Projects,What are the applicant s publications?,"Multiple first-author and co-authored publications in Blood, AAAI/ACM AIES, Blood Advances, British Journal of Haematology; submissions to AISTATS, Scientific Reports.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    {
+      ""title"": ""[1] Synthetic Survival Control: A Tensor Framework for Causal Survival Analysis"",
+      ""authors"": [""Jessy Xinyi Han"", ""Devavrat Shah""],
+      ""submitted_to"": ""AISTATS, 2025""
+    },
+    {
+      ""title"": ""[2] Global Outcomes and Prognosis for Relapsed/Refractory Mature T-Cell and NK-Cell Lymphomas: Results from the",,,,222.58410024642944,4719,129,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q23,Research and Projects,Did the applicant outline the approach or methodology they used?,"Yes. Uses tensor-based causal frameworks, synthetic control methods, time series embeddings, machine learning prognostic models, and panel-data causal estimation.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The CV mentions several research projects and publications that outline methodologies used, such as Synthetic Survival Control (SSC) Method, Universal Time Series Embeddings, and a Causal Framework to Evaluate Racial Bias in Law Enforcement Systems."",
+  ""confidence_score"": 1.0
+}",,,,217.24403500556946,4724,93,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q24,Research and Projects,What are the applicant's research areas?,"Causal Inference, Survival Analysis, Healthcare Analytics, Policy Evaluation, Fairness in Algorithms, Time Series Forecasting.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Developing methods in causalinference&survivalanalysistoenablewhen-ifdecisions,withapplicationsinhealthcare,policyevaluation(criminaljustice),andbusiness.""],
+  ""rationale"": ""The research areas are mentioned in the 'Research Interests' section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,216.71744871139526,4721,92,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q25,Skills,What are the applicant s key soft skills?,"Mentoring, teaching, reviewing, session organization, workshop presentations, interdisciplinary collaboration.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Analytical Skills"", ""Research Skills"", ""Communication Skills"", ""Leadership Skills"", ""Teamwork Skills""],
+  ""rationale"": [""The applicant has conducted extensive research in various fields such as healthcare, policy evaluation, and business, demonstrating analytical and research skills. They have also published multiple papers and presented at conferences, showcasing their communication skills. The applicant's leadership skills are evident through their role as a Google-MIT Schwarzman College of Computing Fellow and the Michael Hammer Society of F",,,,222.58663606643677,4721,129,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q26,Skills,"Are there any certifications, licenses, or trainings listed by the applicant?",nan,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, there are no certifications, licenses, or trainings listed by the applicant in the provided CV."",
+  ""rationale"": ""The CV does not contain any information about certifications, licenses, or trainings."",
+  ""confidence_score"": 1.0
+}",,,,213.94480347633362,4728,72,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q27,Skills,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied causal inference skills to influence clinical decision-making for lymphoma; applied data science skills to inform policing policy and reduce algorithmic bias.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The applicant described a situation where they applied their key skills in causal survival analysis in the 'Healthcare' application section of the CV. They collaborated with Massachusetts General Hospital and the PETAL consortium to build a prognostic risk assessment tool for T-Cell Lymphoma, evaluated treatment choice and sequencing effects, and informed clinical decision-making."",
+  ""confidence_score"": 1.0
+}",,,,219.87854552268982,4728,112,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q28,Awards & Extracurricular Activities,"Has the applicant received any awards or recognitions? If so, which is the most significant?","Google-MIT Schwarzman College of Computing Fellow (2024-2025); Michael Hammer Society Fellow (2020-2021); Honorable Mention, Outstanding Undergraduate Researcher. Most significant: Google-MIT Schwarzman College of Computing Fellow.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The most significant award received by the applicant is the Google-MIT Schwarzman College of Computing Fellowship for the years 2024-2025."",
+  ""rationale"": ""This is inferred from the CV where it is stated that the applicant was a recipient of the Google-MIT Schwarzman College of Computing Fellowship for the years 2024-2025 and it is mentioned as an award."",
+  ""confidence_score"": 1.0
+}",,,,223.0356526374817,4731,122,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q29,Awards & Extracurricular Activities,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Mentor for MIT SES Graduate Application Assistance Program; open-source data hub for policing research; extensive academic service as reviewer and session organizer.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, the applicant did not share a brief overview of an extracurricular or volunteer activity they have been involved in."",
+  ""rationale"": ""The CV only contains academic, research, and professional experience, but no mention of extracurricular or volunteer activities."",
+  ""confidence_score"": 1.0
+}",,,,217.0196602344513,4735,84,0.0,,,,,,,,E2_QA_Accuracy
+jessy_xinyi_han,jessy_xinyi_han_Q30,Awards & Extracurricular Activities,Did the applicant describe any notable academic achievements or honors received?,"Yes. Summa Cum Laude; Russell C. Mills Award; multiple prestigious fellowships; first-author publications in top journals; media coverage in MIT News, IBM reports.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes, the applicant described several academic achievements and honors received. These include: Summa Cum Laude graduation honors, Russell C. Mills Award, Google-MIT Schwarzman College of Computing Fellowship (2024-2025), and Michael Hammer Society of Fellows Fellowship (2020-2021)."",
+  ""rationale"": ""The CV mentions these awards and honors under the 'Education' and 'Awards' sections."",
+  ""confidence_score",,,,223.51975536346436,4725,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q1,Personal Information,What is the applicant's full name?,Joan Nwatu,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Joan Nwatu"",
+  ""rationale"": ""The full name is mentioned at the beginning of the CV."",
+  ""confidence_score"": 1.0
+}",,,,112.62654852867126,2809,50,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q2,Personal Information,What is the applicant's LinkedIn?,linkedin.com/in/joan-nwatu-927050115,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""linkedinjoan-nwatu-927050115"",
+  ""rationale"": ""The LinkedIn URL is provided in the CV."",
+  ""confidence_score"": 1.0
+}",,,,114.37083649635315,2809,61,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q3,Personal Information,What is the applicant's primary contact number?,nan,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The CV does not provide a primary contact number for the applicant."",
+  ""rationale"": ""The CV does not contain any information that can be used to determine a primary contact number for the applicant."",
+  ""confidence_score"": 1.0
+}",,,,115.38167715072632,2810,68,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q4,Personal Information,In which city and country is the applicant currently located?,"Ann Arbor, MI, USA (based on university). Previously Enugu, Nigeria.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Ann Arbor, MI, USA"",
+  ""rationale"": ""The applicant's current location is inferred from the fact that they are a Ph.D. student at the University of Michigan, Ann Arbor, USA."",
+  ""confidence_score"": 1.0
+}",,,,116.28129959106445,2811,74,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q5,Personal Information,Did the applicant provide a brief professional summary or career objective?,"Yes. Focuses on representation in AI, especially vision-language models, AI ethics, and bridging digital divides.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant did not provide a brief professional summary or career objective."",
+  ""rationale"": ""The CV does not contain any section or statement that can be interpreted as a professional summary or career objective."",
+  ""confidence_score"": 1.0
+}",,,,115.26869893074036,2812,67,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q6,Education,What is the highest level of education the applicant has completed?,Ph.D. Student in Computer Science and Engineering (expected 2027),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Ph.D. Student"",
+  ""rationale"": ""The CV states that the applicant is a Ph.D. Student in Computer Science and Engineering at the University of Michigan, Ann Arbor, USA."",
+  ""confidence_score"": 1.0
+}",,,,115.56265425682068,2812,69,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q7,Education,Which institutions did the applicant attend?,"University of Michigan; University of Nigeria, Nsukka",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""University of Michigan"", ""University of Nigeria""],
+  ""rationale"": ""The CV mentions that the applicant is a Ph.D. student at the University of Michigan and received a B.Eng. degree from the University of Nigeria."",
+  ""confidence_score"": 1.0
+}",,,,116.51910948753357,2807,77,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q8,Education,What is the applicant's score or GPA for his highest level of education?,4.0/4.0 (Michigan); 4.45/5.0 (Nigeria),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""4.0/4.0"",
+  ""rationale"": ""The applicant's GPA for his highest level of education, Ph.D. in Computer Science and Engineering, is stated as 4.0/4.0 in the CV."",
+  ""confidence_score"": 1.0
+}",,,,117.26088166236877,2817,79,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q9,Education,What was the applicant's field of study or major?,Computer Science and Engineering (Ph.D.); Electronic Engineering (B.Eng.),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Computer Science and Engineering"",
+  ""rationale"": ""The applicant is a Ph.D. student in Computer Science and Engineering at the University of Michigan."",
+  ""confidence_score"": 1.0
+}",,,,114.17054986953735,2812,59,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q10,Professional Experience,What is the name of the applicant's current (or most recent) employer?,University of Michigan (as Ph.D. student/researcher),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Xend"",
+  ""rationale"": ""The Artificial Intelligence Engineer (R&D) position is listed under the 'EXPERIENCE' section of the CV, and the employer for this position is specified as 'Xend'."",
+  ""confidence_score"": 1.0
+}",,,,116.8661458492279,2817,76,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q11,Professional Experience,What is the applicant's job title in the most recent role?,Ph.D. Student / Researcher,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Artificial Intelligence Engineer (R&D)"",
+  ""rationale"": ""The applicant's most recent role is listed as 'Artiﬁcial Intelligence Engineer (R&D)' in the 'EXPERIENCE' section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,117.21459460258484,2814,79,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q12,Professional Experience,How many years of experience does the applicant have?,Industry experience 2018–2022 (~4 years); research since 2022 (~3+ years),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""3"",
+  ""rationale"": ""The applicant's work experience is listed as Artificial Intelligence Engineer (R&D) at Xend from Nov 2019 to Jun 2022."",
+  ""confidence_score"": 1.0
+}",,,,115.8984763622284,2810,72,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q13,Professional Experience,What leadership position did the applicant hold?,Yes. Vice President of Nigerian Society of Engineers; Admissions Recruitment Liaison; webmaster for lab.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Vice President"",
+  ""rationale"": ""The applicant held the position of Vice President as stated in the CV under the key 'Leadership & Service'."",
+  ""confidence_score"": 1.0
+}",,,,114.05107378959656,2808,60,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q14,Professional Experience,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducts research on VL model biases; developed data analytics and CV systems; built ETL pipelines.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant has worked as an Artificial Intelligence Engineer (R&D) at Xend where they proposed and developed a data analytics system, researched and implemented a computer vision project, set up an ETL pipeline, and identified and solved the problem of data inconsistency. They also had an internship at Ugarsoft Ltd where they gathered and organized customer data, assisted with labeling entities, retrained Named Entity Recognition and Intent Classification models, and analyzed customer data using predictive modeling."",
+  ""rationale"": ""The key",,,,124.23274850845337,2813,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q15,Professional Experience,Has the applicant worked in more than one job or organization?,"Yes. University of Michigan, Xend, Ugarsoft Ltd, hackathon projects.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The applicant has worked at Xend as an Artificial Intelligence Engineer (R&D) and at Ugarsoft Ltd as a Machine Learning Intern."",
+  ""confidence_score"": 1.0
+}",,,,115.16313290596008,2812,66,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q16,Professional Experience,What were the applicant's major accomplishments?,"Published at EMNLP, COLING, NeurIPS, NAACL, AAAI; won 1st prize in Data Science Nigeria hackathon; multiple scholarships.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""Ph.D. Student in Computer Science and Engineering at University of Michigan, GPA 4.0/4.0"",
+    ""Artificial Intelligence Engineer at Xend, developed a data analytics system, computer vision project, ETL pipeline, and data lake"",
+    ""Machine Learning Intern at Ugarsoft Ltd, gathered and organized customer data, assisted with labeling entities, retrained Named Entity Recognition and Intent Classification models, analyzed customer data using predictive modeling""
+  ],
+  ""rationale"": ""The major",,,,123.91161775588989,2810,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q17,Professional Experience,What key metric did they improve?,Improved sales performance via data analytics; achieved 78% accuracy on Nigerian food classifier; enhanced data consistency with data lake.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Sales performance"",
+  ""rationale"": ""The key metric improved in the Artificial Intelligence Engineer role at Xend was sales performance, as stated in the CV that the data analytics system developed by the individual led to improved sales performance."",
+  ""confidence_score"": 1.0
+}",,,,116.280277967453,2806,75,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q18,Research and Projects,What is the name of a key project the applicant has worked on?,Bridging the Digital Divide in VLMs; CVQA benchmark; DietAI nutrition app; Logo Identification system; Culture Affordance Atlas,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""DietAI"",
+  ""rationale"": ""The project 'DietAI' is mentioned in the 'Projects' section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,113.6581928730011,2814,56,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q19,Research and Projects,Which tools or technologies did the applicant use in their projects?,"Python, PyTorch, FastAI, AWS, Apache Spark, Airflow, SQL, Rasa, NLTK, spaCy, Tableau, PowerBI",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""Python"",
+    ""Pytorch"",
+    ""Fastai"",
+    ""NumPy"",
+    ""Pandas"",
+    ""Matplotlib/Seaborn/Plotly"",
+    ""Rasa Stack"",
+    ""Apache Hadoop/Spark/Hive/Airflow"",
+    ""Amazon Web Services"",
+    ""Azure Databricks"",
+    ""SQL/NoSQL"",
+    ""MATLAB/Tableau/PowerBI""
+  ],
+  ""rationale",,,,124.15458536148071,2812,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q20,Research and Projects,Did any project have a specific budget or numeric goal?,"Yes. Hackathon had competitive goals; projects included accuracy targets (78%), performance metrics, and cost-saving objectives.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, there is no project mentioned with a specific budget or numeric goal."",
+  ""rationale"": ""The CV does not provide any information about a project having a specific budget or numeric goal."",
+  ""confidence_score"": 1.0
+}",,,,115.17668414115906,2811,67,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q21,Research and Projects,What were the main objectives of the applicant's projects?,To address representation gaps in AI; develop inclusive VL models; apply AI for social good in health and commerce.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""The main objectives of the applicant's projects include designing an AI-powered nutrition web application for local Nigerian dishes (DietAI), training an image classifier on a dataset of local Nigerian food, and developing a data analytics system for Xend merchants.""],
+  ""rationale"": [""The DietAI project objective is mentioned in the CV under the 'Projects' section. The image classifier project is mentioned in the CV under the 'Projects' and 'GitHub' sections. The data analytics system for Xend merchants is mentioned in the",,,,124.06679725646973,2812,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q22,Research and Projects,What are the applicant s publications?,"Multiple publications in EMNLP, COLING, NeurIPS, NAACL, AAAI, and under-review work.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""/usersBridging the Digital Divide: Performance Variation across Socio-Economic Factors in Vision-Language Models (EMNLP 2023)"",
+    ""/usersHas It All Been Solved? Open NLP Research Questions Not Solved by Large Language Models (COLING 2024)"",
+    ""/usersVisual Geo-Diverse Annotations on a Budget (COLING 2024)"",
+    ""/usersCVQA: Culturally-diverse Multilingual Visual",,,,123.87112283706665,2807,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q23,Research and Projects,Did the applicant outline the approach or methodology they used?,"Yes. Uses empirical analysis, dataset curation, model evaluation, bias auditing, and interdisciplinary AI ethics methods.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The CV provides details about the applicant's approach or methodology in various projects such as the data analytics system for Xend merchants, the computer vision project to solve the problem of Logo Identification, setting up an ETL pipeline, and the research on representation in AI."",
+  ""confidence_score"": 0.9
+}",,,,118.87072110176086,2812,92,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q24,Research and Projects,What are the applicant's research areas?,"AI Ethics and Fairness, Vision-Language Models, Computational Social Science, AI for Health, Data Engineering",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Representation in AI, specifically in vision & language (VL)""],
+  ""rationale"": [""The applicant is a Ph.D. student in Computer Science and Engineering at the University of Michigan, where they are researching on representation in AI, specifically in vision & language (VL).""],
+  ""confidence_score"": 1.0
+}",,,,117.88005709648132,2809,86,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q25,Skills,What are the applicant s key soft skills?,"Leadership, mentorship, public speaking, diversity advocacy, cross-cultural collaboration",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Leadership, Teamwork, Problem-Solving, Adaptability, Communication, Research, Creativity""],
+  ""rationale"": [""The applicant has held leadership positions such as Vice President of Nigerian Society Of Engineers (UNN) and Admissions Recruitment Liaison for CSE Graduate Org. at University of Michigan. They have also demonstrated teamwork skills through collaborating on projects like DietAI and the 2020 DSN AI Commons Health and Wellbeing Hackathon. The problem-solving and adaptability skills are",,,,123.95296931266785,2809,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q26,Skills,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. CSE Departmental Fellowship; IELTS Prize; PTDF and NNPC/Chevron scholarships; Grace Hopper Celebration scholar.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, there are no certifications, licenses, or trainings listed in the CV."",
+  ""rationale"": ""The CV does not contain any mention of certifications, licenses, or trainings."",
+  ""confidence_score"": 1.0
+}",,,,115.62374877929688,2816,67,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q27,Skills,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied CV for logo and food identification; built data lakes for consistency; used NLP for chatbot improvement.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes, the applicant described a situation where they applied their key skills effectively in the 'Artiﬁcial Intelligence Engineer (R&D)' role at Xend."",
+  ""rationale"": ""The applicant proposed and developed a data analytics system, researched and implemented a computer vision project, set up an ETL pipeline, and identified and solved the problem of data inconsistency. These tasks demonstrate the applicant's key skills in machine learning, computer vision, data engineering, and problem-solving."",
+  ""confidence_score"":",,,,124.30144953727722,2816,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q28,Awards & Extracurricular Activities,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. 1st Prize in Data Science Nigeria hackathon; multiple scholarships; finalist in 3-Minute Thesis competition.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes, the applicant has received several awards. The most significant award is the 2021/2022 CSE Departmental Fellowship Award from the University of Michigan."",
+  ""rationale"": ""The CV lists the 2021/2022 CSE Departmental Fellowship Award as one of the awards received by the applicant. This award is significant because it is from a prestigious institution like the University of Michigan."",
+  ""confidence_score"": 1.0
+}",,,,123.37506985664368,2819,121,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q29,Awards & Extracurricular Activities,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Served as Vice President for student society; recruitment liaison; webmaster; invited bootcamp speaker.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant was the Vice President of Nigerian Society Of Engineers (UNN) from Dec 2016 - Dec 2017."",
+  ""rationale"": ""This information is found under the 'LEADERSHIP & SERVICE' section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,118.4175796508789,2823,85,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q30,Awards & Extracurricular Activities,Did the applicant describe any notable academic achievements or honors received?,Yes. High GPAs; prestigious scholarships; competitive hackathon win; publications in top-tier conferences.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The applicant has received several awards and honors, including the 2022/2023 CSE Departmental Fellowship Award, the 2021/2022 IELTS Prize, the 1st Prize Solution Winner for the 2020 Data Science Nigeria AI Commons Health and Wellbeing Hackathon, the Student Scholar for the 2019 Grace Hopper Celebration, and the Awardee for the 2016 Petroleum",,,,124.1446967124939,2813,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q1,Personal Information,What is the applicant's full name?,Joel Samuel Rhine,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Joel Samuel Rhine"",
+  ""rationale"": ""The full name is listed at the beginning of the CV."",
+  ""confidence_score"": 1.0
+}",,,,49.83377385139465,1223,50,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q2,Personal Information,What is the applicant's LinkedIn?,linkedin.com/in/joel-rhine,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""linkedin.com/in/joel-rhine"",
+  ""rationale"": ""The LinkedIn profile of the applicant is provided in the CV."",
+  ""confidence_score"": 1.0
+}",,,,51.05048370361328,1223,59,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q3,Personal Information,What is the applicant's primary contact number?,202-568-2029,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""202-568-2029"",
+  ""rationale"": ""The primary contact number is listed under the 'Contact Information' section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,51.43588900566101,1224,62,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q4,Personal Information,In which city and country is the applicant currently located?,"Kearny, NJ, USA",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Washington, DC"",
+  ""rationale"": ""The applicant is currently working as a Senior Software Engineer at The World Bank, which is located in Washington, DC."",
+  ""confidence_score"": 1.0
+}",,,,51.447169065475464,1225,62,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q5,Personal Information,Did the applicant provide a brief professional summary or career objective?,"Yes. Senior Software Engineer experienced in full-stack development, geospatial systems, and cloud architecture.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, the applicant did not provide a brief professional summary or career objective."",
+  ""rationale"": ""The CV does not contain any section or statement that can be interpreted as a professional summary or career objective."",
+  ""confidence_score"": 1.0
+}",,,,52.41870307922363,1226,69,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q6,Education,What is the highest level of education the applicant has completed?,Master of Science in Mechanical Engineering,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""M.S. in Mechanical Engineering"",
+  ""rationale"": ""The CV mentions that the applicant completed a M.S. in Mechanical Engineering at George Washington University."",
+  ""confidence_score"": 1.0
+}",,,,51.76764988899231,1226,64,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q7,Education,Which institutions did the applicant attend?,George Washington University; Don Bosco Institute of Technology (Mumbai University),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""George Washington University"", ""Don Bosco Institute of Tech., Mumbai University""],
+  ""rationale"": ""The CV mentions that the applicant attended George Washington University and Don Bosco Institute of Tech., Mumbai University."",
+  ""confidence_score"": 1.0
+}",,,,52.97759819030762,1221,75,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q8,Education,What is the applicant's score or GPA for his highest level of education?,3.52 (George Washington University),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""3.52"",
+  ""rationale"": ""The applicant's GPA for his highest level of education, a Master's degree in Mechanical Engineering from George Washington University, is stated as 3.52 in the CV."",
+  ""confidence_score"": 1.0
+}",,,,53.6689031124115,1231,77,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q9,Education,What was the applicant's field of study or major?,Mechanical Engineering (both degrees),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Mechanical Engineering"",
+  ""rationale"": ""The CV mentions that the applicant graduated from George Washington University with a Master's degree in Mechanical Engineering."",
+  ""confidence_score"": 1.0
+}",,,,51.336259603500366,1226,61,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q10,Professional Experience,What is the name of the applicant's current (or most recent) employer?,The World Bank,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The World Bank"",
+  ""rationale"": ""The most recent work experience listed on the CV is for The World Bank."",
+  ""confidence_score"": 1.0
+}",,,,50.316089153289795,1231,51,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q11,Professional Experience,What is the applicant's job title in the most recent role?,Senior Software Engineer,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Senior Software Engineer"",
+  ""rationale"": ""The applicant's job title in the most recent role is mentioned as 'Senior Software Engineer' in the CV."",
+  ""confidence_score"": 1.0
+}",,,,52.099515438079834,1228,66,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q12,Professional Experience,How many years of experience does the applicant have?,Professional experience since at least 2019 (~5+ years),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""5 years"",
+  ""rationale"": ""The applicant has 5 years of experience as a Senior Software Engineer, from May 2019 to the present."",
+  ""confidence_score"": 1.0
+}",,,,51.441967248916626,1224,62,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q13,Professional Experience,What leadership position did the applicant hold?,"Yes. Led development teams, architected system designs, and managed internship programs.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant held the position of a Senior Software Engineer."",
+  ""rationale"": ""The CV mentions the applicant's current position as Senior Software Engineer at The World Bank and a previous position as Senior Software Engineer at Development Monitors."",
+  ""confidence_score"": 1.0
+}",,,,53.53373646736145,1222,79,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q14,Professional Experience,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Developed automated data pipelines, architected geospatial asset management systems, and built full-stack web applications.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant has worked as a Senior Software Engineer at The World Bank and Development Monitors. In these roles, they developed automated pipelines, architected and led development of software systems, implemented batching algorithms and error handling, managed and trained machine learning models, and led cross-functional teams. They have also worked on full-stack projects such as an e-commerce website for Tresses Salon DC and a YouTube clone."",
+  ""rationale"": ""The CV mentions the applicant's roles at The World Bank and Development Monitors, where they",,,,60.07025647163391,1227,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q15,Professional Experience,Has the applicant worked in more than one job or organization?,"Yes. The World Bank, Development Monitors, and freelance projects (Tresses Salon DC, YouTube Clone).",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The CV lists two distinct job experiences with different organizations: The World Bank and Development Monitors."",
+  ""confidence_score"": 1.0
+}",,,,50.38407015800476,1226,53,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q16,Professional Experience,What were the applicant's major accomplishments?,Reduced manual processing time by 90% at The World Bank; increased customer bookings by 20% for Tresses Salon; improved satellite imagery resolution by 55% and digitization speed by 76%.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""Developed an end-to-end automated pipeline to fetch Sentinel-1 data, reducing processing time by 90%."",
+    ""Architected and led development of ARTEMIS Desktop, reducing manual time by ~90%."",
+    ""Improved user engagement by 30% via function prompts with ARTEMIS AI."",
+    ""Visualized areas of interest in 3D and overlayed with flooding data using ReactJS, ThreeJS, NodeJS, Flask, Python, Post",,,,59.97386884689331,1224,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q17,Professional Experience,What key metric did they improve?,Improved data processing time by 90%; increased user engagement by 30% with AI integration; improved stakeholder engagement by 20% with 3D visualization.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The key metric improved was ~90% reduction in manual time."",
+  ""rationale"": ""This is inferred from the statements'reducing manual time by ~90%' in the CV."",
+  ""confidence_score"": 0.95
+}",,,,52.16633129119873,1220,69,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q18,Research and Projects,What is the name of a key project the applicant has worked on?,ARTEMIS Desktop; ARTEMIS 3D Hazard Mapping; ARTEMIS 2D; Sentinel-1 data pipeline; Tresses Salon E-commerce site,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""ARTEMIS Desktop"", ""ARTEMIS 3D Hazard Mapping Application"", ""ARTEMIS 2D""],
+  ""rationale"": [""The CV mentions the applicant's work on ARTEMIS Desktop, ARTEMIS 3D Hazard Mapping Application, and ARTEMIS 2D in the 'Work Experience' section.""],
+  ""confidence_score"": 1.0
+}",,,,57.80332374572754,1228,110,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q19,Research and Projects,Which tools or technologies did the applicant use in their projects?,"Python, JavaScript/TypeScript, React, Node.js, PostgreSQL, AWS, Docker, Three.js, Flask, Spark, GCS",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""Python"",
+    ""Jupyter"",
+    ""Spark"",
+    ""Sphinx"",
+    ""GCS"",
+    ""ReadTheDocs"",
+    ""GitHub CI/CD"",
+    ""ReactJS"",
+    ""ThreeJS"",
+    ""NodeJS"",
+    ""PostgreSQL"",
+    ""PostGIS"",
+    ""KoBoToolbox"",
+    ""QT"",
+    ""Flask"",
+    ""AWS"",
+    ""Docker"",",,,,60.184022665023804,1226,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q20,Research and Projects,Did any project have a specific budget or numeric goal?,"Yes. Projects involved measurable goals like processing time reductions, revenue increases, and performance benchmarks.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The CV mentions a project 'ARTEMIS 2D' that successfully tested in Blacksburg, VA estimating 5 million in losses due to 2019 flooding."",
+  ""confidence_score"": 1.0
+}",,,,53.00382161140442,1225,74,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q21,Research and Projects,What were the main objectives of the applicant's projects?,To automate geospatial data processing; improve urban monitoring and hazard mapping; build scalable e-commerce and web applications.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""The main objective of the applicant's projects was to develop automated systems and tools for data processing, geo-asset management, and hazard mapping using various technologies such as Python, ReactJS, ThreeJS, NodeJS, Flask, PostgreSQL, Docker, AWS, and AI Agents."",
+    ""The applicant also aimed to improve user engagement, reduce manual time, and increase efficiency in the projects he worked on."",
+    ""Additionally, the applicant led development of an e-commerce website for a salon and a YouTube",,,,60.30442714691162,1226,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q22,Research and Projects,What are the applicant s publications?,nan,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant does not provide any information about publications in the given CV."",
+  ""rationale"": ""The CV does not mention any publications or links to research papers."",
+  ""confidence_score"": 1.0
+}",,,,51.17641019821167,1221,60,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q23,Research and Projects,Did the applicant outline the approach or methodology they used?,Yes. Uses system design with Figma/Asana; implements CI/CD pipelines; applies machine learning models; develops REST APIs.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The applicant provided details on the approach and methodology used in several projects, such as developing an automated pipeline, implementing batching algorithms, creating GIS data formats, integrating AI, and managing machine learning models."",
+  ""confidence_score"": 0.95
+}",,,,53.803725242614746,1226,79,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q24,Research and Projects,What are the applicant's research areas?,"Geospatial systems, full-stack web development, cloud architecture, machine learning for imagery, remote sensing",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Data Analysis"", ""Geospatial Analysis"", ""Machine Learning"", ""AI Agents""],
+  ""rationale"": ""The applicant's work experience shows that he has worked on projects involving data analysis, geospatial analysis, machine learning, and AI agents. For example, he developed a batching algorithm and error handling for data analysis, architected and led development of a Geo. Asset Management system, managed and trained machine learning models, and created ARTEMIS AI."",
+  ""confidence_score"": 1.0
+}",,,,59.949315547943115,1223,128,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q25,Skills,What are the applicant s key soft skills?,"Team leadership, cross-functional collaboration, technical documentation, project management, mentoring",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Leadership"", ""Team Management"", ""Documentation"", ""Communication""],
+  ""rationale"": ""The applicant has led and managed cross-functional teams and internship programs, as well as developed technical documentation, reports, and proposals. This indicates leadership and team management skills. The applicant has also created detailed docs with reStructuredText and Sphinx on ReadTheDocs, which shows strong documentation skills. The applicant has also integrated Claude LLM to create ARTEMIS AI, which requires communication skills."",
+  ""confidence_",,,,60.05533289909363,1223,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q26,Skills,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Part 107 Remote Pilot (Drone Pilot); AWS Cloud Practitioner (ongoing).,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes, the applicant has a Part 107 Remote Pilot (Drone Pilot) certification."",
+  ""rationale"": ""The CV lists a certification as 'Part 107 Remote Pilot (Drone Pilot)' under the 'Skills' section."",
+  ""confidence_score"": 1.0
+}",,,,54.5601167678833,1230,84,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q27,Skills,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied Python and cloud APIs to automate satellite data processing; used React and Three.js to create interactive 3D hazard maps.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes, the applicant described a situation where they applied Python effectively in the Senior Software Engineer role at The World Bank. They developed an end-to-end automated pipeline to fetch Sentinel-1 data and integrated with GCS Drive API and Desktop API, which improved processing time by 90%."",
+  ""rationale"": ""The CV mentions that the applicant developed an automated pipeline using Python, which was used to fetch Sentinel-1 data and integrate with GCS Drive API and Desktop API. This resulted in a significant improvement in processing",,,,60.30499458312988,1230,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q28,Awards & Extracurricular Activities,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Led projects that won 6 project awards; achieved performance improvements and business impact metrics.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The CV does not provide information about any awards or recognitions received by the applicant."",
+  ""rationale"": ""The CV does not mention any awards or recognitions."",
+  ""confidence_score"": 1.0
+}",,,,51.6866934299469,1233,61,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q29,Awards & Extracurricular Activities,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Led internship programs; provided technical training and mentorship to team members.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, the applicant did not share a brief overview of an extracurricular or volunteer activity they have been involved in."",
+  ""rationale"": ""The CV only contains professional work experience and skills, but no mention of extracurricular or volunteer activities."",
+  ""confidence_score"": 1.0
+}",,,,54.56087136268616,1237,82,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q30,Awards & Extracurricular Activities,Did the applicant describe any notable academic achievements or honors received?,Yes. Master's degree with GPA 3.52; multiple successful project deployments with documented impact.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, the applicant did not describe any notable academic achievements or honors received."",
+  ""rationale"": ""The CV does not contain any information about academic achievements or honors received."",
+  ""confidence_score"": 1.0
+}",,,,51.85441994667053,1227,64,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q1,Personal Information,What is the applicant's full name?,Julie Kallini,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Julie Kallini"",
+  ""rationale"": ""The full name is mentioned at the beginning of the CV."",
+  ""confidence_score"": 1.0
+}",,,,54.56651949882507,1335,51,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q2,Personal Information,What is the applicant's LinkedIn?,nan,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""/linkedinjuliekallini"",
+  ""rationale"": ""The LinkedIn profile of the applicant is provided in the CV."",
+  ""confidence_score"": 1.0
+}",,,,54.960185527801514,1335,54,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q3,Personal Information,What is the applicant's primary contact number?,nan,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The CV does not provide a primary contact number."",
+  ""rationale"": ""The CV only provides an email address and does not list a phone number."",
+  ""confidence_score"": 1.0
+}",,,,55.371381759643555,1336,57,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q4,Personal Information,In which city and country is the applicant currently located?,"Likely Stanford, CA, USA (based on university). Grew up in Los Angeles, CA.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Stanford, California, USA"",
+  ""rationale"": ""The applicant is a Ph.D. student at Stanford University, which is located in Stanford, California, USA."",
+  ""confidence_score"": 1.0
+}",,,,56.34195280075073,1337,64,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q5,Personal Information,Did the applicant provide a brief professional summary or career objective?,"Yes. Ph.D. student in NLP and computational linguistics focused on language model efficiency, fairness, and linguistic analysis.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, the applicant did not provide a brief professional summary or career objective."",
+  ""rationale"": ""The CV does not contain any section explicitly labeled as 'Professional Summary' or 'Career Objective'."",
+  ""confidence_score"": 1.0
+}",,,,57.715534925460815,1338,74,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q6,Education,What is the highest level of education the applicant has completed?,"Ph.D. in Computer Science (in progress, 2023–present)",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Ph.D. in Computer Science"",
+  ""rationale"": ""The applicant is a second-year Ph.D. student in Computer Science at Stanford University."",
+  ""confidence_score"": 1.0
+}",,,,55.862802505493164,1338,60,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q7,Education,Which institutions did the applicant attend?,Stanford University; Princeton University,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Stanford University"", ""Princeton University""],
+  ""rationale"": ""The applicant's CV mentions attending Stanford University for their Ph.D. and Princeton University for their undergraduate degree."",
+  ""confidence_score"": 1.0
+}",,,,56.899383544921875,1333,69,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q8,Education,What is the applicant's score or GPA for his highest level of education?,4.21/4.00 (Ph.D.); 3.94/4.00 (B.S.E.),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""4.21"",
+  ""rationale"": ""The applicant's GPA for his highest level of education, which is a Ph.D. in Computer Science at Stanford University, is stated as 4.21/4.00."",
+  ""confidence_score"": 1.0
+}",,,,58.53132438659668,1343,79,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q9,Education,What was the applicant's field of study or major?,"Computer Science (Major), Linguistics (Minor)",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Computer Science"",
+  ""rationale"": ""The applicant's field of study or major is stated as Computer Science in the Education section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,55.7420973777771,1338,59,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q10,Professional Experience,What is the name of the applicant's current (or most recent) employer?,Meta (Facebook),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Meta"",
+  ""rationale"": ""The applicant spent nearly two years at Meta as a software engineer, as mentioned in the CV."",
+  ""confidence_score"": 1.0
+}",,,,55.27242922782898,1343,54,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q11,Professional Experience,What is the applicant's job title in the most recent role?,"Software Engineer, Machine Learning for Ads Privacy",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Software Engineer"",
+  ""rationale"": ""The applicant worked as a Software Engineer in the most recent role at Meta."",
+  ""confidence_score"": 1.0
+}",,,,55.18271803855896,1340,54,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q12,Professional Experience,How many years of experience does the applicant have?,Industry experience from 2019–2023 (~4 years),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""3"",
+  ""rationale"": ""The applicant has 3 years of industry experience, from 2021 to 2023."",
+  ""confidence_score"": 1.0
+}",,,,55.48664307594299,1336,58,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q13,Professional Experience,What leadership position did the applicant hold?,"Yes. Head TA, Lead Grader/CA, Instructor roles with supervision and training responsibilities.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant held the position of Head TA."",
+  ""rationale"": ""This is inferred from the CV where it is stated that the applicant was Head TA for the course Machine Translation at Princeton University."",
+  ""confidence_score"": 1.0
+}",,,,57.378790616989136,1334,73,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q14,Professional Experience,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Built ML classifiers for ad privacy, taught applied machine learning courses, conducted NLP research.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""As a software engineer at Meta, the applicant built classifiers to detect sensitive topics in media on the Meta family of apps."",
+    ""As a software engineer intern at Meta, the applicant designed data analysis and monitoring tools for content moderation."",
+    ""As another software engineer intern at Meta, the applicant created an Android app that organizes and streamlines office hours queues.""
+  ],
+  ""rationale"": ""The key responsibilities in previous roles are mentioned under the 'Industry Experience' section of the CV. The applicant",,,,64.8097312450409,1339,129,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q15,Professional Experience,Has the applicant worked in more than one job or organization?,"Yes. Meta, Stanford University (TA/Instructor roles), Princeton University (research).",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The applicant has worked in at least two organizations: Meta and Stanford University."",
+  ""confidence_score"": 1.0
+}",,,,54.588444232940674,1338,50,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q16,Professional Experience,What were the applicant's major accomplishments?,Won Best Paper Award at ACL 2024; received NSF Graduate Research Fellowship; developed MrTS for efficient language models.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Best Paper Award (for Mission: Impossible Language Models ) ACL 2024"", ""NSF Graduate Research Fellowship Stanford University"", ""School of Engineering Graduate Fellowship Stanford University"", ""EDGE Fellowship Stanford University"", ""Phi Beta Kappa Princeton University"", ""Phillip Goldman ’86 Senior Prize (Top CS Academic Prize) Princeton University"", ""Outstanding CS Senior Thesis Prize Princeton University"", ""Outstanding Student T eaching Award Princeton University"", ""T au Beta Pi(Engineering Honor",,,,64.70451831817627,1336,129,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q17,Professional Experience,What key metric did they improve?,Improved language model efficiency via dynamic token merging; built classifiers to detect sensitive topics in media.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""language models’ efficiency"",
+  ""rationale"": ""The CV mentions that Julie Kallini's research interests include improving language models’ efficiency (specifically in the context of tokenization and vocabulary)."",
+  ""confidence_score"": 1.0
+}",,,,56.89932155609131,1332,70,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q18,Research and Projects,What is the name of a key project the applicant has worked on?,MrTS: Dynamic Token Merging; Mission: Impossible Language Models; Semantic analysis of light verbs and coordination structures.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""MrT5"",
+  ""rationale"": ""The project 'MrT5' is mentioned in the 'Papers' section of the CV."",
+  ""confidence_score"": 1.0
+}",,,,55.39894342422485,1340,56,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q19,Research and Projects,Which tools or technologies did the applicant use in their projects?,"Python, scikit-learn, Java, NLP frameworks, machine learning, data analysis tools",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Python"", ""Java"", ""scikit-learn""],
+  ""rationale"": ""The applicant mentions using Python in their research and teaching experience ([1], [2], [3], [4], [5], 2022–Pres, 2021). They also mention using Java in their industry experience (2018–2019). Additionally, they used scikit-learn in their teaching experience (2022–Pres)."",
+  ""confidence_score"": 1.0",,,,64.72390031814575,1338,129,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q20,Research and Projects,Did any project have a specific budget or numeric goal?,Yes. Research involves benchmarks for model efficiency and accuracy; software projects had measurable performance goals.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, there is no information in the CV that suggests any project had a specific budget or numeric goal."",
+  ""rationale"": ""The CV does not provide any information about budgets or numeric goals for any of the projects mentioned."",
+  ""confidence_score"": 1.0
+}",,,,57.82569909095764,1337,75,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q21,Research and Projects,What were the main objectives of the applicant's projects?,To improve language model efficiency and fairness; analyze linguistic structures with computational methods; apply ML to privacy challenges.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The main objectives of the applicant's projects are to improve language models’ efficiency and fairness across languages, understand what deep learning can reveal about linguistics and language acquisition, and develop classifiers to detect sensitive topics in media."",
+  ""rationale"": ""The objectives are inferred from the applicant's research interests and industry experience as stated in the CV."",
+  ""confidence_score"": 0.9
+}",,,,61.259782791137695,1338,101,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q22,Research and Projects,What are the applicant s publications?,"5 peer-reviewed papers in ICLR, ACL, EMNLP, Global WordNet Conference, and Text, Speech, and Dialogue.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [
+    ""Julie Kallini, Shikhar Murty, Christopher D. Manning, Christopher Potts, and Róbert Csordás. MrT5: Dynamic T oken Merging for E!cient Byte-level Language Models. In Proceedings of the 13th International Conference on Learning Representations (ICLR), 2025. In press."",
+    ""Julie Kallini, Isabel Papadimitriou, Richard Futrell, Kyle Mahowald, and Christopher Pot",,,,64.54881191253662,1333,128,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q23,Research and Projects,Did the applicant outline the approach or methodology they used?,"Yes. Uses empirical NLP methods, machine learning experimentation, corpus analysis, and computational linguistics techniques.",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes"",
+  ""rationale"": ""The CV includes a list of papers published by the applicant, which detail the approach or methodology used in each research project."",
+  ""confidence_score"": 1.0
+}",,,,55.92476511001587,1338,60,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q24,Research and Projects,What are the applicant's research areas?,"Natural Language Processing (NLP), Computational Linguistics, Machine Learning, Language Model Efficiency, Linguistics",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""The applicant's research areas are Natural Language Processing (NLP), machine learning, and linguistics."",
+  ""rationale"": ""This is inferred from the applicant's statement about being a Ph.D. student in Computer Science at Stanford University, where they are part of the Natural Language Processing Group, and their listed research interests."",
+  ""confidence_score"": 0.95
+}",,,,60.95865559577942,1335,100,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q25,Skills,What are the applicant s key soft skills?,"Teaching, mentoring, research communication, collaboration, technical writing",S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": [""Communication, Leadership, Teamwork, Problem-solving, Adaptability""],
+  ""rationale"": ""The applicant has demonstrated leadership skills as a Head TA, Instructor, and Lead Grader/CA. They have also shown problem-solving skills through their industry experience as a software engineer. Adaptability is inferred from their ability to transition from undergraduate research to industry work and then back to academia. Communication skills are implied through their teaching experience and industry work. Teamwork is inferred from their work in the Natural Language Process",,,,64.56861186027527,1335,129,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q26,Skills,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. NSF Graduate Research Fellowship; EDGE Fellowship; Phi Beta Kappa; Tau Beta Pi.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, there are no certifications, licenses, or trainings listed in the CV."",
+  ""rationale"": ""The CV does not contain any information about certifications, licenses, or trainings."",
+  ""confidence_score"": 1.0
+}",,,,56.915887117385864,1342,67,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q27,Skills,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied machine learning to build classifiers for ad privacy at Meta; used Python and scikit-learn to teach ML courses.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes, the applicant described a situation where they applied machine learning effectively as a software engineer at Meta."",
+  ""rationale"": ""The applicant spent nearly two years at Meta as a software engineer and worked on applying machine learning to privacy challenges in advertisements."",
+  ""confidence_score"": 1.0
+}",,,,58.49546217918396,1342,79,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q28,Awards & Extracurricular Activities,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Best Paper Award (ACL 2024); NSF Graduate Research Fellowship; Phi Beta Kappa; Phillip Goldman '86 Senior Prize.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes, the applicant has received several awards or recognitions. The most significant one is the Best Paper Award at ACL 2024 for the paper titled 'Mission: Impossible Language Models'."",
+  ""rationale"": ""The CV lists the Best Paper Award at ACL 2024 under the 'Papers' section. This award is significant because it is the most recent and it is for a paper that the applicant has authored."",
+  ""confidence_score"": 1.0
+}",,,,64.49259328842163,1345,124,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q29,Awards & Extracurricular Activities,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Instructor and TA roles; trained and supervised graders; led coding exercises and discussion sessions.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""No, the applicant did not share a brief overview of an extracurricular or volunteer activity they have been involved in."",
+  ""rationale"": ""The CV does not contain any information about extracurricular or volunteer activities."",
+  ""confidence_score"": 1.0
+}",,,,58.39723515510559,1349,76,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q30,Awards & Extracurricular Activities,Did the applicant describe any notable academic achievements or honors received?,Yes. Summa cum laude undergraduate degree; multiple academic prizes including Outstanding CS Senior Thesis Prize.,S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,"{
+  ""predicted_answer"": ""Yes, the applicant described several notable academic achievements and honors received. These include the Best Paper Award at ACL 2024 for the paper 'Mission: Impossible Language Models', the NSF Graduate Research Fellowship, the School of Engineering Graduate Fellowship, the EDGE Fellowship, Phi Beta Kappa, the Phillip Goldman ’86 Senior Prize, the Outstanding CS Senior Thesis Prize, the Outstanding Student Teaching Award, and Tau Beta Pi."",
+  ""rationale"": ""The applicant",,,,64.76846051216125,1339,129,0.0,,,,,,,,E2_QA_Accuracy

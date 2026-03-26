@@ -6,6 +6,7 @@ from src.utils.dataset_loader import mock_dataset, mock_cv_texts, load_real_data
 from src.llm.huggingface import HuggingFaceLLM
 from src.strategies.strategy_1_full_cv import Strategy1FullCV
 from src.strategies.strategy_2_retrieve_section import Strategy2RetrieveSection
+from src.strategies.strategy_3_rag import Strategy3RAG
 from src.experiments.experiment_1 import Experiment1Extraction
 from src.experiments.experiment_2 import Experiment2QA
 from src.utils.logger import CSVLogger
@@ -24,7 +25,7 @@ def main():
         help="HuggingFace model ID (default Mistral for real runs)",
     )
     parser.add_argument(
-        "--strategy", type=int, choices=[1, 2], default=1, help="Which strategy to run"
+        "--strategy", type=int, choices=[1, 2, 3], default=1, help="Which strategy to run"
     )
     parser.add_argument(
         "--experiment",
@@ -58,8 +59,10 @@ def main():
     print(f"=== Initializing Strategy {args.strategy}")
     if args.strategy == 1:
         strategy = Strategy1FullCV(llm)
-    else:
+    elif args.strategy == 2:
         strategy = Strategy2RetrieveSection(llm)
+    else:
+        strategy = Strategy3RAG(llm)
 
     print(f"=== Initializing Experiment {args.experiment}")
     if args.experiment == 1:
@@ -67,11 +70,13 @@ def main():
     else:
         experiment = Experiment2QA(strategy)
 
-    # Modify output path with timestamp and mock status
+    # Modify output path with timestamp, experiment config, limit, and mock status
     base_dir = os.path.dirname(args.output) or "."
     file_name = os.path.basename(args.output)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    prefix = f"{timestamp}_mock_" if args.dry_run else f"{timestamp}_"
+    prefix = f"{timestamp}_s{args.strategy}_e{args.experiment}_limit{args.limit}_"
+    if args.dry_run:
+        prefix += "mock_"
     args.output = os.path.join(base_dir, prefix + file_name)
 
     print(f"=== Starting Generation targeting: {args.output}")

@@ -1,6 +1,5 @@
 pydantic
 transformers
-torch --index-url https://download.pytorch.org/whl/cu126
 pandas
 scikit-learn
 pypdf

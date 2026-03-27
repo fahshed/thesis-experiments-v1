@@ -1,8 +1,8 @@
 ssh fahim@35.39.206.19
 
-tmux new -s s3e2
+tmux new -s xps3e2
 
-tmux new -s mysession
+tmux attach -t mysession
 
 tmux kill-session -t mysession
 
@@ -11,6 +11,8 @@ tail -f tmux-logs/s3e2_mistral_limit50.log
 watch -n 1 nvidia-smi
 
 htop
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 
 ---
 

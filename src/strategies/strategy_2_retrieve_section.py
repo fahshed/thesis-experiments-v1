@@ -8,7 +8,7 @@ class Strategy2RetrieveSection(BaseStrategy):
     Uses a basic chunking and keyword overlap approach to find
     the most relevant section before prompting the LLM.
     """
-    def __init__(self, llm, chunk_size=500, top_k=2):
+    def __init__(self, llm, chunk_size=500, top_k=1):
         super().__init__(llm)
         self.chunk_size = chunk_size
         self.top_k = top_k
@@ -59,9 +59,12 @@ JSON Response:
         print(f"=== -> [{self.strategy_name}] Q: {question[:80]}...")
         start_time = time.time()
         
+        question_category = kwargs.get("question_category", "")
+        search_query = f"{question_category} {question}" if question_category else question
+        
         # Retrieval step
         chunks = self._chunk_text(cv_text)
-        best_chunks = self._retrieve_chunks(chunks, question)
+        best_chunks = self._retrieve_chunks(chunks, search_query)
         relevant_context = "\n...\n".join(best_chunks)
         
         prompt = self._build_prompt(relevant_context, question)

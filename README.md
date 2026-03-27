@@ -8,5 +8,4 @@
   --limit 25 \
   --offset 25
 - python3 generate.py --model gpt2 --experiment 2 --strategy 3 --limit 1
-
-
+- python generate.py --model mistralai/Mistral-7B-Instruct-v0.3 --experiment 2 --strategy 3 --limit 50 > tmux-logs/s3e2.log 2>&1

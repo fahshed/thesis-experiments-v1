@@ -16,6 +16,7 @@ class BaseStrategy(ABC):
     def run(self, cv_text: str, question: str, **kwargs) -> Dict[str, Any]:
         """
         Takes the raw text and question and returns a dict containing:
+        - cv_id/question_category may be supplied in kwargs for strategies that need per-CV context
         - predicted_answer: str
         - confidence_score: float
         - rationale: str

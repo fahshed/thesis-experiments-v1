@@ -22,7 +22,12 @@ class Experiment2QA(BaseExperiment):
             if not cv_text:
                 continue
                 
-            out = self.strategy.run(cv_text, record.question_text)
+            out = self.strategy.run(
+                cv_text,
+                record.question_text,
+                cv_id=record.cv_id,
+                question_category=record.question_category,
+            )
             
             truth = record.ground_truth_answer
             
@@ -36,6 +41,8 @@ class Experiment2QA(BaseExperiment):
                 model_name=self.strategy.llm.model_name,
                 raw_response=out.get("raw_response"),
                 latency=out.get("latency", 0.0),
+                lookup_latency=out.get("lookup_latency"),
+                llm_generation_latency=out.get("llm_generation_latency"),
                 input_tokens=out.get("input_tokens"),
                 output_tokens=out.get("output_tokens"),
                 estimated_cost=out.get("estimated_cost", 0.0),

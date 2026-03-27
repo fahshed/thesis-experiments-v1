@@ -30,6 +30,8 @@ class RunResult(BaseModel):
     
     # Performance & Cost
     latency: float = 0.0
+    lookup_latency: Optional[float] = None
+    llm_generation_latency: Optional[float] = None
     input_tokens: Optional[int] = None
     output_tokens: Optional[int] = None
     estimated_cost: float = 0.0

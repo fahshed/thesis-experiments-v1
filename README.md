@@ -7,3 +7,6 @@
   --strategy 1 \
   --limit 25 \
   --offset 25
+- python3 generate.py --model gpt2 --experiment 2 --strategy 3 --limit 1
+
+

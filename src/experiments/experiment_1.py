@@ -22,7 +22,12 @@ class Experiment1Extraction(BaseExperiment):
             if not cv_text:
                 continue
                 
-            out = self.strategy.run(cv_text, record.question_text)
+            out = self.strategy.run(
+                cv_text,
+                record.question_text,
+                cv_id=record.cv_id,
+                question_category=record.question_category,
+            )
             
             truth = record.ground_truth_answer
             

@@ -1,11 +1,30 @@
-- ssh fahim@35.39.206.19
-- python generate.py --model mistralai/Mistral-7B-Instruct-v0.3 --experiment 2 --strategy 1
-- python generate.py --model mistralai/Mistral-7B-Instruct-v0.3 --experiment 2 --strategy 3 --limit 1
-- python generate.py \
-  --model mistralai/Mistral-7B-Instruct-v0.3 \
-  --experiment 2 \
-  --strategy 1 \
-  --limit 25 \
-  --offset 25
-- python3 generate.py --model gpt2 --experiment 2 --strategy 3 --limit 1
-- python generate.py --model mistralai/Mistral-7B-Instruct-v0.3 --experiment 2 --strategy 3 --limit 50 > tmux-logs/s3e2.log 2>&1
+ssh fahim@35.39.206.19
+
+tmux new -s s3e2
+
+tmux new -s mysession
+
+tmux kill-session -t mysession
+
+tail -f tmux-logs/s3e2_mistral_limit50.log
+
+watch -n 1 nvidia-smi
+
+htop
+
+---
+
+PYTHONUNBUFFERED=1 python generate.py --model mistralai/Mistral-7B-Instruct-v0.3 --experiment 2 --strategy 1
+
+PYTHONUNBUFFERED=1 python generate.py --model mistralai/Mistral-7B-Instruct-v0.3 --experiment 2 --strategy 3 --limit 1
+
+PYTHONUNBUFFERED=1 python generate.py \
+ --model mistralai/Mistral-7B-Instruct-v0.3 \
+ --experiment 2 \
+ --strategy 1 \
+ --limit 25 \
+ --offset 25
+
+PYTHONUNBUFFERED=1 python3 generate.py --model gpt2 --experiment 2 --strategy 3 --limit 1
+
+PYTHONUNBUFFERED=1 python generate.py --model mistralai/Mistral-7B-Instruct-v0.3 --experiment 2 --strategy 3 --limit 50 > tmux-logs/s3e2_mistral_limit50.log 2>&1

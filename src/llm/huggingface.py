@@ -7,16 +7,9 @@ class HuggingFaceLLM(BaseLLM):
     """
     A concrete implementation of BaseLLM using local Hugging Face pipelines.
     """
-    def __init__(self, model_name: str, device: str = "cpu", **kwargs):
+    def __init__(self, model_name: str, **kwargs):
         self._model_name = model_name
-        # Using a very simple pipeline setup for demonstration.
-        # In practice, device_map='auto', load_in_4bit, etc., can be passed in kwargs.
-        self.pipe = pipeline(
-            "text-generation", 
-            model=model_name, 
-            device=device,
-            **kwargs
-        )
+        self.pipe = pipeline("text-generation", model=model_name, **kwargs)
         
     @property
     def model_name(self) -> str:

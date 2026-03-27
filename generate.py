@@ -60,7 +60,7 @@ def main():
 
     print(f"=== Initializing LLM: {args.model}")
     print("=== Using GPU with device_map='auto'.")
-    llm = HuggingFaceLLM(model_name=args.model, device=None, device_map="auto")
+    llm = HuggingFaceLLM(model_name=args.model, device_map="auto")
 
     print(f"=== Initializing Strategy {args.strategy}")
     if args.strategy == 1:

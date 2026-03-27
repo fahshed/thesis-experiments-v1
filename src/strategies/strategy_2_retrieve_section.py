@@ -57,17 +57,21 @@ JSON Response:
 
     def run(self, cv_text: str, question: str, **kwargs) -> Dict[str, Any]:
         print(f"=== -> [{self.strategy_name}] Q: {question[:80]}...")
-        start_time = time.time()
+
         
         question_category = kwargs.get("question_category", "")
         search_query = f"{question_category} {question}" if question_category else question
         
         # Retrieval step
+        t0 = time.time()
         chunks = self._chunk_text(cv_text)
         best_chunks = self._retrieve_chunks(chunks, search_query)
         relevant_context = "\n...\n".join(best_chunks)
+        lookup_latency = time.time() - t0
         
         prompt = self._build_prompt(relevant_context, question)
+        
+        t1 = time.time()
         
         try:
             llm_output = self.llm.generate(prompt)
@@ -82,11 +86,14 @@ JSON Response:
             output_tokens = 0
             estimated_cost = 0.0
             
-        latency = time.time() - start_time
+        llm_generation_latency = time.time() - t1
+        latency = lookup_latency + llm_generation_latency
         
         return {
             "raw_response": raw_response,
             "latency": latency,
+            "lookup_latency": lookup_latency,
+            "llm_generation_latency": llm_generation_latency,
             "input_tokens": input_tokens,
             "output_tokens": output_tokens,
             "estimated_cost": estimated_cost,

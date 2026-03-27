@@ -1,5 +1,6 @@
 import argparse
 import os
+import torch
 from datetime import datetime
 
 from src.utils.dataset_loader import mock_dataset, mock_cv_texts, load_real_dataset
@@ -59,8 +60,8 @@ def main():
     args = parser.parse_args()
 
     print(f"=== Initializing LLM: {args.model}")
-    print("=== Using GPU with device_map='auto'.")
-    llm = HuggingFaceLLM(model_name=args.model, device_map="auto")
+    print("=== Using GPU with device=0, dtype=float16.")
+    llm = HuggingFaceLLM(model_name=args.model, device="cuda", torch_dtype=torch.float16)
 
     print(f"=== Initializing Strategy {args.strategy}")
     if args.strategy == 1:

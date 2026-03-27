@@ -72,3 +72,200 @@ Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
 Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
 Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
 Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Both `max_new_tokens` (=128) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== Initializing Experiment 2
+=== Starting Generation targeting: results/20260326_232014_s3_e2_limit50_offset0_generated_answers.csv
+=== Loading REAL dataset (limited to 50 directories, offset 0) ===
+=== [E2_QA_Accuracy] Processing record 1/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What is the applicant's full name?...
+=== -> [S3_RAG] Prepared cache for CV ID: aaron_stockdill | num_chunks=3 | chunking_latency=0.000164s | chunk_embedding_latency=0.052072s | prep_total_latency=0.052238s
+=== [E2_QA_Accuracy] Processing record 2/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What is the applicant's LinkedIn?...
+=== [E2_QA_Accuracy] Processing record 3/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What is the applicant's primary contact number?...
+=== [E2_QA_Accuracy] Processing record 4/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: In which city and country is the applicant currently located?...
+=== [E2_QA_Accuracy] Processing record 5/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: Did the applicant provide a brief professional summary or career objective?...
+=== [E2_QA_Accuracy] Processing record 6/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What is the highest level of education the applicant has completed?...
+=== [E2_QA_Accuracy] Processing record 7/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: Which institutions did the applicant attend?...
+=== [E2_QA_Accuracy] Processing record 8/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What is the applicant's score or GPA for his highest level of education?...
+=== [E2_QA_Accuracy] Processing record 9/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What was the applicant's field of study or major?...
+=== [E2_QA_Accuracy] Processing record 10/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What is the name of the applicant's current (or most recent) employer?...
+=== [E2_QA_Accuracy] Processing record 11/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What is the applicant's job title in the most recent role?...
+=== [E2_QA_Accuracy] Processing record 12/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: How many years of experience does the applicant have?...
+=== [E2_QA_Accuracy] Processing record 13/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What leadership position did the applicant hold?...
+=== [E2_QA_Accuracy] Processing record 14/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: Could the applicant briefly describe their key responsibilities in previous role...
+=== [E2_QA_Accuracy] Processing record 15/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: Has the applicant worked in more than one job or organization?...
+=== [E2_QA_Accuracy] Processing record 16/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What were the applicant's major accomplishments?...
+=== [E2_QA_Accuracy] Processing record 17/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What key metric did they improve?...
+=== [E2_QA_Accuracy] Processing record 18/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What is the name of a key project the applicant has worked on?...
+=== [E2_QA_Accuracy] Processing record 19/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: Which tools or technologies did the applicant use in their projects?...
+=== [E2_QA_Accuracy] Processing record 20/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: Did any project have a specific budget or numeric goal?...
+=== [E2_QA_Accuracy] Processing record 21/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What were the main objectives of the applicant's projects?...
+=== [E2_QA_Accuracy] Processing record 22/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What are the applicant s publications?...
+=== [E2_QA_Accuracy] Processing record 23/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: Did the applicant outline the approach or methodology they used?...
+=== [E2_QA_Accuracy] Processing record 24/1500 - CV ID: aaron_stockdill
+=== -> [S3_RAG] Q: What are the applicant's research areas?...
+Traceback (most recent call last):
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/generate.py", line 107, in <module>
+    main()
+    ~~~~^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/generate.py", line 102, in main
+    results = experiment.run(dataset, cv_texts, logger=logger)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/src/experiments/experiment_2.py", line 25, in run
+    out = self.strategy.run(
+        cv_text,
+    ...<2 lines>...
+        question_category=record.question_category,
+    )
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/src/strategies/strategy_3_rag.py", line 148, in run
+    llm_output = self.llm.generate(prompt)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/src/llm/huggingface.py", line 37, in generate
+    outputs = self.pipe(prompt, **gen_kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/pipelines/text_generation.py", line 299, in __call__
+    return super().__call__(text_inputs, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/pipelines/base.py", line 1264, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/pipelines/base.py", line 1271, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/pipelines/base.py", line 1163, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/pipelines/text_generation.py", line 403, in _forward
+    output = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/generation/utils.py", line 2521, in generate
+    result = decoding_method(
+        self,
+    ...<5 lines>...
+        **model_kwargs,
+    )
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/generation/utils.py", line 2714, in _sample
+    outputs = self._prefill(
+        input_ids,
+    ...<2 lines>...
+        is_first_iteration=not generation_config.is_assistant,
+    )
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/generation/utils.py", line 3747, in _prefill
+    return self(**model_inputs, return_dict=True)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/utils/generic.py", line 857, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/models/mistral/modeling_mistral.py", line 447, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ~~~~~~~~~~^
+        input_ids=input_ids,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/utils/generic.py", line 931, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/utils/output_capturing.py", line 248, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/models/mistral/modeling_mistral.py", line 385, in forward
+    hidden_states = decoder_layer(
+        hidden_states,
+    ...<5 lines>...
+        **kwargs,
+    )
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/models/mistral/modeling_mistral.py", line 224, in forward
+    hidden_states, _ = self.self_attn(
+                       ~~~~~~~~~~~~~~^
+        hidden_states=hidden_states,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/transformers/models/mistral/modeling_mistral.py", line 150, in forward
+    query_states = self.q_proj(hidden_states).view(hidden_shape).transpose(1, 2)
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/fahim/Desktop/Repos/thesis-xp-alternate-repo/thesis-experiments-v1/.venv/lib/python3.13/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

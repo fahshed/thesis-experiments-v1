@@ -1,0 +1,624 @@
+cv_id,question_id,question_category,question_text,ground_truth_answer,strategy,model_name,raw_response,predicted_answer,confidence_score,rationale,latency,lookup_latency,llm_generation_latency,input_tokens,output_tokens,estimated_cost,normalized_answer,score_exact_match,score_f1,overlap,semantic_score,human_eval_score,error_type,experiment_name
+aaron_stockdill,aaron_stockdill_Q1,Personal Information,What is the applicant's full name?,Aaron Stockdill,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Aaron Stockdill"",
+""rationale"": ""The full name of the applicant can be inferred from the text of the CV, which states the candidate's name as 'Aaron Stockdill'."",
+""confidence_score"": 1.0
+}",,,,3.7511653900146484,,,2969,70,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q2,Personal Information,What is the applicant's LinkedIn?,nan,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""aaronstockdill"",
+""rationale"": ""The applicant's LinkedIn profile can be found at <https://www.linkedin.com/in/aaron-stockdill-b4828b161/>, which is listed in the 'About' section of their CV."",
+""confidence_score"": 1.0
+}",,,,4.213589429855347,,,2969,92,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q3,Personal Information,What is the applicant's primary contact number?,nan,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""not available"",
+""rationale"": ""The applicant's primary contact number is not mentioned in the provided CV."",
+""confidence_score"": 0.0
+}",,,,2.6158430576324463,,,2970,49,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q4,Personal Information,In which city and country is the applicant currently located?,"London, UK",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""London"",
+""rationale"": ""The candidate mentions being a Quantitative Technologist at Qube Research and Technologies in London, UK, indicating that they are currently located in London."",
+""confidence_score"": 1.0
+}",,,,3.147637367248535,,,2971,63,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q5,Personal Information,Did the applicant provide a brief professional summary or career objective?,Yes. Research focuses on automating representation change and developing cognitively-centered AI explanations.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""No"",
+""rationale"": ""The CV does not contain a brief professional summary or career objective."",
+""confidence_score"": 1.0
+}",,,,2.4695827960968018,,,2972,45,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q6,Education,What is the highest level of education the applicant has completed?,Doctor of Philosophy in Computer Science,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Doctor of Philosophy"",
+""rationale"": ""The highest level of education completed by the applicant is Doctor of Philosophy, as stated in the CV under 'Education'."",
+""confidence_score"": 1.0
+}",,,,3.1535871028900146,,,2972,63,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q7,Education,Which institutions did the applicant attend?,University of Cambridge; University of Canterbury,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": [
+""University of Cambridge"",
+""University of Canterbury""
+],
+""rationale"": ""The candidate attended the University of Cambridge for their PhD studies, and previously attended the University of Canterbury for their undergraduate and master's degrees."",
+""confidence_score"": 1.0
+}",,,,3.828012228012085,,,2968,81,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q8,Education,What is the applicant's score or GPA for his highest level of education?,8.9/9 (Honours GPA); 8.83/9 (Undergraduate GPA),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": 8.9,
+""rationale"": ""The applicant's highest level of education is a Doctor of Philosophy from the University of Cambridge, which he completed with a thesis on 'Automating representation change across domains for reasoning'. Based on the information provided in the CV, it is likely that the applicant earned a high GPA for this degree, possibly around 8.9."",
+""confidence_score"": 0.8
+}",,,,4.746510982513428,,,2977,105,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q9,Education,What was the applicant's field of study or major?,Computer Science (PhD); Computer Science & Mathematics (BSc Hons),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Computer Science"",
+""rationale"": ""The applicant's field of study or major is clearly stated in the CV as 'Computer Science'"",
+""confidence_score"": 1.0
+}",,,,2.951810836791992,,,2972,57,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q10,Professional Experience,What is the name of the applicant's current (or most recent) employer?,Qube Research and Technologies,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Qube Research and Technologies"",
+""rationale"": ""The applicant's current employer is mentioned in the CV as 'Quantitative Technologist at Qube Research and Technologies'"",
+""confidence_score"": 1.0
+}",,,,3.2473254203796387,,,2978,65,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q11,Professional Experience,What is the applicant's job title in the most recent role?,Quantitative Technologist,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Quantitative Technologist"",
+""rationale"": ""The most recent role listed on the candidate's CV is 'Quantitative Technologist at Qube Research and Technology', therefore the job title is predicted to be 'Quantitative Technologist'."",
+""confidence_score"": 1.0
+}",,,,3.596076726913452,,,2974,74,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q12,Professional Experience,How many years of experience does the applicant have?,Professional experience since 2017 (~8+ years),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""6"",
+""rationale"": ""The candidate has 6 years of experience according to their CV, including their PhD studies which took 3 years (2017-2020) and their employment history after that."",
+""confidence_score"": 0.9
+}",,,,3.605910301208496,,,2970,74,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q13,Professional Experience,What leadership position did the applicant hold?,Yes. Computing Officer for Selwyn College MCR; committee roles in academic societies; project leadership.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Computing Officer"",
+""rationale"": ""The applicant held the position of Computing Officer for the Selwyn College MCR Committee, which involves managing punt reservations, committee elections, and the AI Research Group website."",
+""confidence_score"": 0.9
+}",,,,3.6024110317230225,,,2968,74,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q14,Professional Experience,Could the applicant briefly describe their key responsibilities in previous roles?,Yes. Conducts research in AI and representation theory; develops software in finance; teaches and supervises students.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""The applicant's key responsibilities in previous roles include developing and implementing theories and tools to describe representations in a uniform and cognitively centered manner, working as part of a research team, managing punt reservations, committee elections, and the AI Research Group website, and providing academic support, social functions, and subject promotion."",
+""rationale"": ""This answer is based on the information provided in the 'RECENT EMPLOYMENT' section of the CV, where the applicant lists their job responsibilities in detail. Specifically, they mention",,,,5.65077805519104,,,2974,129,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q15,Professional Experience,Has the applicant worked in more than one job or organization?,"Yes. Qube Research, University of Sussex, Jane Street, University of Cambridge, University of Canterbury.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""The applicant has worked in two organizations: Qube Research and T echnologies and University of Sussex."",
+""confidence_score"": 0.9
+}
+
+Explanation:
+
+The applicant's CV mentions two current and past employments:
+
+1. Quantitative Technologist at Qube Research and T echnologies, London.
+2. Research Fellow in Informatics at University of Sussex, UK.
+
+Therefore, the answer to the question ""Has the applicant worked",,,,5.668130397796631,,,2972,129,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q16,Professional Experience,What were the applicant's major accomplishments?,Best Student Paper at Diagrams 2021; multiple conference publications; Hamilton Cambridge International Scholarship.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""The applicant's major accomplishments include developing a theory of cross-domain correspondences, publishing several peer-reviewed conference papers, receiving various awards and scholarships, and volunteering as a calculus coordinator."",
+""rationale"": ""This answer is based on the information provided in the CV, specifically the details about the applicant's educational background, research experience, publications, awards, and volunteering activities. The development of a theory of cross-domain correspondences and the publication of multiple peer-reviewed conference papers demonstrate the applicant's academic achievements and",,,,5.679486989974976,,,2970,129,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q17,Professional Experience,What key metric did they improve?,Developed theory of cross-domain correspondences; built tools for representation selection; improved teaching outcomes.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""The key metric improved was the number of scholarships awarded."",
+""rationale"": ""This is inferred from the information provided in the 'SELECTED AWARDS' section of the CV, where it mentions that the 2016 cohort received a record four scholarships, double the previous best record for the school. This suggests that the Scholarship Calculus program developed by the candidate had a positive impact on the students' performance and led to an increase in the number of scholarships awarded."",
+""confidence_score"": 0.8
+}",,,,5.689377307891846,,,2966,129,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q18,Research and Projects,What is the name of a key project the applicant has worked on?,Automating representation change across domains; Representational Interpretive Structure (RIST); AquaSense (previous),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""RIST"",
+""rationale"": ""The key project mentioned in the CV is 'Developing theory and tools to describe representations in a uniform, and cognitively centred, manner (RIST)'"",
+""confidence_score"": 0.9
+}",,,,3.399801254272461,,,2974,67,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q19,Research and Projects,Which tools or technologies did the applicant use in their projects?,"OCaml, ReScript, Python, Standard ML, C, JavaScript; React, web development tools",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""OCaml, ReScript, Python, Standard ML, HTML/CSS/Javascript, C, and LATEX."",
+""rationale"": ""The applicant mentioned experience with OCaml, ReScript, Python, Standard ML, HTML/CSS/Javascript, C, and LATEX in their CV, indicating they have worked with these tools in their projects."",
+""confidence_score"": 0.9
+}",,,,4.6862006187438965,,,2974,101,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q20,Research and Projects,Did any project have a specific budget or numeric goal?,nan,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""No"",
+""rationale"": ""The CV does not mention any specific projects with a budget or numeric goal."",
+""confidence_score"": 1.0
+}",,,,2.6570260524749756,,,2970,47,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q21,Research and Projects,What were the main objectives of the applicant's projects?,To advance AI explanation and problem-solving through automated representation selection and change.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""The main objectives of the applicant's projects were to develop and apply theories and tools to describe representations in a uniform and cognitively centered manner, and to formalize the cognitive representation notation."",
+""rationale"": ""This can be inferred from the list of project titles and descriptions provided in the CV, which include 'Developing theory and tools to describe representations in a uniform, and cognitively centred, manner', 'Formalizing the cognitive representation notation', and 'Representational Interpretive Structure: Theory and Notation'. These",,,,5.720325708389282,,,2973,129,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q22,Research and Projects,What are the applicant s publications?,"Six conference papers, one workshop paper, one under review; publications in Diagrams, VL/HCC, ICTAI.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": [
+""EXAMINING EXPERTS' RECOMMENDATIONS OF REPRESENTATIONAL SYSTEMS FOR PROBLEM SOLVING"",
+""REPRESENTATIONAL INTERPRETIVE STRUCTURE: THEORY AND NOTATION"",
+""CONSIDERATIONS IN REPRESENTATION SELECTION FOR PROBLEM SOLVING: A REVIEW"",
+""DISSECTING REPRESENTATIONS"",
+""INSPECTION AND SELECTION OF REPRE",,,,5.725265264511108,,,2967,129,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q23,Research and Projects,Did the applicant outline the approach or methodology they used?,"Yes. Combines theoretical proofs, human participant evaluations, statistical analysis, and tool development.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""No"",
+""rationale"": ""The applicant's CV does not mention any specific approach or methodology used in their research or work experience."",
+""confidence_score"": 0.9
+}",,,,2.969674587249756,,,2972,55,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q24,Research and Projects,What are the applicant's research areas?,"Artificial Intelligence, Representation Theory, Human-Centric Computing, Diagrammatic Reasoning, Cognitive Science",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Artificial intelligence, machine learning, algorithms, and data structures"",
+""rationale"": ""The applicant has mentioned experience in research areas related to AI such as logical reasoning, probabilistic reasoning, and cognitive representation. Additionally, they have worked on projects involving machine learning, algorithms, and data structures, indicating a strong background in these areas."",
+""confidence_score"": 0.8
+}",,,,4.522026062011719,,,2969,96,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q25,Skills,What are the applicant s key soft skills?,"Teaching, mentoring, academic service, outreach, collaboration, leadership in committees",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""The applicant's key soft skills are:"",
+""rationale"": ""Based on the information provided in the CV, the applicant's key soft skills are:"",
+""confidence_score"": 0.9
+}
+
+The CV provides evidence of the following soft skills:
+
+1. Communication skills: The applicant has experience presenting technical papers, leading seminars, and communicating with both technical and non-technical audiences.
+2. Collaboration and teamwork: The applicant has experience working in",,,,5.733360767364502,,,2969,129,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q26,Skills,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. PhD in Computer Science; Hamilton Scholarship; multiple undergraduate awards and scholarships.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": false,
+""rationale"": ""There are no certifications, licenses, or trainings listed in the provided CV."",
+""confidence_score"": 1.0
+}",,,,2.757599353790283,,,2977,49,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q27,Skills,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied representation theory to AI explanations; developed educational programmes; built financial software.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Yes"",
+""rationale"": ""The candidate described a situation where they developed a theory of cross-domain correspondences to enable user-aware, contextual AI explanations, which demonstrates their ability to apply their technical skills effectively."",
+""confidence_score"": 0.8
+}",,,,3.6649081707000732,,,2976,73,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q28,Awards & Extracurricular Activities,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Best Student Paper Award; Hamilton Cambridge International Scholarship; multiple university prizes.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Yes"",
+""rationale"": ""The candidate has received several awards and recognitions, with the most significant being the Hamilton Cambridge International Scholarship in 2017."",
+""confidence_score"": 0.9
+}
+
+Explanation:
+
+The candidate has received multiple awards and recognitions, including the Hamilton Cambridge International Scholarship in 2017, which is the most significant according to the CV. This scholarship is described as a ""full scholarship to study towards my PhD at the University of Cambridge,"" indicating its",,,,5.749869346618652,,,2979,129,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q29,Awards & Extracurricular Activities,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Volunteer with STIMULUS program; scholarship coordinator; tutorial organizer; committee roles.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""The candidate mentioned being a STIMULUS V olunteer at the University of Cambridge from 2018 to 2020, where they spent 90 minutes per week at a local sixth form college, working with the teacher to extend both their knowledge and that of the students."",
+""confidence_score"": 0.8
+}",,,,4.427704811096191,,,2984,93,0.0,,,,,,,,E2_QA_Accuracy
+aaron_stockdill,aaron_stockdill_Q30,Awards & Extracurricular Activities,Did the applicant describe any notable academic achievements or honors received?,Yes. First Class Honours; highest cohort awards; Hamilton Scholarship; best paper award.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Yes"",
+""rationale"": ""The applicant has described several notable academic achievements and honors received, including the Hamilton Cambridge International Scholarship, the Graduating BSc(Hons) Computer Science Student of the Year Prize, the G B Battersby Trimble Scholarship in Computer Science, and the Freemasons University Scholarship."",
+""confidence_score"": 0.9
+}",,,,4.688080072402954,,,2974,100,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q1,Personal Information,What is the applicant's full name?,Aditi Tiwari,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"erson       
+astsodsumnLSDFerson 
+HERE 
+iter 
+HERE  
+lets  
+LESodlaces theheursideodsule theossule 
+ Theunes (
+itel  IT 
+ IT           
+anner  
+ores. 
+ads  
+5ith  
+5itter   
+odesomeasuresoda ARTheosodients ITheopheophe ics",,,,7.395160675048828,,,5186,92,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q2,Personal Information,What is the applicant's LinkedIn?,https://www.linkedin.com/in/adititiwari2000,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESodsumnores      
+erson      
+  
+
+ions The; 
+laces theelsoda  
+comes 
+ 
+airs.
+) cs.   IT   IT   itel 
+  
+5     
+5.       5itter    
+itorsolidheoplicodsumes itiucitalheasts IT  <itiors",,,,7.389061689376831,,,5186,87,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q3,Personal Information,What is the applicant's primary contact number?,+1 (347)-968-1293,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"olar  LESodor  
+als 
+HERE        
+ORSorrysumnorth 
+ 
+
+
+
+ornoda 
+airs 
+
+ infurs. Thes.              
+  
+ods  
+5ors   
+5ithheodor 
+5iter icsodlacesolidheopletsodaerson oder itiord IT 
+    .",,,,7.381529331207275,,,5187,85,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q4,Personal Information,In which city and country is the applicant currently located?,"Urbana, IL, USA",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESodsumn   
+alsPDFhe   
+5ith 
+lets  
+iter  theentsodsider    
+asts 
+  innoda   IT  
+ IT         
+       THES. IThels  
+5heucitalheodor   
+lacesomeursoda 
+erson <oder itiors      arts infoder <itt",,,,7.399496793746948,,,5188,85,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q5,Personal Information,Did the applicant provide a brief professional summary or career objective?,"Incoming Research Scientist Intern at Adobe, PhD in CS at UIUC, experienced in LLMs, multimodal learning, CV, and AI system optimization.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESodsodor   AAhepecies 
+erson 
+als 
+ors    
+
+
+
+
+airs 
+
+arts  ITunes infunctheods cs.
+ 
+ 
+           
+5. ods 
+oder 
+5
+5   
+5ith 
+5italheoda inithector ITheopribitors itiumin 
+ 
+     ores",,,,7.413951635360718,,,5189,98,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q6,Education,What is the highest level of education the applicant has completed?,Msc in Computer Science,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"ards  umnodsuminord   unctheunctheoda   
+   
+
+ Theorsuminorth theongs  theunicels 
+ impour 
+init <inn IT                 
+5 
+adiads 
+5    
+5ith   5ital itter 5ith theoder itiodsuma iter 
+iter",,,,7.411447525024414,,,5189,92,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q7,Education,Which institutions did the applicant attend?,"University of Illinois Urbana-Champaign (UIUC), Guru Gobind Singh Indraprastha University",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"itter       
+
+letsumnods       
+erson  
+als        
+
+
+     airs theunes  theels theuns   
+
+asts 
+
+oder  .   
+    
+    
+adiads  
+ADsels 
+5heatsheausodor 
+5ith laces ommiddiclesocricksodauminologients itiodes 자ods     .",,,,7.404397010803223,,,5185,90,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q8,Education,What is the applicant's score or GPA for his highest level of education?,"4.0/4.0 (PhD), 3.85/4.0 (MS), 9.39/10.0 (BTech)",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESuminodsumnodsumnods       
+ERS     
+ired 
+
+
+implaces theolsoda  theuns   
+iders)  infels 
+HERE IT          
+
+END ods 
+oder 
+5aus 
+5ithheodor 
+5itution 
+oder ittheopitalheosodsododer ITheoperson",,,,7.424072027206421,,,5194,95,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q9,Education,What was the applicant's field of study or major?,Computer Science,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LES 
+ERSodsumnons   ommeter 
+als        
+airs  
+THEunes to theores theelsoda 
+
+ends 
+
+ 
+itudes. Thes.   IT        
+  
+ors  
+5. 
+5aus   5ithhector 
+5iter  itter csuminodesomeodsodeously THEopheats itiodor",,,,7.4190146923065186,,,5189,97,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q10,Professional Experience,What is the name of the applicant's current (or most recent) employer?,Rivian Automotive and University of Illinois Urbana-Champaign (UIUC),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"astsumnores   THERS. Theheoda       �� 
+
+
+HEREctions to theorsorry theunes 
+comesods 
+itors itel cs.     .            
+   IN          
+5ith 
+5itter itisome itter ommerson ittheopitalhearts ITheopitiors",,,,7.427911996841431,,,5195,83,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q11,Professional Experience,What is the applicant's job title in the most recent role?,Research Intern (Computer Vision) at Rivian; Research Collaborator at UIUC,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"les  ARTheumnodsuminoles          
+HERE 
+
+LES  theorsoda to theors. Theorscribe theunes 
+ 
+
+oder  IT. .
+anner              
+THES. 
+oder 
+5 
+5heausolate 
+5ith 
+oresome lacesodsumeouslyheoplicheastsodheos  <he                 ions",,,,7.426851987838745,,,5191,101,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q12,Professional Experience,How many years of experience does the applicant have?,Over 4 years of combined experience through multiple internships and academic roles,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"ERSodsumnodsorry  AA 
+oder    ���heastern to theards 
+itter theorsideods 
+elfarts 
+  
+ The.
+  .                
+ds 
+END 
+5he  
+5ithheodor  
+odsodeuome imperson нициheopiter itiods  
+
+   IT",,,,7.4252214431762695,,,5187,85,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q13,Professional Experience,What leadership position did the applicant hold?,"Founder and President of NSS, GNIT, GGSIPU; Chapter Lead at Anita.Org; Head of Sports Society",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"5 
+LESumnons              
+here      
+
+
+
+
+iter theorscribeods  
+  innoda. Thes. 
+ IT     IT        
+HEctor 
+ads 
+ 
+5
+5heucitalheodor IT 5ith 5ith itaulsododesumescriotic itiods;     oder",,,,7.430954217910767,,,5185,87,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q14,Professional Experience,Could the applicant briefly describe their key responsibilities in previous roles?,"Developed and optimized computer vision models (ACT360), led research collaborations, created efficient AI pipelines for real-world deployment, and supervised student research.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LES 
+orsodsector                 the 
+   thehearseasures theunescribe theuns ��heods 
+itter 
+oder          
+   IT   
+oder  
+5ods     
+5ausods  
+iter itelheoplacesomeodsuminoda noslip itis  
+   IT",,,,7.429292678833008,,,5191,80,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q15,Professional Experience,Has the applicant worked in more than one job or organization?,Yes,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LES   
+ unicheodor 
+erson    
+     ith      
+HERE 
+
+
+ods 
+asts 
+orn 
+comes 
+  . 
+ .                             
+5itution  
+5italheoplety itterheopiter ITheos  IT  IT",,,,7.420542478561401,,,5189,77,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q16,Professional Experience,What were the applicant's major accomplishments?,ACT360 deployment at Illinois State Fire Department; Best Poster Award; Silver Medalist; Autonomous UAV; ISP pipeline performance gains at Rivian,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"ardsodners    
+als  
+    
+
+ 
+
+
+iter 
+ 
+ions theodsuminoda  ITunes 
+
+oder 
+
+IT 
+asts   IT             
+ores  ads   ITheucitalheausumaodsod 
+5ith 
+odsodaideodsopherson itiorslip initheophe IT",,,,7.427341461181641,,,5187,90,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q17,Professional Experience,What key metric did they improve?,95% faster video analysis for firefighter training; 4% mAP improvement over baseline; 85% reduction in manual processing effort for ISP pipeline,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESumnodsuminord  
+ERS     
+
+
+     itter 
+impith theorsumes theorsider theribital theelflicels 
+
+oder  IT 
+  .         
+    
+5he 
+ores 
+5
+5 
+5ausodor 
+ 
+itudesomeodsodementsodaunsodaulsodkins itiors
+iter     ors cs;",,,,7.510841608047485,,,5183,93,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q18,Research and Projects,What is the name of a key project the applicant has worked on?,"ACT360, MAGNET, ISP pipeline, Text2Face Generator, Quantization of Multimodal Models, Depth Estimation, Sentiment Analysis",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESumnodes  unctheodor  THERS. Theheoda   
+erson to theodsuminorth theorsorry theorsumaids  theelfarts 
+ 
+airs. 
+  .  
+        
+ors.  
+ORS ds 
+adiuns  
+5ithheautheursode 
+odsumeodsommiddlesumesodaodsodients iter ics 
+ cs",,,,7.4395692348480225,,,5191,105,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q19,Research and Projects,Which tools or technologies did the applicant use in their projects?,"Python, C++, Java, PyTorch, TensorFlow, ReactJS, Flask, SQL, Docker, Jenkins, AngularJS, AWS, MATLAB, CUDA",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESodor  
+iter    
+
+itter 
+als 
+ORS   
+
+
+     italheoda 
+implaces theolsule 
+ 
+airs. Thes. 
+oder 
+
+ IT      
+    IT  IT 
+AD 
+5aus   
+5ith 
+5ith 
+odsodeuorderson ITheoslipheopheasts      itors",,,,7.426301956176758,,,5191,107,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q20,Research and Projects,Did any project have a specific budget or numeric goal?,"Yes, examples include time reduction (e.g. 33ms inference, 85% manual input reduction, 6 person-hours/week saved)",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESumnors
+erson     
+als       
+lets 
+THEheadautions to theods 
+  theunicule theelfods 
+ods IT  IT      
+         
+ays cs. 
+
+5aus    
+5heodor  
+iter 
+odsumeodsodaider ivotheopars init itiors 
+     oder",,,,7.42257022857666,,,5187,81,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q21,Research and Projects,What were the main objectives of the applicant's projects?,"Optimize 360-degree video analysis, enhance real-time object/action detection, enable deployment in training scenarios",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESumnods   
+      
+lets      
+impithhears THEheopleodsoda 
+comes 
+ 
+ IT infurs. IT         
+        
+ads  
+5aus  
+AD  5
+5italhector itter itelheoplicheodor iter itiols      od",,,,7.418713808059692,,,5190,77,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q22,Research and Projects,What are the applicant s publications?,"ST-360 (ACM TOMM 2024), Latency-Aware 360-Degree Video Analytics Framework (ACM NOSSDAV 2023); has papers under review (MAGNET, ACT360, Balancing Speed and Precision)",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"5  
+erson 
+ocrals    
+HERE         
+
+“ 
+
+
+
+iterodsider  theunes to theels 
+
+
+    . 
+ 
+    IT          
+   
+AD   ITheats  5ausolate 
+5ith  itter lacesomeodsodaulesolidheoparsodor itiodos     oder 
+  <iti",,,,7.480412721633911,,,5184,90,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q23,Research and Projects,Did the applicant outline the approach or methodology they used?,"Yes, described use of quantization, confidence threshold tuning, benchmarking (HELM), and training on SlimPajama/WikiText",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESumnodsHER            
+ors   to thehealth the  
+HEREadsorry theursule 
+unicients 
+
+ IT 
+  .   
+             
+arecs 
+ors
+5    
+5ith   
+iter 
+odsodaideouslyheoslip Theheopheel itter",,,,7.372702360153198,,,5189,82,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q24,Research and Projects,What are the applicant's research areas?,"LLMs, Multimodal Learning, Video Analytics, Scene Understanding, Computer Vision",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESuminodsumnores          
+als. Theitutionsommiddle  
+ors 
+airs theossule theunes theels  
+iders 
+ IT 
+   
+
+              
+HErs. Eucheaus   
+5iter  5ital ломideodsumeursodaulsodients <innoder   itidd",,,,7.388203859329224,,,5186,82,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q25,Skills,What are the applicant s key soft skills?,"Leadership, collaboration, communication, mentoring, project management, adaptability",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"ARTheodor 
+THEodsumnRS. Theheoda      
+ todd   
+
+itter theelflicelsiders 
+itted 
+ 
+infoder 
+ 
+ 
+       
+    IN  
+HEctor  
+5 
+    
+5ommore  
+iter itelheopleheopivothector ith IThearts  IT",,,,7.365005016326904,,,5186,91,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q26,Skills,"Are there any certifications, licenses, or trainings listed by the applicant?","Yes – Competitive Fellowship, Certifications via internships, mentorship at GirlScript, teaching roles",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"les 
+ores  
+erson   HERE      
+5ommiddle 
+THE 
+
+iter 
+odsule theunes theelflicheods 
+oder 
+ IT      
+         
+ors 
+ores  HEmmors     
+5ith 
+5itiodsodor iter cmidderson ITheodslip ician itiors     oder",,,,7.384392261505127,,,5194,90,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q27,Skills,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes – optimization of real-time systems like ACT360 and ISP pipeline to meet real-world efficiency requirements,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESods                 odsumnodsorry AAverse    
+als 
+
+ORS  theunes theadsuminorth theorsoda 
+asts (
+  innudes  
+airs. Thes. 
+     IT    
+    
+ADs. 
+5aus 
+5heopithhease 
+5iter 
+erson 5itthectorheoplears laces oder itel",,,,7.369830369949341,,,5193,106,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q28,Awards & Extracurricular Activities,"Has the applicant received any awards or recognitions? If so, which is the most significant?","Best Poster Award, Gold Medalist in Bachelor's degree, Silver Medal for 2nd rank in cohort, Competitive Fellowship Award",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"LESodsumnRS. Theunes 
+ERS      
+
+  
+THEheodor 
+
+
+airs  theorsoda 
+ods ���heods cs.
+
+  IT              
+HERE  
+HEctor   
+5ausheopital 
+5íthearsodientsommorous initheodsider ITheoslip <inn",,,,7.374473810195923,,,5196,93,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q29,Awards & Extracurricular Activities,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes – Founder and President of NSS; Chapter lead at Anita.Org; Brand Ambassador of National Digital Literacy Mission,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"ORSider ARTheRS.    ITheudoversoda to  
+
+
+airs 
+
+itted theels theune 
+ 
+are) cs.  IT  IT           
+oder  
+ods  
+5
+5  
+AD 
+5ital 
+
+iter itter itelheoplicodsoslipheors init theors 
+    .",,,,7.365903854370117,,,5201,97,0.0,,,,,,,,E2_QA_Accuracy
+aditi_tiwari,aditi_tiwari_Q30,Awards & Extracurricular Activities,Did the applicant describe any notable academic achievements or honors received?,"Gold Medalist (Bachelor’s), Best Poster Award, Fellowship for Research, 2nd Rank out of 400 students",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"lement ARTheodor 
+oder  
+ERS  
+erson  
+HERE 
+
+itter the.
+
+
+iter theuneods 
+ends 
+itelheods 
+ IT IT  
+         
+  IN   ITheoda 
+ads 
+5. 
+5ith  
+5ittheodesome initheastsunaulslip theheopheats",,,,7.36554217338562,,,5191,98,0.0,,,,,,,,E2_QA_Accuracy

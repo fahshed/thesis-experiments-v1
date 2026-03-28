@@ -31,11 +31,32 @@ Respond ONLY in valid JSON format with the following keys:
 JSON Response:
 """
 
+    def _build_llama_prompt(self, cv_text: str, question: str) -> str:
+        system_prompt = "You are an expert HR assistant. Your task is to extract information from the following CV."
+        user_prompt = f"""CV TEXT:
+{cv_text}
+
+QUESTION:
+{question}
+
+Please answer the question accurately using ONLY the information from the CV. 
+Respond ONLY in valid JSON format with the following keys:
+- "predicted_answer": A concise and factual answer to the question.
+- "rationale": A brief explanation of why this answer is correct based on the CV.
+- "confidence_score": A float between 0.0 and 1.0 representing your confidence.
+
+JSON Response:"""
+
+        return f"<s>[INST] <<SYS>>\n{system_prompt}\n<</SYS>>\n\n{user_prompt} [/INST]"
+
     def run(self, cv_text: str, question: str, **kwargs) -> Dict[str, Any]:
         print(f"=== -> [{self.strategy_name}] Q: {question[:80]}...")
         start_time = time.time()
         
-        prompt = self._build_prompt(cv_text, question)
+        if "llama" in self.llm.model_name.lower():
+            prompt = self._build_llama_prompt(cv_text, question)
+        else:
+            prompt = self._build_prompt(cv_text, question)
         
         try:
             llm_output = self.llm.generate(prompt)

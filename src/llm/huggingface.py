@@ -24,6 +24,11 @@ class HuggingFaceLLM(BaseLLM):
             "return_full_text": False,
             "do_sample": False,
         }
+        if "llama" in self.model_name.lower():
+            gen_kwargs["repetition_penalty"] = 1.15
+            gen_kwargs["do_sample"] = True
+            gen_kwargs["temperature"] = 0.6
+            gen_kwargs["top_p"] = 0.9
         gen_kwargs.update(kwargs)
         
         # Generate text

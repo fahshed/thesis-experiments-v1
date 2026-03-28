@@ -47,7 +47,7 @@ Respond ONLY in valid JSON format with the following keys:
 
 JSON Response:"""
 
-        return f"<s>[INST] <<SYS>>\n{system_prompt}\n<</SYS>>\n\n{user_prompt} [/INST]"
+        return f"[INST] <<SYS>>\n{system_prompt}\n<</SYS>>\n\n{user_prompt} [/INST]"
 
     def run(self, cv_text: str, question: str, **kwargs) -> Dict[str, Any]:
         print(f"=== -> [{self.strategy_name}] Q: {question[:80]}...")

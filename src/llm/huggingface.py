@@ -25,6 +25,7 @@ class HuggingFaceLLM(BaseLLM):
             "do_sample": False,
         }
         if "llama" in self.model_name.lower():
+            gen_kwargs["max_new_tokens"] = 256
             gen_kwargs["repetition_penalty"] = 1.15
             gen_kwargs["do_sample"] = True
             gen_kwargs["temperature"] = 0.6

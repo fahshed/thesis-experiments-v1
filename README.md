@@ -37,4 +37,4 @@ PYTHONUNBUFFERED=1 python generate.py --model meta-llama/Llama-2-13b-chat-hf --e
 
 PYTHONUNBUFFERED=1 python generate.py --model Qwen/Qwen2.5-1.5B-Instruct --experiment 2 --strategy 1 --limit 50 > tmux-logs/s1e2_qwen2b_limit50.log 2>&1
 
-PYTHONUNBUFFERED=1 python generate.py --model meta-llama/Llama-2-13b-chat-hf --experiment 2 --strategy 1 --limit 50 --offset 0 > tmux-logs/s2e2_llama13b_limit50.log 2>&1
+PYTHONUNBUFFERED=1 python generate.py --model meta-llama/Llama-2-13b-chat-hf --experiment 2 --strategy 1 --limit 50 --offset 0 > tmux-logs/s1e2i2_llama13b_limit50.log 2>&1

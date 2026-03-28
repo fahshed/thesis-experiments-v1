@@ -7666,3 +7666,309 @@ joan_nwatu,joan_nwatu_Q20,Research and Projects,Did any project have a specific 
 ""rationale"": ""The project 'DietAI' has a specific budget mentioned in the CV as '$5000'. Additionally, the project aimed to develop an AI-powered nutrition web application for local Nigerian dishes, which suggests a clear numerical goal."",
 ""confidence_score"": 0.9
 }",,,,4.16484808921814,,,2861,87,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q21,Research and Projects,What were the main objectives of the applicant's projects?,To address representation gaps in AI; develop inclusive VL models; apply AI for social good in health and commerce.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""The main objectives of the applicant's projects were to develop and implement a data analytics system for Xend merchants, improve sales performance, and create a central data repository for Ogwuo Food Services using AWS and Spark."",
+""rationale"": ""This can be inferred from the description of the project titled 'Artificial Intelligence Engineer (R&D)' where the candidate worked on developing a data analytics system for Xend merchants and improving sales performance. Additionally, the candidate also mentioned about creating a central data repository for Ogw",,,,5.703830242156982,,,2864,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q22,Research and Projects,What are the applicant s publications?,"Multiple publications in EMNLP, COLING, NeurIPS, NAACL, AAAI, and under-review work.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": [
+""The applicant's publications include:"",
+""BRIDGING THE DIGITAL DIVIDE: PERFORMANCE VARIATION ACROSS SOCIO-ECONOMIC FACTORS IN VISION-LANGUAGE MODELS (EMNLP 2023)"",
+""HAS IT ALL BEEN SOLVED? OPEN NLP RESEARCH QUESTIONS NOT SOLVED BY LARGE LANGUAGE MODELS (COLLING 2",,,,5.701357364654541,,,2858,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q23,Research and Projects,Did the applicant outline the approach or methodology they used?,"Yes. Uses empirical analysis, dataset curation, model evaluation, bias auditing, and interdisciplinary AI ethics methods.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""No"",
+""rationale"": ""The candidate's CV does not mention any specific approach or methodology used in their previous experiences."",
+""confidence_score"": 0.8
+}",,,,2.8485710620880127,,,2863,52,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q24,Research and Projects,What are the applicant's research areas?,"AI Ethics and Fairness, Vision-Language Models, Computational Social Science, AI for Health, Data Engineering",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""The applicant's research areas are Computer Vision, Natural Language Processing, and Machine Learning."",
+""rationale"": ""This can be inferred from the list of research projects and publications in the CV, such as 'Logo Identification', 'CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark', and 'Uplifting Lower-Income Data: Strategies for Socioeconomic Perspective Shifts in Vision-Language Models'. These projects and publications focus on topics related to Computer Vision,",,,,5.703453302383423,,,2860,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q25,Skills,What are the applicant s key soft skills?,"Leadership, mentorship, public speaking, diversity advocacy, cross-cultural collaboration",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""The applicant's key soft skills are leadership, communication, teamwork, adaptability, and problem-solving."",
+""rationale"": ""This answer is based on the information provided in the CV, specifically in the 'EXPERIENCE', 'PROJECTS', and 'LEADERSHIP & SERVICE' sections. The applicant has demonstrated leadership skills as a team lead, project manager, and admissions recruitment liaison. They have also shown strong communication skills through their presentations, talks, and publications. Additionally, the applic",,,,5.70390248298645,,,2860,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q26,Skills,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. CSE Departmental Fellowship; IELTS Prize; PTDF and NNPC/Chevron scholarships; Grace Hopper Celebration scholar.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""The candidate has mentioned several certifications, licenses, and trainings throughout their CV, including:"",
+""confidence_score"": 0.8
+}
+
+Here are some examples of certifications, licenses, and trainings mentioned in the CV:
+
+* ""Microsoft Certified Solutions Expert (MCSE): Artificial Intelligence""
+* ""Certified Software Developer (CSD)""
+* ""Data Science Nigeria AI Commons Health and Wellbeing Hackathon""
+* ""R",,,,5.705557107925415,,,2868,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q27,Skills,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied CV for logo and food identification; built data lakes for consistency; used NLP for chatbot improvement.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Yes"",
+""rationale"": ""The candidate described a situation where they applied their skills effectively in the 'EXPERIENCE' section of their CV, specifically in the 'Machine Learning Intern' role at Ugarsoft Ltd. The candidate assisted with labeling entities in customer order data for Named Entity Recognition tasks, retrain Named Entity Recognition and Intent Classification models, and analyzed customer data using predictive modeling."",
+""confidence_score"": 0.8
+}",,,,5.290827512741089,,,2867,117,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q28,Awards & Extracurricular Activities,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. 1st Prize in Data Science Nigeria hackathon; multiple scholarships; finalist in 3-Minute Thesis competition.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Yes"",
+""rationale"": ""The candidate has received several awards and recognitions, but the most significant one is the Finalist, 3-Minute Thesis Engineering Graduate Symposium 2025 - University of Michigan."",
+""confidence_score"": 0.9
+}
+
+Explanation:
+
+The candidate has listed multiple awards and recognitions in their CV, including the Finalist, 3-Minute Thesis Engineering Graduate Symposium 2025 - University of Michigan, which is the",,,,5.705464124679565,,,2870,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q29,Awards & Extracurricular Activities,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Served as Vice President for student society; recruitment liaison; webmaster; invited bootcamp speaker.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""The applicant has shared information about their experience as a Vice President of the Nigerian Society of Engineers (UNN) at the University of Nigeria, where they planned and organized a successful Mechanical workshop/seminar for UNN engineering students."",
+""confidence_score"": 0.8
+}
+
+Explanation:
+
+The CV mentions the applicant's experience as a Vice President of the Nigerian Society of Engineers (UNN) at the University of Nigeria, where they planned and organized a",,,,5.709632396697998,,,2875,129,0.0,,,,,,,,E2_QA_Accuracy
+joan_nwatu,joan_nwatu_Q30,Awards & Extracurricular Activities,Did the applicant describe any notable academic achievements or honors received?,Yes. High GPAs; prestigious scholarships; competitive hackathon win; publications in top-tier conferences.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""The candidate has described several notable academic achievements and honors received, including awards, scholarships, and membership in prestigious organizations."",
+""confidence_score"": 0.8
+}
+
+The candidate has provided information about their accomplishments in various areas, such as academics, research, and professional experiences. Some examples include:
+
+* Awards: The candidate has won several awards, including the 3-Minute Thesis Engineering Graduate Symposium 2025, the CSE Departmental Fellow",,,,5.703649044036865,,,2865,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q1,Personal Information,What is the applicant's full name?,Joel Samuel Rhine,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Joel Samuel Rhine"",
+""rationale"": ""The full name of the applicant can be inferred from the CV as 'Joel Samuel Rhine' since it is explicitly mentioned in the first line of the CV."",
+""confidence_score"": 1.0
+}",,,,2.7881505489349365,,,1246,71,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q2,Personal Information,What is the applicant's LinkedIn?,linkedin.com/in/joel-rhine,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"Sure! Here's my response based on the information provided in the CV:
+
+{
+""predicted_answer"": ""https://www.linkedin.com/in/joel-rhine"",
+""rationale"": ""The applicant's LinkedIn profile link can be found in their email address, which is listed as 'joelrhine7@gmail.com'. This email address includes the domain name 'linkedin.com', indicating that the applicant has a LinkedIn profile."",
+""confidence_score"": 1.0
+}
+
+I have high confidence",,,,4.743988990783691,,,1246,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q3,Personal Information,What is the applicant's primary contact number?,202-568-2029,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""202-568-2029"",
+""rationale"": ""The primary contact number is listed as the first item in the 'Contact Information' section of the CV."",
+""confidence_score"": 1.0
+}",,,,2.548375129699707,,,1247,64,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q4,Personal Information,In which city and country is the applicant currently located?,"Kearny, NJ, USA",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Kearny, New Jersey"",
+""rationale"": ""The applicant's current location is inferred to be Kearny, New Jersey based on the address provided in their email address (joelrhine7@gmail.com) which has a Kearny, NJ zip code (07032)."",
+""confidence_score"": 0.9
+}",,,,3.579054832458496,,,1248,94,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q5,Personal Information,Did the applicant provide a brief professional summary or career objective?,"Yes. Senior Software Engineer experienced in full-stack development, geospatial systems, and cloud architecture.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": false,
+""rationale"": ""There is no clear indication of a professional summary or career objective statement in the provided CV."",
+""confidence_score"": 0.9
+}",,,,2.0717411041259766,,,1249,50,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q6,Education,What is the highest level of education the applicant has completed?,Master of Science in Mechanical Engineering,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Master's degree"",
+""rationale"": ""Based on the CV, the highest level of education completed by the applicant is a Master's degree, as stated under 'Education' section. The CV mentions 'M.S. in Mechanical Engineering' from George Washington University, which indicates a graduate-level degree."",
+""confidence_score"": 1.0
+}",,,,3.5695605278015137,,,1249,94,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q7,Education,Which institutions did the applicant attend?,George Washington University; Don Bosco Institute of Technology (Mumbai University),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"Sure! Here's my response:
+
+{
+""predicted_answer"": [""George Washington University"", ""Don Bosco Institute of Technology""],
+""rationale"": ""Based on the CV, the applicant attended George Washington University and Don Bosco Institute of Technology. This can be inferred from the education section of the CV, which lists the degrees earned from these institutions."",
+""confidence_score"": 1.0
+}",,,,3.6450035572052,,,1245,96,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q8,Education,What is the applicant's score or GPA for his highest level of education?,3.52 (George Washington University),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": 3.52,
+""rationale"": ""The applicant's highest level of education is a Master's degree from George Washington University, which they completed in May 2019. Based on the CV, the GPA for this degree was 3.52."",
+""confidence_score"": 1.0
+}",,,,3.237509250640869,,,1254,84,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q9,Education,What was the applicant's field of study or major?,Mechanical Engineering (both degrees),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Mechanical Engineering"",
+""rationale"": ""Based on the CV, the applicant's field of study or major is Mechanical Engineering. This is indicated in the education section where the applicant mentions having a Bachelor of Science in Mechanical Engineering from Don Bosco Institute of Technology, Mumbai University, and a Master of Science in Mechanical Engineering from George Washington University."",
+""confidence_score"": 1.0
+}",,,,3.9542880058288574,,,1249,105,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q10,Professional Experience,What is the name of the applicant's current (or most recent) employer?,The World Bank,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"Sure! Here is my response based on the information provided in the CV:
+
+{
+""predicted_answer"": ""The World Bank"",
+""rationale"": ""Based on the information provided in the CV, the name of the applicant's current employer is 'The World Bank'. This is stated in the 'Work Experience' section of the CV under the job title 'Senior Software Engineer', where it lists the company as 'The World Bank, Washington, DC'."",
+""confidence_score"": 1.0
+}",,,,4.467496871948242,,,1255,120,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q11,Professional Experience,What is the applicant's job title in the most recent role?,Senior Software Engineer,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Senior Software Engineer"",
+""rationale"": ""Based on the CV, the most recent job title listed is 'Senior Software Engineer' at The World Bank."",
+""confidence_score"": 1.0
+}",,,,2.5211875438690186,,,1251,63,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q12,Professional Experience,How many years of experience does the applicant have?,Professional experience since at least 2019 (~5+ years),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": 5,
+""rationale"": ""The candidate has 5 years of experience as a senior software engineer, as stated in their work experience section. They have worked at The World Bank and Development Monitors for 5 years each, from May 2024 to present and May 2019 to April 2024 respectively."",
+""confidence_score"": 1.0
+}",,,,3.62943172454834,,,1247,96,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q13,Professional Experience,What leadership position did the applicant hold?,"Yes. Led development teams, architected system designs, and managed internship programs.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Senior Software Engineer"",
+""rationale"": ""Based on the CV, the applicant held the position of Senior Software Engineer at The World Bank and Development Monitors."",
+""confidence_score"": 1.0
+}",,,,2.513977289199829,,,1245,63,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q14,Professional Experience,Could the applicant briefly describe their key responsibilities in previous roles?,"Yes. Developed automated data pipelines, architected geospatial asset management systems, and built full-stack web applications.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"Sure! Here's my response based on the information provided in the CV:
+
+{
+""predicted_answer"": ""Developed end-end automated pipeline to fetch Sentinel-1 data, integrated with GCS Drive API and Desktop API with Python improving processing time by 90%."",
+""rationale"": ""Based on the CV, Joel Rhine's key responsibility in his current role as a Senior Software Engineer at The World Bank was developing an end-end automated pipeline to fetch Sentinel-1 data, which improved processing time by 90%.",,,,4.747040033340454,,,1251,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q15,Professional Experience,Has the applicant worked in more than one job or organization?,"Yes. The World Bank, Development Monitors, and freelance projects (Tresses Salon DC, YouTube Clone).",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""Based on the CV, the applicant has worked in multiple organizations. The CV lists two previous employers: The World Bank and Development Monitors."",
+""confidence_score"": 1.0
+}",,,,2.4760360717773438,,,1249,62,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q16,Professional Experience,What were the applicant's major accomplishments?,Reduced manual processing time by 90% at The World Bank; increased customer bookings by 20% for Tresses Salon; improved satellite imagery resolution by 55% and digitization speed by 76%.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Developed end-end automated pipeline to fetch Sentinel-1 data, integrated with GCS Drive API and Desktop API with Python improving processing time by 90%."",
+""rationale"": ""Based on the CV, the candidate mentions developing an end-end automated pipeline to fetch Sentinel-1 data, which improved processing time by 90%. This is a significant achievement as it demonstrates the candidate's ability to improve efficiency and streamline processes."",
+""confidence_score"": 0.9
+}",,,,4.684770822525024,,,1247,127,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q17,Professional Experience,What key metric did they improve?,Improved data processing time by 90%; increased user engagement by 30% with AI integration; improved stakeholder engagement by 20% with 3D visualization.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"Sure! Here's my response based on the information provided in the CV:
+
+{
+""predicted_answer"": ""90%"",
+""rationale"": ""Based on the information provided in the CV, Joel improved the processing time by 90% by implementing a batching algorithm and error handling."",
+""confidence_score"": 0.9
+}
+
+Here's my reasoning:
+
+In the work experience section of the CV, it states that Joel implemented a batching algorithm and error handling to improve the processing time of an end-end automated pipeline.",,,,4.738153457641602,,,1243,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q18,Research and Projects,What is the name of a key project the applicant has worked on?,ARTEMIS Desktop; ARTEMIS 3D Hazard Mapping; ARTEMIS 2D; Sentinel-1 data pipeline; Tresses Salon E-commerce site,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""ARTEMIS 3D Hazard Mapping Application"",
+""rationale"": ""Based on the CV, the key project the applicant has worked on is mentioned as 'ARTEMIS 3D Hazard Mapping Application' which they architected and led the development of, including developing backend pipelines to fetch satellite imagery, building footprints, and elevation data, and rendering in 3D with ThreeJS, improving stakeholder engagement by 20% and reducing manual time by 75%."",
+""confidence",,,,4.7374303340911865,,,1251,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q19,Research and Projects,Which tools or technologies did the applicant use in their projects?,"Python, JavaScript/TypeScript, React, Node.js, PostgreSQL, AWS, Docker, Three.js, Flask, Spark, GCS",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"Sure! Here's my response based on the information provided in the CV:
+
+{
+""predicted_answer"": [
+""Python"",
+""JavaScript"",
+""Node.js"",
+""AWS"",
+""GCS"",
+""ReactJS"",
+""ThreeJS"",
+""HTML"",
+""CSS"",
+""TypeScript""
+],
+""rationale"": ""Based on the projects mentioned in the CV, the candidate has experience working with these tools and technologies. For example, they used Python, JavaScript, and Node.js for the ARTEMIS 3D",,,,4.741961479187012,,,1251,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q20,Research and Projects,Did any project have a specific budget or numeric goal?,"Yes. Projects involved measurable goals like processing time reductions, revenue increases, and performance benchmarks.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""Based on the CV, there is evidence of a specific budget or numeric goal for one project."",
+""confidence_score"": 0.8
+}
+
+Explanation:
+In the work experience section of the CV, it is mentioned that the project ""ARTEMIS 3D Hazard Mapping Application"" was developed with a budget of $100,000. This indicates that there was a specific budget allocated for the project, which meets the criteria of the question.",,,,4.566298484802246,,,1247,123,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q21,Research and Projects,What were the main objectives of the applicant's projects?,To automate geospatial data processing; improve urban monitoring and hazard mapping; build scalable e-commerce and web applications.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""To improve efficiency and accuracy in data processing and analysis"",
+""rationale"": ""Based on the CV, the applicant's projects aimed to improve efficiency and accuracy in data processing and analysis, as evidenced by the implementation of automated pipelines, batching algorithms, and error handling techniques. Additionally, the applicant focused on developing scalable and compatible systems, such as the use of PostgreSQL and GCS, and integrating various tools like Jupyter, Spark, and ReadTheDocs."",
+""confidence_score"": 0.8",,,,4.739723443984985,,,1250,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q22,Research and Projects,What are the applicant s publications?,nan,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"Sure! Here's my response based on the information provided in the CV:
+
+{
+""predicted_answer"": ""None"",
+""rationale"": ""There are no publications mentioned in the CV."",
+""confidence_score"": 1.0
+}
+
+Based on the information provided in the CV, there are no publications mentioned. Therefore, I am confident that the answer is none.",,,,3.3617448806762695,,,1244,88,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q23,Research and Projects,Did the applicant outline the approach or methodology they used?,Yes. Uses system design with Figma/Asana; implements CI/CD pipelines; applies machine learning models; develops REST APIs.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""Based on the CV, the applicant has provided a detailed description of their work experience and projects, which implies that they have a structured approach to their work and can provide a clear methodology for their projects."",
+""confidence_score"": 0.8
+}",,,,2.9283361434936523,,,1249,75,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q24,Research and Projects,What are the applicant's research areas?,"Geospatial systems, full-stack web development, cloud architecture, machine learning for imagery, remote sensing",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"Sure! Here is my response based on the information provided in the CV:
+
+{
+""predicted_answer"": ""Machine Learning and Artificial Intelligence"",
+""rationale"": ""Based on the CV, the applicant has experience working with AI agents, ML, and data analysis, which suggests that their research area may be related to Machine Learning and Artificial Intelligence. Additionally, the applicant has worked on projects such as ARTEMIS 3D Hazard Mapping Application and ARTEMIS 2D, which involve the use of AI and ML techniques to analyze",,,,4.731662750244141,,,1246,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q25,Skills,What are the applicant s key soft skills?,"Team leadership, cross-functional collaboration, technical documentation, project management, mentoring",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""leadership"",
+""rationale"": ""The candidate has experience leading cross-functional teams and managing internship programs, indicating strong leadership skills."",
+""confidence_score"": 0.8
+}",,,,2.268972873687744,,,1246,56,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q26,Skills,"Are there any certifications, licenses, or trainings listed by the applicant?",Yes. Part 107 Remote Pilot (Drone Pilot); AWS Cloud Practitioner (ongoing).,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""Yes"",
+""confidence_score"": 1.0
+}
+
+Explanation:
+
+The applicant has listed several certifications, licenses, and trainings in their CV, including:
+
+* Part 107 Remote Pilot (Drone Pilot)
+* AWS CCP-Ongoing
+
+These certifications and trainings demonstrate that the applicant has acquired specific skills and knowledge related to drone piloting and AWS cloud computing, which can be relevant to certain job positions",,,,4.745284080505371,,,1254,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q27,Skills,Did the applicant describe a situation where they applied one of their key skills effectively?,Yes. Applied Python and cloud APIs to automate satellite data processing; used React and Three.js to create interactive 3D hazard maps.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": true,
+""rationale"": ""Yes, the applicant described a situation where they applied one of their key skills effectively"",
+""confidence_score"": 0.8
+}
+
+Explanation:
+
+Based on the CV, the applicant described a situation where they applied one of their key skills effectively in the following bullet points:
+
+* ""Developed end-end automated pipeline to fetch Sentinel-1 data, integrated with GCS Drive API and Desktop API with Python improving processing time by 90%""
+* """,,,,4.740387916564941,,,1253,129,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q28,Awards & Extracurricular Activities,"Has the applicant received any awards or recognitions? If so, which is the most significant?",Yes. Led projects that won 6 project awards; achieved performance improvements and business impact metrics.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": false,
+""rationale"": ""There is no mention of any awards or recognition in the provided CV."",
+""confidence_score"": 1.0
+}",,,,1.8935389518737793,,,1256,45,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q29,Awards & Extracurricular Activities,Did the applicant share a brief overview of an extracurricular or volunteer activity they have been involved in?,Yes. Led internship programs; provided technical training and mentorship to team members.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": false,
+""rationale"": ""There is no mention of any extracurricular or volunteer activities in the provided CV."",
+""confidence_score"": 1.0
+}",,,,2.040795087814331,,,1261,50,0.0,,,,,,,,E2_QA_Accuracy
+joel_samuel_rhine,joel_samuel_rhine_Q30,Awards & Extracurricular Activities,Did the applicant describe any notable academic achievements or honors received?,Yes. Master's degree with GPA 3.52; multiple successful project deployments with documented impact.,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": false,
+""rationale"": ""There are no notable academic achievements or honors mentioned in the CV."",
+""confidence_score"": 1.0
+}
+
+Explanation:
+
+After carefully reviewing the provided CV, I did not find any mention of notable academic achievements or honors received by the applicant. Therefore, my predicted answer is that there are no such achievements or honors mentioned in the CV.",,,,3.8798701763153076,,,1251,103,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q1,Personal Information,What is the applicant's full name?,Julie Kallini,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Julie Kallini"",
+""rationale"": ""The applicant's full name is explicitly stated in the CV as 'Julie Kallini'."",
+""confidence_score"": 1.0
+}",,,,2.408740997314453,,,1397,58,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q2,Personal Information,What is the applicant's LinkedIn?,nan,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""https://www.linkedin.com/in/juliekallini"",
+""rationale"": ""The applicant's LinkedIn profile URL can be found in their contact information section, which lists their email address as 'juliekallini@stanford.edu'. As LinkedIn profiles are typically associated with email addresses, it is likely that the applicant's LinkedIn profile can be found by using this email address as a search query."",
+""confidence_score"": 0.9
+}",,,,4.5613062381744385,,,1397,120,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q3,Personal Information,What is the applicant's primary contact number?,nan,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""/g♀obejuliekallini.com"",
+""rationale"": ""The primary contact email address listed on Julie Kallini's CV is /g♀obejuliekallini.com. This is based on the 'Contact Information' section of her CV, which lists her email address as '/g♀obejuliekallini.com'."",
+""confidence_score"": 1.0
+}",,,,3.9358911514282227,,,1398,102,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q4,Personal Information,In which city and country is the applicant currently located?,"Likely Stanford, CA, USA (based on university). Grew up in Los Angeles, CA.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Stanford, California"",
+""rationale"": ""The candidate is currently listed as a Ph.D. student at Stanford University, indicating that they are located in Stanford, California."",
+""confidence_score"": 1.0
+}",,,,2.616403579711914,,,1399,64,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q5,Personal Information,Did the applicant provide a brief professional summary or career objective?,"Yes. Ph.D. student in NLP and computational linguistics focused on language model efficiency, fairness, and linguistic analysis.",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""No"",
+""rationale"": ""The candidate did not provide a brief professional summary or career objective in their CV."",
+""confidence_score"": 1.0
+}
+
+The CV does not have a clear and concise professional summary or career objective statement that highlights the candidate's goals and aspirations. Instead, the CV focuses on the candidate's educational background, research interests, and industry experience. Therefore, the answer is confidently predicted to be ""No"".",,,,4.287100553512573,,,1400,113,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q6,Education,What is the highest level of education the applicant has completed?,"Ph.D. in Computer Science (in progress, 2023–present)",S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predicted_answer"": ""Ph.D."",
+""rationale"": ""Based on the CV, the highest level of education completed by the applicant is a Ph.D. in Computer Science, which is currently being pursued at Stanford University. The CV mentions 'Ph.D. Student' in the 'About Me' section and provides details of the candidate's current academic program."",
+""confidence_score"": 1.0
+}",,,,3.8681960105895996,,,1400,100,0.0,,,,,,,,E2_QA_Accuracy
+julie_kallini,julie_kallini_Q7,Education,Which institutions did the applicant attend?,Stanford University; Princeton University,S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,"{
+""predictAnswer"": [
+""institutionsAttended"": [
+""Stanford University"",
+""Princeton University""
+],
+""rationale"": ""The candidate attended Stanford University as a Ph.D. student and previously attended Princeton University for her undergraduate degree."",
+""confidenceScore"": 1.0
+}
+] 
+This response correctly answers the question by listing the institutions attended by the candidate based on the information provided in their CV. The rationale explains why these institutions were chosen, citing the candidate's current Ph.D. program at",,,,4.826308012008667,,,1396,129,0.0,,,,,,,,E2_QA_Accuracy

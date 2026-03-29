@@ -1,0 +1,7 @@
+Question Category,S1 Qwen-2.5 (1.5B),S1 Mistral (GPU),S1 LLaMA-2 (13B),S2 Mistral-7B,S3 Mistral-7B
+Personal Information,0.581,0.6345,0.555,0.594,0.538
+Education,0.7121,0.769,0.5767,0.697,0.5355
+Professional Experience,0.4688,0.5299,0.503,0.4225,0.3273
+Skills,0.5,0.4505,0.5973,0.3042,0.2559
+Research and Projects,0.489,0.5958,0.5514,0.498,0.4066
+Awards & Extracurricular Activities,0.4341,0.3554,0.6017,0.2428,0.2786

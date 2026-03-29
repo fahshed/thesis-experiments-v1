@@ -1,0 +1,12 @@
+Error Type,Definition,S1 Qwen-2.5 (1.5B),S1 Mistral (GPU),S1 LLaMA-2 (13B),S2 Mistral-7B,S3 Mistral-7B,Total
+None (Correct),Answer is correct; no error present.,472,537,472,484,411,2376
+Missing Detail,Answer omits details present in the ground truth.,395,279,373,243,221,1511
+Contradiction,Answer directly contradicts the ground truth.,121,189,119,69,79,577
+Wrong Entity,"Answer references the wrong person, organization, or entity.",140,74,82,68,79,443
+Not Answered,Model failed to answer or explicitly declined.,16,21,29,354,480,900
+Invented Value,Model fabricated a value when ground truth had none.,84,40,74,17,15,230
+Wrong Numeric,"Numerical value (date, count, GPA) is incorrect.",37,30,32,22,19,140
+Extra Detail,Answer includes information not in the source CV.,18,7,24,8,11,68
+Wrong Boolean,Yes/no or true/false answer is inverted.,2,2,12,0,0,16
+Format Issue,Answer is correct but formatted unusably.,5,2,1,1,1,10
+Other,Error does not fit any defined category.,9,2,5,2,4,22

@@ -1,0 +1,30 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E3F2FD', 'primaryTextColor': '#1565C0', 'primaryBorderColor': '#1565C0', 'lineColor': '#424242'}}}%%
+flowchart TD
+    subgraph Generate["Generate Phase"]
+        A1["Load CV PDF + Question"] --> A2["Apply Strategy<br/>(S1 / S2 / S3)"]
+        A2 --> A3["Build Prompt<br/>(system + context + question)"]
+        A3 --> A4["LLM Inference<br/>(vLLM serving)"]
+        A4 --> A5["Raw Response"]
+    end
+
+    subgraph Parse["JSON Parsing"]
+        B1{"Parsable?"}
+        B1 -->|Yes| B2["Extract:<br/>predicted_answer<br/>confidence_score<br/>rationale"]
+        B1 -->|No| B3["Mark unparsable<br/>raw_response_parsable = False"]
+    end
+
+    subgraph Judge["Gemini Judge (Phase 2)"]
+        C1["Send to Gemini-2.5-Flash-Preview:<br/>question + ground_truth +<br/>predicted_answer + rationale"]
+        C1 --> C2["Judge Returns:<br/>answer_judgment<br/>answer_credit (1.0 / 0.5 / 0.0)<br/>rationale_judgment<br/>rationale_credit<br/>error_type"]
+    end
+
+    subgraph Metrics["Metrics Aggregation"]
+        D1["Per-Record Metrics:<br/>judge_answer_credit<br/>judge_error_type"]
+        D1 --> D2["Aggregate:<br/>Soft Accuracy = mean(answer_credit)<br/>Strict Accuracy = %(correct)<br/>Parseability = %(parsable)"]
+        D2 --> D3[("Final Results CSV<br/>1,500 rows x 35 columns")]
+    end
+
+    A5 --> B1
+    B2 --> C1
+    C2 --> D1
+    B3 --> D1

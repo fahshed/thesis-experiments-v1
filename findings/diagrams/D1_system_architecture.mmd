@@ -1,0 +1,37 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E3F2FD', 'primaryTextColor': '#1565C0', 'primaryBorderColor': '#1565C0', 'lineColor': '#424242', 'secondaryColor': '#FFF3E0', 'tertiaryColor': '#E8F5E9'}}}%%
+flowchart LR
+    subgraph Input
+        CV["📄 CV (PDF)"]
+        Q["❓ Question"]
+        GT["✅ Ground Truth"]
+    end
+
+    subgraph Strategy["Strategy Selection"]
+        direction TB
+        S1["<b>S1: Full CV</b><br/>Entire CV text<br/>injected into prompt"]
+        S2["<b>S2: Keyword Retrieval</b><br/>500-word chunks ranked<br/>by keyword overlap"]
+        S3["<b>S3: Semantic RAG</b><br/>500-word chunks ranked<br/>by MiniLM-L6-v2<br/>cosine similarity"]
+    end
+
+    subgraph Generation["LLM Generation"]
+        direction TB
+        LLM["Open-Source LLM<br/>(Qwen 1.5B / Mistral 7B / LLaMA 13B)"]
+        LLM --> Output["JSON Parse → Structured Output<br/>(predicted_answer, confidence_score, rationale)"]
+    end
+
+    subgraph Evaluation["LLM-as-Judge Evaluation"]
+        direction TB
+        Judge["Gemini-2.5-Flash-Preview<br/>(question + ground_truth +<br/>predicted_answer + rationale)"]
+        Judge --> Verdict["answer_judgment · answer_credit<br/>rationale_judgment · rationale_credit<br/>error_type (11 categories)"]
+    end
+
+    Results[("📊 Results CSV<br/>35 columns per record")]
+
+    CV --> S1 & S2 & S3
+    Q --> S1 & S2 & S3
+    S1 --> LLM
+    S2 --> LLM
+    S3 --> LLM
+    Output --> Judge
+    GT --> Judge
+    Verdict --> Results

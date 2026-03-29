@@ -1,0 +1,6 @@
+Configuration,Strategy,Model,N,Soft Accuracy,Strict Accuracy,Parseability,Avg Latency (s),Median Latency (s),Avg Input Tokens,Avg Output Tokens
+S1 Qwen-2.5 (1.5B),S1_Full_CV,Qwen/Qwen2.5-1.5B-Instruct,1500,0.5308,0.3147,0.8693,2.01,2.02,2130.0,125.0
+S1 Mistral (GPU),S1_Full_CV,mistralai/Mistral-7B-Instruct-v0.3,1500,0.579,0.358,0.7893,2.12,1.95,2525.0,86.0
+S1 LLaMA-2 (13B),S1_Full_CV,meta-llama/Llama-2-13b-chat-hf,1500,0.5511,0.3147,0.816,5.44,4.23,2593.0,119.0
+S2 Mistral-7B,S2_Retrieve_Section,mistralai/Mistral-7B-Instruct-v0.3,1500,0.483,0.3227,0.8473,1.75,1.43,1170.0,75.0
+S3 Mistral-7B,S3_RAG,mistralai/Mistral-7B-Instruct-v0.3,1500,0.4027,0.274,0.8807,1.94,1.69,990.0,72.0

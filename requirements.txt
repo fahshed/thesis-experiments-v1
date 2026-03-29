@@ -1,0 +1,8 @@
+pydantic
+google-genai
+transformers
+pandas
+scikit-learn
+pypdf
+accelerate
+sentence-transformers

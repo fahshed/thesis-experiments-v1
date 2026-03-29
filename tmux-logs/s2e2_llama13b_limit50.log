@@ -1,0 +1,167 @@
+=== Initializing LLM: meta-llama/Llama-2-13b-chat-hf
+=== Using GPU with device=0, dtype=float16.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/363 [00:00<?, ?it/s]Loading weights:  52%|█████▏    | 187/363 [00:00<00:00, 1762.06it/s]Loading weights: 100%|██████████| 363/363 [00:00<00:00, 1811.71it/s]
+=== Initializing Strategy 2
+=== Initializing Experiment 2
+=== Starting Generation targeting: results/20260327_080006_s2_e2_limit50_offset0_generated_answers.csv
+=== Loading REAL dataset (limited to 50 directories, offset 0) ===
+Ignoring wrong pointing object 6 0 (offset 0)
+Ignoring wrong pointing object 8 0 (offset 0)
+Ignoring wrong pointing object 10 0 (offset 0)
+Ignoring wrong pointing object 13 0 (offset 0)
+Ignoring wrong pointing object 15 0 (offset 0)
+Ignoring wrong pointing object 17 0 (offset 0)
+Ignoring wrong pointing object 19 0 (offset 0)
+Ignoring wrong pointing object 22 0 (offset 0)
+Ignoring wrong pointing object 24 0 (offset 0)
+Ignoring wrong pointing object 26 0 (offset 0)
+Ignoring wrong pointing object 9 0 (offset 0)
+Ignoring wrong pointing object 11 0 (offset 0)
+Ignoring wrong pointing object 6 0 (offset 0)
+Ignoring wrong pointing object 8 0 (offset 0)
+Ignoring wrong pointing object 10 0 (offset 0)
+Ignoring wrong pointing object 12 0 (offset 0)
+Ignoring wrong pointing object 14 0 (offset 0)
+Ignoring wrong pointing object 16 0 (offset 0)
+Ignoring wrong pointing object 18 0 (offset 0)
+Ignoring wrong pointing object 20 0 (offset 0)
+Ignoring wrong pointing object 22 0 (offset 0)
+Ignoring wrong pointing object 24 0 (offset 0)
+Ignoring wrong pointing object 26 0 (offset 0)
+Ignoring wrong pointing object 28 0 (offset 0)
+Ignoring wrong pointing object 32 0 (offset 0)
+Ignoring wrong pointing object 35 0 (offset 0)
+Ignoring wrong pointing object 38 0 (offset 0)
+Ignoring wrong pointing object 55 0 (offset 0)
+Ignoring wrong pointing object 59 0 (offset 0)
+Ignoring wrong pointing object 61 0 (offset 0)
+Ignoring wrong pointing object 63 0 (offset 0)
+Ignoring wrong pointing object 6 0 (offset 0)
+Ignoring wrong pointing object 8 0 (offset 0)
+Ignoring wrong pointing object 10 0 (offset 0)
+Ignoring wrong pointing object 12 0 (offset 0)
+Ignoring wrong pointing object 14 0 (offset 0)
+Ignoring wrong pointing object 16 0 (offset 0)
+Ignoring wrong pointing object 18 0 (offset 0)
+Ignoring wrong pointing object 20 0 (offset 0)
+Ignoring wrong pointing object 23 0 (offset 0)
+Ignoring wrong pointing object 25 0 (offset 0)
+Ignoring wrong pointing object 27 0 (offset 0)
+=== [E2_QA_Accuracy] Processing record 1/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What is the applicant's full name?...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Passing `generation_config` together with generation-related arguments=({'do_sample', 'max_new_tokens'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 2/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What is the applicant's LinkedIn?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 3/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What is the applicant's primary contact number?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 4/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: In which city and country is the applicant currently located?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 5/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Did the applicant provide a brief professional summary or career objective?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 6/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What is the highest level of education the applicant has completed?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 7/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Which institutions did the applicant attend?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 8/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What is the applicant's score or GPA for his highest level of education?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 9/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What was the applicant's field of study or major?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 10/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What is the name of the applicant's current (or most recent) employer?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 11/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What is the applicant's job title in the most recent role?...
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 12/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: How many years of experience does the applicant have?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 13/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What leadership position did the applicant hold?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 14/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Could the applicant briefly describe their key responsibilities in previous role...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 15/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Has the applicant worked in more than one job or organization?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 16/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What were the applicant's major accomplishments?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 17/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What key metric did they improve?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 18/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What is the name of a key project the applicant has worked on?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 19/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Which tools or technologies did the applicant use in their projects?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 20/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Did any project have a specific budget or numeric goal?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 21/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What were the main objectives of the applicant's projects?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 22/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What are the applicant s publications?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 23/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Did the applicant outline the approach or methodology they used?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 24/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What are the applicant's research areas?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 25/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: What are the applicant s key soft skills?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 26/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Are there any certifications, licenses, or trainings listed by the applicant?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 27/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Did the applicant describe a situation where they applied one of their key skill...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 28/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Has the applicant received any awards or recognitions? If so, which is the most ...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 29/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Did the applicant share a brief overview of an extracurricular or volunteer acti...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 30/1500 - CV ID: aaron_stockdill
+=== -> [S2_Retrieve_Section] Q: Did the applicant describe any notable academic achievements or honors received?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 31/1500 - CV ID: aditi_tiwari
+=== -> [S2_Retrieve_Section] Q: What is the applicant's full name?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 32/1500 - CV ID: aditi_tiwari
+=== -> [S2_Retrieve_Section] Q: What is the applicant's LinkedIn?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 33/1500 - CV ID: aditi_tiwari
+=== -> [S2_Retrieve_Section] Q: What is the applicant's primary contact number?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 34/1500 - CV ID: aditi_tiwari
+=== -> [S2_Retrieve_Section] Q: In which city and country is the applicant currently located?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 35/1500 - CV ID: aditi_tiwari
+=== -> [S2_Retrieve_Section] Q: Did the applicant provide a brief professional summary or career objective?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 36/1500 - CV ID: aditi_tiwari
+=== -> [S2_Retrieve_Section] Q: What is the highest level of education the applicant has completed?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 37/1500 - CV ID: aditi_tiwari
+=== -> [S2_Retrieve_Section] Q: Which institutions did the applicant attend?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+=== [E2_QA_Accuracy] Processing record 38/1500 - CV ID: aditi_tiwari
+=== -> [S2_Retrieve_Section] Q: What is the applicant's score or GPA for his highest level of education?...
+Both `max_new_tokens` (=128) and `max_length`(=4096) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)

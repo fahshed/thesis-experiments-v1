@@ -38,3 +38,17 @@ PYTHONUNBUFFERED=1 python generate.py --model meta-llama/Llama-2-13b-chat-hf --e
 PYTHONUNBUFFERED=1 python generate.py --model Qwen/Qwen2.5-1.5B-Instruct --experiment 2 --strategy 1 --limit 50 > tmux-logs/s1e2_qwen2b_limit50.log 2>&1
 
 PYTHONUNBUFFERED=1 python generate.py --model meta-llama/Llama-2-13b-chat-hf --experiment 2 --strategy 1 --limit 50 --offset 0 > tmux-logs/s1e2i2_llama13b_limit50.log 2>&1
+
+---
+
+python3 scripts/judge_results_with_gemini.py "results/s1e2 mistral (1-50) (gpu)/20260327_175113_s1_e2_limit50_offset0_generated_answers.csv"
+
+python3 scripts/judge_results_with_gemini.py "results/s1e2 qwen (1-50)/20260327_213414_s1_e2_limit50_offset0_generated_answers.csv"
+
+python3 scripts/judge_results_with_gemini.py "results/s1e2 llama (1-50) i3 /20260328_000306_s1_e2_limit50_offset0_generated_answers.csv"
+
+python3 scripts/judge_results_with_gemini.py "results/s2e2 mistral (1-50)/20260327_020011_s2_e2_limit50_offset0_generated_answers.csv"
+
+python3 scripts/judge_results_with_gemini.py "results/s3e2 mistral (1-50)/20260327_010014_s3_e2_limit50_offset0_generated_answers.csv"
+
+python3 scripts/judge_results_with_gemini.py "results/s1e2 mistral (1~45) (cpu)/merged_generated_answers.csv"

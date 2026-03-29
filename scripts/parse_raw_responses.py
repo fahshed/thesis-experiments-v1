@@ -15,13 +15,18 @@ Usage:
 
     # Dry-run: print stats without writing
     python scripts/parse_raw_responses.py --dry-run
+
+    # Random unparsable previews (10) + up to 2 full raw_response blobs
+    python scripts/parse_raw_responses.py --dry-run --dump-unparsable-samples results/unparsable_sample_dump.txt
 """
 
 import argparse
 import json
+import random
 import re
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 import pandas as pd
 
@@ -149,7 +154,11 @@ def parse_raw_response(raw: str) -> Tuple[bool, Dict[str, Any]]:
     return parsable, {"predicted_answer": pa, "rationale": rat, "confidence_score": cs}
 
 
-def process_file(path: Path, dry_run: bool = False) -> Dict[str, int]:
+def process_file(
+    path: Path,
+    dry_run: bool = False,
+    unparsable_collector: Optional[List[Dict[str, Any]]] = None,
+) -> Dict[str, int]:
     read_kw = {"keep_default_na": False, "na_values": []}
     df = pd.read_csv(path, **read_kw)
 
@@ -164,7 +173,7 @@ def process_file(path: Path, dry_run: bool = False) -> Dict[str, int]:
     parsable_flags = []
     stats = {"total": len(df), "parsable": 0, "partial": 0, "unparsable": 0}
 
-    for idx, row in df.iterrows():
+    for row_i, (idx, row) in enumerate(df.iterrows()):
         raw = str(row.get("raw_response", ""))
         ok, fields = parse_raw_response(raw)
         df.at[idx, "predicted_answer"] = fields["predicted_answer"]
@@ -181,6 +190,13 @@ def process_file(path: Path, dry_run: bool = False) -> Dict[str, int]:
                 stats["partial"] += 1
             else:
                 stats["unparsable"] += 1
+                if unparsable_collector is not None:
+                    rec: Dict[str, Any] = {"path": path, "row_index": row_i, "raw": raw}
+                    if "question_id" in df.columns:
+                        rec["question_id"] = str(row.get("question_id", ""))
+                    if "question_text" in df.columns:
+                        rec["question_text"] = str(row.get("question_text", ""))
+                    unparsable_collector.append(rec)
 
     df["raw_response_parsable"] = parsable_flags
 
@@ -202,10 +218,98 @@ def discover_csvs() -> list[Path]:
     return sorted(paths)
 
 
+def write_unparsable_sample_dump(
+    out_path: Path,
+    records: List[Dict[str, Any]],
+    *,
+    preview_n: int = 10,
+    full_raw_max: int = 2,
+    preview_raw_chars: int = 600,
+    question_preview_chars: int = 200,
+    seed: Optional[int] = None,
+) -> None:
+    """
+    Write *preview_n* random unparsable rows with truncated raw_response, plus up to
+    *full_raw_max* full raw_response blobs (independent random draw).
+    """
+    rng = random.Random(seed)
+    lines: list[str] = [
+        "Unparsable row observation sample",
+        f"Generated (UTC): {datetime.now(timezone.utc).isoformat()}",
+        f"Total unparsable rows collected: {len(records)}",
+        f"Random seed: {seed if seed is not None else '(system default)'}",
+        "",
+    ]
+
+    if not records:
+        lines.append("No unparsable rows found; nothing to sample.")
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        return
+
+    n_prev = min(preview_n, len(records))
+    preview = rng.sample(records, n_prev)
+
+    lines.append(f"=== {n_prev} random unparsable row(s) — metadata + truncated raw_response ({preview_raw_chars} chars max) ===")
+    lines.append("")
+    for k, rec in enumerate(preview, start=1):
+        p = rec["path"]
+        lines.append(f"--- preview {k}/{n_prev} ---")
+        lines.append(f"file: {p}")
+        lines.append(f"row_index (0-based data row): {rec['row_index']}")
+        if "question_id" in rec:
+            lines.append(f"question_id: {rec['question_id']}")
+        if "question_text" in rec:
+            qt = rec["question_text"]
+            if len(qt) > question_preview_chars:
+                qt = qt[:question_preview_chars] + " …"
+            lines.append(f"question_text (preview): {qt}")
+        raw = rec["raw"]
+        if len(raw) > preview_raw_chars:
+            raw_show = raw[:preview_raw_chars] + "\n… [truncated]"
+        else:
+            raw_show = raw
+        lines.append("raw_response (truncated):")
+        lines.append(raw_show)
+        lines.append("")
+
+    n_full = min(full_raw_max, len(records))
+    full_pick = rng.sample(records, n_full)
+    lines.append(f"=== Up to {full_raw_max} full raw_response value(s) ({n_full} drawn) ===")
+    lines.append("")
+    for k, rec in enumerate(full_pick, start=1):
+        lines.append(f"--- full raw {k}/{n_full} ---")
+        lines.append(f"file: {rec['path']}")
+        lines.append(f"row_index (0-based data row): {rec['row_index']}")
+        if "question_id" in rec:
+            lines.append(f"question_id: {rec['question_id']}")
+        lines.append("raw_response (full):")
+        lines.append(rec["raw"])
+        lines.append("")
+        lines.append("--- end full raw ---")
+        lines.append("")
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("files", nargs="*", type=Path, help="CSV file(s) to process (default: auto-discover under results/)")
     parser.add_argument("--dry-run", action="store_true", help="Print stats without modifying files")
+    parser.add_argument(
+        "--dump-unparsable-samples",
+        type=Path,
+        metavar="PATH",
+        default=None,
+        help="Write a text file with 10 random unparsable previews and up to 2 full raw_response samples",
+    )
+    parser.add_argument(
+        "--sample-seed",
+        type=int,
+        default=None,
+        help="RNG seed for --dump-unparsable-samples (default: nondeterministic)",
+    )
     args = parser.parse_args()
 
     targets = [p.expanduser().resolve() for p in args.files] if args.files else discover_csvs()
@@ -218,8 +322,9 @@ def main() -> None:
 
     totals = {"total": 0, "parsable": 0, "partial": 0, "unparsable": 0}
     files_with_unparsable: list[tuple[Path, int]] = []
+    collector: Optional[List[Dict[str, Any]]] = [] if args.dump_unparsable_samples else None
     for path in targets:
-        stats = process_file(path, dry_run=args.dry_run)
+        stats = process_file(path, dry_run=args.dry_run, unparsable_collector=collector)
         for k in totals:
             totals[k] += stats.get(k, 0)
         u = stats.get("unparsable", 0)
@@ -234,6 +339,12 @@ def main() -> None:
             print(f"  {n:>5}  {p}")
     else:
         print("\nNo unparsable rows in any processed file.")
+
+    if args.dump_unparsable_samples:
+        assert collector is not None
+        dest = args.dump_unparsable_samples.expanduser().resolve()
+        write_unparsable_sample_dump(dest, collector, seed=args.sample_seed)
+        print(f"\nWrote unparsable observation sample to {dest}")
 
 
 if __name__ == "__main__":

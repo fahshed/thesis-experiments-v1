@@ -1,0 +1,218 @@
+Unparsable row observation sample
+Generated (UTC): 2026-03-29T05:14:12.178261+00:00
+Total unparsable rows collected: 2062
+Random seed: 42
+
+=== 10 random unparsable row(s) — metadata + truncated raw_response (600 chars max) ===
+
+--- preview 1/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s1e2 llama (1-50)/20260327_080410_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 747
+question_id: julie_kallini_Q28
+question_text (preview): Has the applicant received any awards or recognitions? If so, which is the most significant?
+raw_response (truncated):
+{
+"predicted_answer": "Yes",
+"rationale": "The applicant has received several awards and recognitions, including the Best Paper Award at ACL 2024, NSF Graduate Research Fellowship, School of Engineering Graduate Fellowship, EDGE Fellowship, Phi Beta Kappa, and the Phillip Goldman ’86 Senior Prize. The most significant award is the Best Paper Award at ACL 2024, as it is a prestigious award in the field of natural language processing and machine learning.",
+"confidence
+
+--- preview 2/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/20260327_230518_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 250
+question_id: dronguo_zhou_Q11
+question_text (preview): What is the applicant's job title in the most recent role?
+raw_response (truncated):
+the
+
+the
+
+
+
+
+
+HE����heaving
+
+DATheeting (ending
+ERS
+OTheatos (
+enti
+
+(
+aters (enti (enti (
+( (
+(
+(
+(
+( (
+(
+(
+(
+(
+(
+(
+(
+(
+
+(
+
+
+
+
+
+(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ the
+
+thesumin theiments
+
+--- preview 3/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s1e2 mistral (1-50) (gpu)/20260327_175113_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 1188
+question_id: sitota_ezra_mersha_Q19
+question_text (preview): Which tools or technologies did the applicant use in their projects?
+raw_response (truncated):
+{
+  "predicted_answer": ["ReactJS", "Flutter", "Node.js", "Drupal", "VueJS", "React Native", "Laravel", "MySQL", "PostgreSQL", "MongoDB", "Redis", "AWS", "GCP", "Heroku", "Netlify"],
+  "rationale": "The applicant has listed several web and mobile technologies they have used in their projects, including ReactJS, Flutter, Node.js, Drupal, VueJS, React Native, and Laravel. They have also mentioned using
+
+--- preview 4/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s1e2 mistral (1-50) (gpu)/20260327_175113_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 621
+question_id: jay_p_lim_Q22
+question_text (preview): What are the applicant s publications?
+raw_response (truncated):
+{
+  "predicted_answer": [
+    "PLDI 2022 Progressive Polynomial Approximations for Fast Correctly Rounded Math Libraries.",
+    "POPL 2022 One Polynomial Approximation to Produce Correctly Rounded Results of an Elementary Function for Multiple Representations and Rounding Modes.",
+    "PLDI 2021 High Performance Correctly Rounded Math Libraries for 32-bit Floating Point Representations.",
+    "POPL 2021 An Approach
+
+--- preview 5/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s1e2 mistral (1-50) (gpu)/20260327_175113_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 135
+question_id: andrew_blinn_Q16
+question_text (preview): What were the applicant's major accomplishments?
+raw_response (truncated):
+{
+  "predicted_answer": [
+    "Published several papers on programming languages, liveness, learning, and human-computer interaction.",
+    "Presented at various conferences and workshops.",
+    "Worked as a full-stack developer in Clojure.",
+    "Led course development and teaching assistantships at the University of Michigan and University of Toronto."
+  ],
+  "rationale": "The CV lists several papers published in conferences such as OOPSLA, POPL, PLDI, VL/HCC, and T yDe. The
+
+--- preview 6/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s1e2 llama (1-50)/20260327_080410_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 1277
+question_id: steven_y_feng_Q18
+question_text (preview): What is the name of a key project the applicant has worked on?
+raw_response (truncated):
+
+
+--- preview 7/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s1e2 llama (1-50)/20260327_080410_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 636
+question_id: jessy_xinyi_han_Q7
+question_text (preview): Which institutions did the applicant attend?
+raw_response (truncated):
+the
+the
+the
+the
+the
+the
+the
+the
+theor
+the
+the
+the
+theor
+theor
+theowning the
+the
+the
+the
+the the
+the
+the the
+the
+
+--- preview 8/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s1e2 llama (1-50)/20260327_080410_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 294
+question_id: eun_jeong_kang_Q25
+question_text (preview): What are the applicant s key soft skills?
+raw_response (truncated):
+{
+"predicted_answer": "Eun Jeong Kang has the following key soft skills: communication, collaboration, creativity, and adaptability.",
+"rationale": "Based on the CV, Eun Jeong Kang has experience in various roles that require strong communication and collaboration skills, such as leading workshops, mentoring, and working in teams. Additionally, the CV highlights the applicant's creativity and adaptability through their research interests and experience in designing and prototyping AI systems. Finally, the CV indicates that the applicant is proficient in
+
+--- preview 9/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s2e2 mistral (1-50)/20260327_020011_s2_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 521
+question_id: ismat_jarin_Q12
+question_text (preview): How many years of experience does the applicant have?
+raw_response (truncated):
+{
+  "predicted_answer": "6",
+  "rationale": "The applicant's work experience is listed as a Graduate Research Assistant at the Bangladesh University of Engineering and Technology from 2017 to 2018, which is 2 years. After that, the applicant has been a Graduate Research Assistant at the University of Michigan-Dearborn from 2019 to 2022, which is another 4 years. Therefore, the total work experience is 6 years.",
+  "confidence_score": 1.0
+
+--- preview 10/10 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/20260327_230518_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 315
+question_id: fabrice_harel-canada_Q16
+question_text (preview): What were the applicant's major accomplishments?
+raw_response (truncated):
+{
+"predicted_answer": "The candidate's major accomplishments include developing a context-aware drug misuse detection system, conducting theoretical and empirical analysis of the limitations of robust LLM watermarking, creating automated evaluation metrics for natural language generation systems, and founding Kairno to revolutionize research communication.",
+"rationale": "This answer is supported by the information provided in the CV, specifically in the Education, Research Experience, and Professional Experience sections. The candidate has a strong background in computer science and artificia
+… [truncated]
+
+=== Up to 2 full raw_response value(s) (2 drawn) ===
+
+--- full raw 1/2 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/20260327_230518_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 283
+question_id: eun_jeong_kang_Q14
+raw_response (full):
+{
+"predicted_answer": "Eun Jeong Kang has experience as a research assistant, account executive, marketing assistant, and teaching assistant. She has worked on projects related to AI, human-computer interaction, and design.",
+"rationale": "This answer can be inferred from the 'EXPERIENCE' section of the CV, where Eun Jeong Kang lists her work experiences in various fields such as research, marketing, and education. These experiences suggest that she has had a diverse range of responsibilities and projects in her past roles.",
+"confidence
+
+--- end full raw ---
+
+--- full raw 2/2 ---
+file: /Users/fahimmorshed/Documents/Thesis/thesis-experiments-v1/results/s1e2 llama (1-50)/20260327_080410_s1_e2_limit50_offset0_generated_answers.csv
+row_index (0-based data row): 435
+question_id: harsh_s_desai_Q16
+raw_response (full):
+{
+"predicted_answer": "The applicant's major accomplishments were developing a batteryless smart camera and a performance model for energy-harvesting systems.",
+"rationale": "The CV highlights the applicant's work on the Camaroptera project, which was a batteryless smart image sensing system that ran without batteries and sent images over kilometers. Additionally, the applicant developed a performance model for energy-harvesting systems, which is a significant accomplishment in the field of computer engineering. These accomplishments demonstrate the applicant's expertise in energy-harvest
+
+--- end full raw ---

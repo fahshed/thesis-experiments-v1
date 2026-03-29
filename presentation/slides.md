@@ -572,7 +572,7 @@ The Gemini judge classifies errors into **11 categories:**
 
 This research builds upon a **real-world application** developed during the Graduate Assistantship:
 
-- **AI-Assisted Graduate Applicant Evaluation System**
+- **Admission Assistant**
   - Full-stack platform: Next.js + Python + FastAPI
   - Processes CVs and Statements of Purpose
   - Uses open-source models (Mistral, LLaMA) via Hugging Face

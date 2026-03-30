@@ -358,10 +358,10 @@ _Fixed strategy: S1 Full CV_
 
 _Fixed strategy + model: S1 Mistral-7B_
 
-| Run               | Hardware | Records |
-| ----------------- | -------- | ------- |
-| S1-Mistral (CPU)  | CPU      | ~1,500  |
-| S1-Mistral (GPU)  | GPU      | 1,500   |
+| Run              | Hardware | Records |
+| ---------------- | -------- | ------- |
+| S1-Mistral (CPU) | CPU      | ~1,500  |
+| S1-Mistral (GPU) | GPU      | 1,500   |
 
 **Total:** 6 unique configurations x ~1,500 records = **~9,000 evaluated QA pairs**
 
@@ -425,13 +425,13 @@ _Fixed strategy + model: S1 Mistral-7B_
 
 <div class="small">
 
-| Configuration          | Soft Acc. | Strict Acc. | Parseability | Avg Latency | Med. Latency | Avg In Tokens | Avg Out Tokens |
-| ---------------------- | --------- | ----------- | ------------ | ----------- | ------------ | ------------- | -------------- |
-| **S1 Qwen-2.5 (1.5B)** | 0.531     | 0.315       | 0.869        | 2.01s       | 2.02s        | 2,130         | 125            |
-| **S1 Mistral (GPU)**   | <span class="best">0.579</span> | <span class="best">0.358</span> | 0.789        | 2.12s       | 1.95s        | 2,525         | 86             |
-| **S1 LLaMA-2 (13B)**   | 0.551     | 0.315       | 0.816        | 5.44s       | 4.23s        | 2,593         | 119            |
-| **S2 Mistral-7B**      | 0.483     | 0.323       | 0.847        | <span class="best">1.75s</span> | <span class="best">1.43s</span> | 1,170         | 75             |
-| **S3 Mistral-7B**      | 0.403     | 0.274       | <span class="best">0.881</span> | 1.94s       | 1.69s        | <span class="best">990</span> | <span class="best">72</span> |
+| Configuration          | Soft Acc.                       | Strict Acc.                     | Parseability                    | Avg Latency                     | Med. Latency                    | Avg In Tokens                 | Avg Out Tokens               |
+| ---------------------- | ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- | ------------------------------- | ----------------------------- | ---------------------------- |
+| **S1 Qwen-2.5 (1.5B)** | 0.531                           | 0.315                           | 0.869                           | 2.01s                           | 2.02s                           | 2,130                         | 125                          |
+| **S1 Mistral (GPU)**   | <span class="best">0.579</span> | <span class="best">0.358</span> | 0.789                           | 2.12s                           | 1.95s                           | 2,525                         | 86                           |
+| **S1 LLaMA-2 (13B)**   | 0.551                           | 0.315                           | 0.816                           | 5.44s                           | 4.23s                           | 2,593                         | 119                          |
+| **S2 Mistral-7B**      | 0.483                           | 0.323                           | 0.847                           | <span class="best">1.75s</span> | <span class="best">1.43s</span> | 1,170                         | 75                           |
+| **S3 Mistral-7B**      | 0.403                           | 0.274                           | <span class="best">0.881</span> | 1.94s                           | 1.69s                           | <span class="best">990</span> | <span class="best">72</span> |
 
 </div>
 
@@ -447,19 +447,16 @@ _S1 vs S2 vs S3 — Model fixed to Mistral-7B_
 
 ---
 
-# RQ1: Overall Accuracy by Strategy
+# RQ1: Overall Accuracy & Sample Counts by Strategy
 
-![](../findings/rq1_retrieval_strategies/chart01_overall_accuracy.png)
-
----
-
-# RQ1: Per-Category Accuracy by Strategy
-
-![](../findings/rq1_retrieval_strategies/chart02_per_category_accuracy.png)
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="../findings/rq1_retrieval_strategies/chart01_overall_accuracy.png" style="width: 50%;" />
+  <img src="../findings/rq1_retrieval_strategies/chart01b_sample_counts.png" style="width: 50%;" />
+</div>
 
 ---
 
-# RQ1: Efficiency Comparison
+# RQ1: Efficiency Comparison (Retrieval Strategies)
 
 ![](../findings/rq1_retrieval_strategies/chart04_efficiency.png)
 
@@ -468,8 +465,6 @@ _S1 vs S2 vs S3 — Model fixed to Mistral-7B_
 # RQ1: Key Findings
 
 - **S1 (Full CV) wins on accuracy:** 0.579 soft accuracy vs 0.483 (S2) and 0.403 (S3)
-- **S2 and S3 suffer from "not_answered" errors:** Retrieval misses relevant sections, causing the model to decline answering
-    - S2: 354 not_answered | S3: 480 not_answered | S1: only 21
 - **S3 (Semantic RAG) underperforms S2 (Keyword):** The small MiniLM-L6-v2 embedding model may not capture CV-domain semantics effectively
 - **Retrieval saves tokens:** S2 uses ~1,170 input tokens vs S1's ~2,525 — a **54% reduction**
 - **Trade-off:** Full context is worth the extra cost for CV QA accuracy
@@ -484,39 +479,30 @@ _Qwen 1.5B vs Mistral 7B vs LLaMA 13B — Strategy fixed to S1_
 
 ---
 
-# RQ2: Overall Accuracy by Model
-
-![](../findings/rq2_model_comparison/chart05_overall_accuracy.png)
-
----
-
 # RQ2: Accuracy vs Model Size
 
 ![](../findings/rq2_model_comparison/chart06_accuracy_vs_size.png)
 
 ---
 
-# RQ2: Per-Category Accuracy by Model
-
-![](../findings/rq2_model_comparison/chart07_per_category_accuracy.png)
-
----
-
-# RQ2: Error Distribution by Model
-
-![](../findings/rq2_model_comparison/chart08_error_distribution.png)
-
----
-
-# RQ2: Latency Distribution
-
-![](../findings/rq2_model_comparison/chart09_latency_distribution.png)
-
----
-
 # RQ2: Accuracy vs Latency Tradeoff
 
+<div class="columns">
+<div>
+
+### Accuracy vs Latency (S1 only)
+
 ![](../findings/rq2_model_comparison/chart10_accuracy_vs_latency.png)
+
+</div>
+<div>
+
+### Average Latency by Model (S1)
+
+![](../findings/rq2_model_comparison/chart10b_s1_latency_bar.png)
+
+</div>
+</div>
 
 ---
 
@@ -539,15 +525,24 @@ _Cross-cutting analysis across all configurations_
 
 ---
 
-# RQ3: Error Distribution by Strategy
+# RQ3: Error Distribution by Model
+
+<div class="columns">
+<div>
+
+<p class="small" style="text-align:center;"><strong>By Model</strong></p>
+
+![](../findings/rq2_model_comparison/chart08_error_distribution.png)
+
+</div>
+<div>
+
+<p class="small" style="text-align:center;"><strong>By Strategy</strong></p>
 
 ![](../findings/rq1_retrieval_strategies/chart03_error_distribution.png)
 
----
-
-# RQ3: Error Heatmap (Error Type x Config)
-
-![](../findings/rq3_error_patterns/chart11_error_heatmap.png)
+</div>
+</div>
 
 ---
 
@@ -661,6 +656,18 @@ _Cross-cutting analysis across all configurations_
 <!-- _class: lead -->
 
 # Additional Findings
+
+---
+
+# RQ1: Per-Category Accuracy by Strategy
+
+![](../findings/rq1_retrieval_strategies/chart02_per_category_accuracy.png)
+
+---
+
+# RQ2: Per-Category Accuracy by Model
+
+![](../findings/rq2_model_comparison/chart07_per_category_accuracy.png)
 
 ---
 

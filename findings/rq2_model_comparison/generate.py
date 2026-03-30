@@ -48,22 +48,24 @@ def chart06_accuracy_vs_size():
     configs = MODEL_CONFIGS
 
     sizes  = [MODEL_SIZES[c] for c in configs]
-    soft   = [data[c]['judge_answer_credit'].mean() for c in configs]
-    strict = [(data[c]['judge_answer_judgment'] == 'correct').mean() for c in configs]
-    colors = [MODEL_COLORS[c] for c in configs]
+    metrics = {c: compute_metrics(data[c]) for c in configs}
+    soft   = [metrics[c]['soft_accuracy'] for c in configs]
+    strict = [metrics[c]['strict_accuracy'] for c in configs]
+    parse  = [metrics[c]['parseability'] for c in configs]
 
     fig, ax = plt.subplots(figsize=(9, 6))
 
     ax.plot(sizes, soft, 'o--', color='#2196F3', markersize=12, linewidth=2, label='Soft Accuracy')
     ax.plot(sizes, strict, 's--', color='#FF9800', markersize=12, linewidth=2, label='Strict Accuracy')
+    ax.plot(sizes, parse, '^--', color='#4CAF50', markersize=12, linewidth=2, label='Parseability')
 
     for i, c in enumerate(configs):
         ax.annotate(MODEL_DISPLAY_INLINE[c], (sizes[i], soft[i]),
                     textcoords="offset points", xytext=(10, 10), fontsize=10)
 
     ax.set_xlabel('Model Size (Billion Parameters)')
-    ax.set_ylabel('Accuracy')
-    ax.set_title('Accuracy vs Model Size — "Bigger ≠ Better"')
+    ax.set_ylabel('Rate')
+    ax.set_title('Accuracy & Parseability vs Model Size — "Bigger ≠ Better"')
     ax.set_xscale('log')
     ax.set_xticks(sizes)
     ax.set_xticklabels([f'{s}B' for s in sizes])
@@ -162,9 +164,9 @@ def chart09_latency_distribution():
 
 
 def chart10_accuracy_vs_latency():
-    """Scatter: accuracy vs latency tradeoff (all 5 GPU configs)."""
+    """Scatter: accuracy vs latency tradeoff for S1 model variants."""
     data = load_all_data()
-    configs = ALL_GPU_CONFIGS
+    configs = MODEL_CONFIGS
 
     fig, ax = plt.subplots(figsize=(10, 7))
 
@@ -174,13 +176,33 @@ def chart10_accuracy_vs_latency():
         lat = df['latency'].mean()
         ax.scatter(lat, acc, s=150, c=CONFIG_COLORS[c], edgecolors='black',
                    linewidth=1, zorder=5)
-        ax.annotate(CONFIG_DISPLAY[c], (lat, acc), textcoords="offset points",
+        ax.annotate(MODEL_DISPLAY_INLINE[c], (lat, acc), textcoords="offset points",
                     xytext=(10, 8), fontsize=9)
 
     ax.set_xlabel('Average Latency (seconds)')
     ax.set_ylabel('Soft Accuracy')
-    ax.set_title('Accuracy vs Latency Tradeoff (All GPU Configurations)')
+    ax.set_title('Accuracy vs Latency Tradeoff (S1 Models)')
     savefig(fig, os.path.join(OUT, 'chart10_accuracy_vs_latency.png'))
+
+
+def chart10b_s1_latency_bar():
+    """Bar chart: average latency for S1 model variants."""
+    data = load_all_data()
+    configs = MODEL_CONFIGS
+
+    labels = [MODEL_DISPLAY_INLINE[c] for c in configs]
+    avg_latency = [data[c]['latency'].mean() for c in configs]
+    colors = [MODEL_COLORS[c] for c in configs]
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    bars = ax.bar(labels, avg_latency, color=colors, edgecolor='black', linewidth=0.8)
+
+    ax.set_ylabel('Average Latency (seconds)')
+    ax.set_title('S1 Latency by Model')
+    ax.set_ylim(0, max(avg_latency) * 1.2)
+    ax.bar_label(bars, fmt='%.2fs', padding=3, fontsize=10)
+
+    savefig(fig, os.path.join(OUT, 'chart10b_s1_latency_bar.png'))
 
 
 if __name__ == '__main__':
@@ -192,4 +214,5 @@ if __name__ == '__main__':
     chart08_error_distribution()
     chart09_latency_distribution()
     chart10_accuracy_vs_latency()
+    chart10b_s1_latency_bar()
     print('RQ2: Done.')

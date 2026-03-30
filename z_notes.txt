@@ -1,0 +1,4 @@
+- need to add a citation slide at the end. just some related work. maybe pull up the poster we were working on at a time. and there are also some files and links sir shared in discord
+- need to cite for the nlp benchmark sttement in slide motivation
+- need to cite chatgpt and gemini
+- need to cite for related work

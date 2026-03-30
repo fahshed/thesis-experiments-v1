@@ -1,19 +1,23 @@
 %%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E8F5E9', 'primaryTextColor': '#2E7D32', 'primaryBorderColor': '#2E7D32', 'lineColor': '#424242'}}}%%
-flowchart TD
+flowchart LR
     subgraph Collection["CV Collection"]
+        direction TB
         A1["Public Websites<br/>+ Peer Volunteers"] --> A2["100 Real CVs<br/>(PDF format)"]
     end
 
     subgraph Design["Question Design"]
+        direction TB
         B1["6 Categories:<br/>Personal Info, Education,<br/>Prof. Experience, Skills,<br/>Research & Projects,<br/>Awards & Extracurricular"] --> B2["30 Questions per CV<br/>(Entity/Numeric + Descriptive)"]
     end
 
     subgraph Generation["Initial Answer Generation"]
+        direction TB
         C1["Feed CV + 30 Questions<br/>to ChatGPT UI"] --> C2["Structured Output:<br/>JSON array of answers"]
         C2 --> C3["Python Script:<br/>Format into CSV"]
     end
 
     subgraph Annotation["Human Annotation"]
+        direction TB
         D1["Manual Verification:<br/>Every answer checked<br/>against source CV"] --> D2{"Correct?"}
         D2 -->|Yes| D3["Keep as-is"]
         D2 -->|No| D4["Correct the answer<br/>(fix hallucinations,<br/>add missing details)"]
@@ -22,10 +26,11 @@ flowchart TD
     end
 
     subgraph Final["Experiment Dataset"]
+        direction TB
         E1["Select Subset:<br/>50 CVs x 30 Questions"] --> E2[("1,500 QA Records<br/>per experiment run")]
     end
 
-    A2 --> C1
-    B2 --> C1
-    C3 --> D1
-    D5 --> E1
+    Collection --> Generation
+    Design --> Generation
+    Generation --> Annotation
+    Annotation --> Final

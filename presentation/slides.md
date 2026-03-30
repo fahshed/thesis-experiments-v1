@@ -74,13 +74,13 @@ Supervised by **Dr. Rahat Ibn Rafiq**
 
 | Area | Key Work | Gap |
 |------|----------|-----|
-| Reading Comprehension | SQuAD, TriviaQA, Natural Questions | Not domain-specific to CVs |
-| Document QA | DocVQA, InfographicsVQA | Focus on visual layout, not text extraction |
-| Resume Parsing | Rule-based NER, Resume-NER datasets | Named entity extraction only, no QA |
-| RAG Systems | Lewis et al. (2020), REALM | General-purpose, not evaluated on CV domain |
-| LLM Benchmarks | MMLU, HellaSwag, HumanEval | Test general knowledge, not document understanding |
+| Reading Comprehension | SQuAD, TriviaQA | General QA, not CVs |
+| Document QA | DocVQA, InfographicsVQA | Visual docs, not CV QA |
+| Resume Parsing | Resume-NER, rule-based NER | Extraction, not QA |
+| RAG Systems | REALM, Lewis et al. | General retrieval, not CV QA |
+| LLM Benchmarks | MMLU, HumanEval | General reasoning, not document QA |
 
-**Our contribution:** A structured, human-annotated benchmark specifically designed for evaluating CV question-answering pipelines.
+**Our contribution:** A human-annotated benchmark on real CV PDFs for end-to-end CV QA.
 
 ---
 

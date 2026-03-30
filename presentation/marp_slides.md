@@ -67,6 +67,13 @@ style: |
   .tiny {
     font-size: 14px;
   }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+    max-height: 450px;
+    object-fit: contain;
+  }
   em {
     color: #666;
   }
@@ -102,8 +109,9 @@ Supervised by **Dr. Rahat Ibn Rafiq**
 5. **Evaluation Framework**
 6. **Results & Analysis** (RQ1–RQ4)
 7. **Hardware Finding**
-8. **Limitations & Future Work**
-9. **Conclusion**
+8. **Real-World Application: Admission Assistant**
+9. **Limitations & Future Work**
+10. **Conclusion**
 
 ---
 
@@ -169,7 +177,7 @@ Supervised by **Dr. Rahat Ibn Rafiq**
 
 # Dataset Creation Pipeline
 
-![w:1050](../findings/diagrams/D3_dataset_creation.png)
+![](../findings/diagrams/D3_dataset_creation.png)
 
 ---
 
@@ -220,7 +228,7 @@ Supervised by **Dr. Rahat Ibn Rafiq**
 
 # System Architecture
 
-![w:1100](../findings/diagrams/D1_system_architecture.png)
+![](../findings/diagrams/D1_system_architecture.png)
 
 ---
 
@@ -287,7 +295,7 @@ Semantic understanding for retrieval — but the embedding model is small and do
 
 # Experiment Design
 
-![w:900](../findings/diagrams/D4_experiment_matrix.png)
+![](../findings/diagrams/D4_experiment_matrix.png)
 
 ---
 
@@ -326,7 +334,7 @@ Semantic understanding for retrieval — but the embedding model is small and do
 
 # Evaluation Framework
 
-![w:1000](../findings/diagrams/D2_evaluation_pipeline.png)
+![](../findings/diagrams/D2_evaluation_pipeline.png)
 
 ---
 
@@ -405,25 +413,25 @@ Semantic understanding for retrieval — but the embedding model is small and do
 
 # RQ1: Overall Accuracy by Strategy
 
-![w:950](../findings/rq1_retrieval_strategies/chart01_overall_accuracy.png)
+![](../findings/rq1_retrieval_strategies/chart01_overall_accuracy.png)
 
 ---
 
 # RQ1: Per-Category Accuracy by Strategy
 
-![w:950](../findings/rq1_retrieval_strategies/chart02_per_category_accuracy.png)
+![](../findings/rq1_retrieval_strategies/chart02_per_category_accuracy.png)
 
 ---
 
 # RQ1: Error Distribution by Strategy
 
-![w:950](../findings/rq1_retrieval_strategies/chart03_error_distribution.png)
+![](../findings/rq1_retrieval_strategies/chart03_error_distribution.png)
 
 ---
 
 # RQ1: Efficiency Comparison
 
-![w:950](../findings/rq1_retrieval_strategies/chart04_efficiency.png)
+![](../findings/rq1_retrieval_strategies/chart04_efficiency.png)
 
 ---
 
@@ -447,37 +455,37 @@ Semantic understanding for retrieval — but the embedding model is small and do
 
 # RQ2: Overall Accuracy by Model
 
-![w:950](../findings/rq2_model_comparison/chart05_overall_accuracy.png)
+![](../findings/rq2_model_comparison/chart05_overall_accuracy.png)
 
 ---
 
 # RQ2: Accuracy vs Model Size
 
-![w:950](../findings/rq2_model_comparison/chart06_accuracy_vs_size.png)
+![](../findings/rq2_model_comparison/chart06_accuracy_vs_size.png)
 
 ---
 
 # RQ2: Per-Category Accuracy by Model
 
-![w:950](../findings/rq2_model_comparison/chart07_per_category_accuracy.png)
+![](../findings/rq2_model_comparison/chart07_per_category_accuracy.png)
 
 ---
 
 # RQ2: Error Distribution by Model
 
-![w:950](../findings/rq2_model_comparison/chart08_error_distribution.png)
+![](../findings/rq2_model_comparison/chart08_error_distribution.png)
 
 ---
 
 # RQ2: Latency Distribution
 
-![w:950](../findings/rq2_model_comparison/chart09_latency_distribution.png)
+![](../findings/rq2_model_comparison/chart09_latency_distribution.png)
 
 ---
 
 # RQ2: Accuracy vs Latency Tradeoff
 
-![w:950](../findings/rq2_model_comparison/chart10_accuracy_vs_latency.png)
+![](../findings/rq2_model_comparison/chart10_accuracy_vs_latency.png)
 
 ---
 
@@ -501,37 +509,37 @@ Semantic understanding for retrieval — but the embedding model is small and do
 
 # RQ3: Error Heatmap (Error Type x Config)
 
-![w:950](../findings/rq3_error_patterns/chart11_error_heatmap.png)
+![](../findings/rq3_error_patterns/chart11_error_heatmap.png)
 
 ---
 
 # RQ3: Accuracy by Answer Type x Strategy
 
-![w:950](../findings/rq3_error_patterns/chart12_answer_type_by_strategy.png)
+![](../findings/rq3_error_patterns/chart12_answer_type_by_strategy.png)
 
 ---
 
 # RQ3: Accuracy by Answer Type x Model
 
-![w:950](../findings/rq3_error_patterns/chart13_answer_type_by_model.png)
+![](../findings/rq3_error_patterns/chart13_answer_type_by_model.png)
 
 ---
 
 # RQ3: Category Radar Chart
 
-![w:750](../findings/rq3_error_patterns/chart14_radar_category.png)
+![](../findings/rq3_error_patterns/chart14_radar_category.png)
 
 ---
 
 # RQ3: Top Errors Overall
 
-![w:950](../findings/rq3_error_patterns/chart15_top_errors.png)
+![](../findings/rq3_error_patterns/chart15_top_errors.png)
 
 ---
 
 # RQ3: Per-CV Accuracy Spread
 
-![w:950](../findings/rq3_error_patterns/chart16_per_cv_accuracy.png)
+![](../findings/rq3_error_patterns/chart16_per_cv_accuracy.png)
 
 ---
 
@@ -573,31 +581,31 @@ Semantic understanding for retrieval — but the embedding model is small and do
 
 # RQ4: Calibration Plot
 
-![w:900](../findings/rq4_confidence/chart17_calibration.png)
+![](../findings/rq4_confidence/chart17_calibration.png)
 
 ---
 
 # RQ4: Confidence Score Distribution
 
-![w:950](../findings/rq4_confidence/chart18_confidence_histogram.png)
+![](../findings/rq4_confidence/chart18_confidence_histogram.png)
 
 ---
 
 # RQ4: Confidence by Judgment
 
-![w:950](../findings/rq4_confidence/chart19_confidence_by_judgment.png)
+![](../findings/rq4_confidence/chart19_confidence_by_judgment.png)
 
 ---
 
 # RQ4: Rationale Quality
 
-![w:950](../findings/rq4_confidence/chart20_rationale_quality.png)
+![](../findings/rq4_confidence/chart20_rationale_quality.png)
 
 ---
 
 # RQ4: Answer vs Rationale Judgment
 
-![w:850](../findings/rq4_confidence/chart21_answer_vs_rationale.png)
+![](../findings/rq4_confidence/chart21_answer_vs_rationale.png)
 
 ---
 
@@ -620,13 +628,13 @@ Semantic understanding for retrieval — but the embedding model is small and do
 
 # Hardware: Latency Comparison
 
-![w:950](../findings/hardware/chart22_latency_comparison.png)
+![](../findings/hardware/chart22_latency_comparison.png)
 
 ---
 
 # Hardware: Accuracy Comparison
 
-![w:950](../findings/hardware/chart23_accuracy_comparison.png)
+![](../findings/hardware/chart23_accuracy_comparison.png)
 
 ---
 
@@ -670,6 +678,68 @@ Semantic understanding for retrieval — but the embedding model is small and do
 5. **Confidence scores are unreliable** — models report high confidence even when wrong
 6. **Hardware affects speed, not quality** — GPU gives ~55x speedup with equivalent accuracy
 7. **Education questions are easiest; Awards & Extracurricular are hardest** — structured content is easier to extract
+
+---
+
+<!-- _class: lead -->
+
+# Real-World Application: Admission Assistant
+*GA Project — Applying Experiment Findings in Production*
+
+---
+
+# Admission Assistant: Overview
+
+- Built as a **Graduate Assistantship project** at GVSU
+- A web application to assist **Graduate Program Directors (GPDs)** in evaluating applicants
+- Uses the **same strategy (S1: Full CV) and model (Mistral-7B-Instruct-v0.3)** that emerged as the best-performing in our experiments
+- Demonstrates practical value of our benchmark findings
+
+**Key Features:**
+- Automated CV processing and QA extraction
+- AI-suggested applicant ranking (leaderboard)
+- Interactive CV question answering
+- Role-based access control (GPD and Faculty roles)
+
+---
+
+# Admission Assistant: Applicant Leaderboard
+
+![](../findings/admission_assistant/aa_1.png)
+
+AI-suggested ranking based on extracted metrics: **GPA, GRE, TOEFL, Major GPA, DS & Algo scores** — all auto-extracted from CVs using the S1 full-context strategy.
+
+---
+
+# Admission Assistant: Applicant Profile & QA
+
+![](../findings/admission_assistant/aa_2.png)
+
+Applicant profile with **education, experience**, and an interactive QA panel — ask any question about the CV and get structured answers.
+
+---
+
+# Admission Assistant: CV Viewer & QA
+
+![](../findings/admission_assistant/aa_3.png)
+
+Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask follow-up questions directly from the applicant's resume.
+
+---
+
+# Admission Assistant: CV Processing
+
+![](../findings/admission_assistant/aa_4.png)
+
+**Batch processing pipeline** — GPD uploads CVs and triggers automated scanning. Each CV is processed through the full-context QA pipeline.
+
+---
+
+# Admission Assistant: Access Control & Sharing
+
+![](../findings/admission_assistant/aa_5.png)
+
+**Role-based access protocol:** GPD processes and reviews CVs, then **shares specific applicant profiles** with faculty members. Faculty can view shared profiles and leave comments.
 
 ---
 

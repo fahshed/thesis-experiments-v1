@@ -28,9 +28,9 @@ Supervised by **Dr. Rahat Ibn Rafiq**
 
 - Organizations process **hundreds to thousands** of CVs for hiring decisions
 - Manual CV screening is **time-consuming, inconsistent, and subjective**
-- Open-source LLMs are rapidly improving but **lack standardized benchmarks** for CV understanding tasks
-- Existing NLP benchmarks (SQuAD, TriviaQA) don't capture the **structured + unstructured nature of CVs**
-- No publicly available **human-annotated CV QA dataset** exists for systematic evaluation
+- Open-source LLMs are rapidly improving, but CV understanding still lacks a standardized benchmark centered on CV QA [1-5]
+- Existing QA benchmarks such as **SQuAD, TriviaQA, DocVQA, and InfographicVQA** do not target the **structured + unstructured nature of CVs** [1-4]
+- To our knowledge, no publicly available **human-annotated CV QA dataset** exists for systematic evaluation [1-5]
 
 > **Gap:** How well can open-source LLMs extract and reason over information in real-world CVs — and which pipeline strategy works best?
 
@@ -51,7 +51,7 @@ Supervised by **Dr. Rahat Ibn Rafiq**
 # Background: LLMs for Information Extraction
 
 - **Large Language Models** have shown strong capabilities in reading comprehension and information extraction
-- Open-source models (Mistral, LLaMA, Qwen) now approach proprietary model quality for many tasks
+- This study focuses on three widely used open-weight model families: **Qwen2.5, Mistral, and Llama 2** [12-14]
 - Key challenge: **context window management** — CVs vary in length and structure
 - Two paradigms:
   - **Full-context:** Feed entire document to the model
@@ -80,6 +80,8 @@ Supervised by **Dr. Rahat Ibn Rafiq**
 | RAG Systems | REALM, Lewis et al. | General retrieval, not CV QA |
 | LLM Benchmarks | MMLU, HumanEval | General reasoning, not document QA |
 
+Representative references: [1] SQuAD, [2] TriviaQA, [3] DocVQA, [4] InfographicVQA, [5] Resume IE, [6] REALM, [7] RAG, [8] MMLU, [9] HumanEval, [15] RAG survey.
+
 **Our contribution:** A human-annotated benchmark on real CV PDFs for end-to-end CV QA.
 
 ---
@@ -95,7 +97,7 @@ Supervised by **Dr. Rahat Ibn Rafiq**
 30 Questions Designed (across categories & answer types)
         │
         ▼
-ChatGPT generates initial answers (CV + questions → structured output)
+ChatGPT generates initial answers (CV + questions → structured output) [10]
         │
         ▼
 Human Evaluation & Annotation (verify/correct every answer)
@@ -140,7 +142,7 @@ Subset of 50 CVs (1,500 records) used for experiments
 
 # Dataset Creation: Annotation Process
 
-1. **Initial Generation:** Each CV + 30 questions fed to ChatGPT UI
+1. **Initial Generation:** Each CV + 30 questions fed to ChatGPT UI [10]
    - Output: structured array of answers
    - Scripted into CSV format using Python utility
 
@@ -192,7 +194,7 @@ Subset of 50 CVs (1,500 records) used for experiments
                     │  Phase 1: Automatic Metrics          │
                     │  (Exact Match, F1, Overlap)          │
                     │                                     │
-                    │  Phase 2: LLM Judge (Gemini)         │
+                    │  Phase 2: LLM Judge (Gemini 3 Flash) │
                     │  (Correct/Partial/Incorrect)         │
                     └─────────────────────────────────────┘
 ```
@@ -265,15 +267,17 @@ Subset of 50 CVs (1,500 records) used for experiments
 
 | Model | Parameters | Type | Key Characteristics |
 |-------|-----------|------|---------------------|
-| **Qwen2.5-1.5B** | 1.5B | Instruct | Smallest, fastest, resource-efficient |
+| **Qwen2.5-1.5B-Instruct** | 1.5B | Instruct | Smallest, fastest, resource-efficient |
 | **Mistral-7B-Instruct-v0.3** | 7B | Instruct | Mid-size, strong instruction following |
-| **LLaMA-2-13B-Chat** | 13B | Chat | Largest, most capable, highest cost |
+| **LLaMA-2-13B-Chat-HF** | 13B | Chat | Largest, most capable, highest cost |
 
 **Why these models?**
 - Represent a range of model sizes (1.5B → 7B → 13B)
 - All open-source and locally deployable
 - Cover different architecture families
 - Enable analysis of **accuracy vs. efficiency tradeoffs**
+
+Model refs: [12] Qwen2.5-1.5B-Instruct, [13] Mistral-7B-Instruct-v0.3, [14] Llama 2 / Llama-2-13B-Chat.
 
 ---
 
@@ -331,7 +335,7 @@ Subset of 50 CVs (1,500 records) used for experiments
 | **F1 Score** | Token-level precision/recall |
 | **Overlap** | Word overlap fraction with ground truth |
 
-### Phase 2: LLM Judge (Gemini API)
+### Phase 2: LLM Judge (Gemini 3 Flash API) [11]
 
 | Judgment | Credit | Description |
 |----------|--------|-------------|
@@ -643,6 +647,36 @@ This research builds upon a **real-world application** developed during the Grad
 - **Demonstrated** practical applicability through connection to a real-world decision support system
 
 > This work moves CV QA from trial-and-error toward evidence-based system design, creating a strong path to more reliable and scalable decision support.
+
+---
+
+# Citations
+
+- [1] Rajpurkar et al. (2016). *SQuAD: 100,000+ Questions for Machine Comprehension of Text*. arXiv:1606.05250.
+- [2] Joshi et al. (2017). *TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension*. arXiv:1705.03551.
+- [3] Mathew, Karatzas, and Jawahar (2021). *DocVQA: A Dataset for VQA on Document Images*. arXiv:2007.00398.
+- [4] Mathew et al. (2022). *InfographicVQA*. WACV 2022.
+- [5] Yu, Guan, and Zhou (2005). *Resume Information Extraction with Cascaded Hybrid Model*. ACL 2005.
+
+---
+
+# Citations
+
+- [6] Guu et al. (2020). *REALM: Retrieval-Augmented Language Model Pre-Training*. arXiv:2002.08909.
+- [7] Lewis et al. (2021). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. arXiv:2005.11401.
+- [8] Hendrycks et al. (2021). *Measuring Massive Multitask Language Understanding*. arXiv:2009.03300.
+- [9] Chen et al. (2021). *Evaluating Large Language Models Trained on Code*. arXiv:2107.03374.
+- [10] OpenAI (2022). *Introducing ChatGPT*.
+
+---
+
+# Citations
+
+- [11] Google DeepMind (2025). *Gemini 3 Flash*.
+- [12] Qwen Team. *Qwen2.5-1.5B-Instruct* model card / *Qwen2.5 Technical Report*.
+- [13] Mistral AI. *Mistral-7B-Instruct-v0.3* model card.
+- [14] Touvron et al. (2023). *Llama 2: Open Foundation and Fine-Tuned Chat Models*. arXiv:2307.09288.
+- [15] Wu et al. (2024). *Retrieval-Augmented Generation for Natural Language Processing: A Survey*. arXiv:2407.13193.
 
 ---
 

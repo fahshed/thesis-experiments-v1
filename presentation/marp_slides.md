@@ -152,9 +152,9 @@ style: |
 
 - Organizations process **hundreds to thousands** of CVs for hiring decisions
 - Manual CV screening is **time-consuming, inconsistent, and subjective**
-- Open-source LLMs are rapidly improving but **lack standardized benchmarks** for CV understanding tasks
-- Existing NLP benchmarks (SQuAD, TriviaQA) don't capture the **structured + unstructured nature of CVs**
-- No publicly available **human-annotated CV QA dataset** exists for systematic evaluation
+- Open-source LLMs are rapidly improving, but CV understanding still lacks a standardized benchmark centered on CV QA [1-5]
+- Existing QA benchmarks such as **SQuAD, TriviaQA, DocVQA, and InfographicVQA** do not target the **structured + unstructured nature of CVs** [1-4]
+- To our knowledge, no publicly available **human-annotated CV QA dataset** exists for systematic evaluation [1-5]
 
 > **Gap:** How well can open-source LLMs extract and reason over information in real-world CVs — and which pipeline strategy works best?
 
@@ -175,7 +175,7 @@ style: |
 # Background: LLMs for Information Extraction
 
 - **Large Language Models** have shown strong capabilities in reading comprehension and information extraction
-- Open-source models (Mistral, LLaMA, Qwen) now approach proprietary model quality for many tasks
+- This study focuses on three widely used open-weight model families: **Qwen2.5, Mistral, and Llama 2** [12-14]
 - Key challenge: **context window management** — CVs vary in length and structure
 - Two paradigms:
     - **Full-context:** Feed entire document to the model
@@ -192,6 +192,8 @@ style: |
 | Resume Parsing        | Resume-NER, rule-based NER | Extraction, not QA                 |
 | RAG Systems           | REALM, Lewis et al.        | General retrieval, not CV QA       |
 | LLM Benchmarks        | MMLU, HumanEval            | General reasoning, not document QA |
+
+<div class="tiny">Representative references: [1] SQuAD, [2] TriviaQA, [3] DocVQA, [4] InfographicVQA, [5] Resume IE, [6] REALM, [7] RAG, [8] MMLU, [9] HumanEval, [15] RAG survey.</div>
 
 **Our contribution:** A **human-annotated** benchmark on **real CV PDFs** for end-to-end CV QA.
 
@@ -233,7 +235,7 @@ style: |
 
 # Dataset Creation: Annotation Process
 
-1. **Initial Generation:** Each CV + 30 questions fed to ChatGPT UI
+1. **Initial Generation:** Each CV + 30 questions fed to ChatGPT UI [10]
     - Output: structured JSON array of answers
     - Formatted into CSV using Python utility
 
@@ -252,7 +254,7 @@ style: |
 Our system is comprised of **two phases:**
 
 1. **Generation Phase:** Open-source LLMs generate answers from CV content using one of three retrieval strategies
-2. **Evaluation Phase:** Generated answers are evaluated using an LLM judge (Gemini-3-Flash) and validated through human spot-checking
+2. **Evaluation Phase:** Generated answers are evaluated using an LLM judge (Gemini 3 Flash) and validated through human spot-checking [11]
 
 ---
 
@@ -321,6 +323,8 @@ Semantic understanding for retrieval — but the embedding model is small and do
 - Cover different architecture families
 - Enable analysis of **accuracy vs. efficiency tradeoffs**
 
+<div class="tiny">Model refs: [12] Qwen2.5-1.5B-Instruct, [13] Mistral-7B-Instruct-v0.3, [14] Llama 2 / Llama-2-13B-Chat.</div>
+
 ---
 
 # Experiment Design: Configurations
@@ -375,7 +379,7 @@ _Fixed strategy + model: S1 Mistral-7B_
 
 # Evaluation: LLM-as-Judge
 
-**Judge Model:** Gemini-3-Flash (Google)
+**Judge Model:** Gemini 3 Flash (Google) [11]
 
 **Input:** question + ground_truth + predicted_answer + rationale
 
@@ -664,8 +668,6 @@ _Cross-cutting analysis across all configurations_
 
 # Real-World Application: Admission Assistant
 
-_GA Project — Applying Experiment Findings in Production_
-
 ---
 
 # Admission Assistant: Overview
@@ -759,7 +761,7 @@ Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask fo
 
 - **Created** a novel human-annotated benchmark of **3,000 CV QA pairs** (100 CVs x 30 questions)
 - **Designed** a modular evaluation framework with **3 pipeline strategies** and **3 model sizes**
-- **Evaluated** ~9,000 records using **Gemini-3-Flash as LLM judge** across 6 configurations
+- **Evaluated** ~9,000 records using **Gemini 3 Flash as LLM judge** across 6 configurations
 - **Found** that **full CV context (S1)** consistently outperforms retrieval-heavy strategies for CV QA
 - **Established** **Mistral-7B** as the best accuracy-efficiency tradeoff, while larger models did not yield better results
 - **Identified** clear failure patterns: models miss detail, overstate confidence, and handle structured fields better than nuanced ones
@@ -775,6 +777,44 @@ Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask fo
 ---
 
 # Citations
+
+<div class="tiny">
+
+- [1] Rajpurkar et al. (2016). _SQuAD: 100,000+ Questions for Machine Comprehension of Text_. arXiv:1606.05250.
+- [2] Joshi et al. (2017). _TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension_. arXiv:1705.03551.
+- [3] Mathew, Karatzas, and Jawahar (2021). _DocVQA: A Dataset for VQA on Document Images_. arXiv:2007.00398.
+- [4] Mathew et al. (2022). _InfographicVQA_. WACV 2022.
+- [5] Yu, Guan, and Zhou (2005). _Resume Information Extraction with Cascaded Hybrid Model_. ACL 2005.
+
+</div>
+
+---
+
+# Citations
+
+<div class="tiny">
+
+- [6] Guu et al. (2020). _REALM: Retrieval-Augmented Language Model Pre-Training_. arXiv:2002.08909.
+- [7] Lewis et al. (2021). _Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks_. arXiv:2005.11401.
+- [8] Hendrycks et al. (2021). _Measuring Massive Multitask Language Understanding_. arXiv:2009.03300.
+- [9] Chen et al. (2021). _Evaluating Large Language Models Trained on Code_. arXiv:2107.03374.
+- [10] OpenAI (2022). _Introducing ChatGPT_.
+
+</div>
+
+---
+
+# Citations
+
+<div class="tiny">
+
+- [11] Google DeepMind (2025). _Gemini 3 Flash_.
+- [12] Qwen Team. _Qwen2.5-1.5B-Instruct_ model card / _Qwen2.5 Technical Report_.
+- [13] Mistral AI. _Mistral-7B-Instruct-v0.3_ model card.
+- [14] Touvron et al. (2023). _Llama 2: Open Foundation and Fine-Tuned Chat Models_. arXiv:2307.09288.
+- [15] Wu et al. (2024). _Retrieval-Augmented Generation for Natural Language Processing: A Survey_. arXiv:2407.13193.
+
+</div>
 
 ---
 

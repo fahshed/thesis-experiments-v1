@@ -470,7 +470,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="agenda">Agenda</h1>
 <ol>
 <li><strong>Motivation &amp; Problem Statement</strong></li>
@@ -713,14 +713,14 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="motivation">Motivation</h1>
 <ul>
 <li>Organizations process <strong>hundreds to thousands</strong> of CVs for hiring decisions</li>
 <li>Manual CV screening is <strong>time-consuming, inconsistent, and subjective</strong></li>
-<li>Open-source LLMs are rapidly improving but <strong>lack standardized benchmarks</strong> for CV understanding tasks</li>
-<li>Existing NLP benchmarks (SQuAD, TriviaQA) don't capture the <strong>structured + unstructured nature of CVs</strong></li>
-<li>No publicly available <strong>human-annotated CV QA dataset</strong> exists for systematic evaluation</li>
+<li>Open-source LLMs are rapidly improving, but CV understanding still lacks a standardized benchmark centered on CV QA [1-5]</li>
+<li>Existing QA benchmarks such as <strong>SQuAD, TriviaQA, DocVQA, and InfographicVQA</strong> do not target the <strong>structured + unstructured nature of CVs</strong> [1-4]</li>
+<li>To our knowledge, no publicly available <strong>human-annotated CV QA dataset</strong> exists for systematic evaluation [1-5]</li>
 </ul>
 <blockquote>
 <p><strong>Gap:</strong> How well can open-source LLMs extract and reason over information in real-world CVs — and which pipeline strategy works best?</p>
@@ -954,7 +954,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="research-questions">Research Questions</h1>
 <ol>
 <li>
@@ -1199,11 +1199,11 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="background-llms-for-information-extraction">Background: LLMs for Information Extraction</h1>
 <ul>
 <li><strong>Large Language Models</strong> have shown strong capabilities in reading comprehension and information extraction</li>
-<li>Open-source models (Mistral, LLaMA, Qwen) now approach proprietary model quality for many tasks</li>
+<li>This study focuses on three widely used open-weight model families: <strong>Qwen2.5, Mistral, and Llama 2</strong> [12-14]</li>
 <li>Key challenge: <strong>context window management</strong> — CVs vary in length and structure</li>
 <li>Two paradigms:
 <ul>
@@ -1441,7 +1441,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="related-work">Related Work</h1>
 <table>
 <thead>
@@ -1479,6 +1479,7 @@ section.lead h2.thesis-kind {
 </tr>
 </tbody>
 </table>
+<div class="tiny">Representative references: [1] SQuAD, [2] TriviaQA, [3] DocVQA, [4] InfographicVQA, [5] Resume IE, [6] REALM, [7] RAG, [8] MMLU, [9] HumanEval, [15] RAG survey.</div>
 <p><strong>Our contribution:</strong> A <strong>human-annotated</strong> benchmark on <strong>real CV PDFs</strong> for end-to-end CV QA.</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-theme="default" data-style="section {
@@ -1709,7 +1710,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="dataset-creation-pipeline">Dataset Creation Pipeline</h1>
 <p><img src="../findings/diagrams/D3_dataset_creation.png" alt="" /></p>
 </section>
@@ -1941,7 +1942,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="dataset-creation-cv-collection">Dataset Creation: CV Collection</h1>
 <ul>
 <li><strong>Sources:</strong>
@@ -2183,7 +2184,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="dataset-creation-question-design">Dataset Creation: Question Design</h1>
 <p><strong>30 questions</strong> spanning 6 categories:</p>
 <table>
@@ -2450,11 +2451,11 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="dataset-creation-annotation-process">Dataset Creation: Annotation Process</h1>
 <ol>
 <li>
-<p><strong>Initial Generation:</strong> Each CV + 30 questions fed to ChatGPT UI</p>
+<p><strong>Initial Generation:</strong> Each CV + 30 questions fed to ChatGPT UI [10]</p>
 <ul>
 <li>Output: structured JSON array of answers</li>
 <li>Formatted into CSV using Python utility</li>
@@ -2704,12 +2705,12 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="system-overview-two-phase-design">System Overview: Two-Phase Design</h1>
 <p>Our system is comprised of <strong>two phases:</strong></p>
 <ol>
 <li><strong>Generation Phase:</strong> Open-source LLMs generate answers from CV content using one of three retrieval strategies</li>
-<li><strong>Evaluation Phase:</strong> Generated answers are evaluated using an LLM judge (Gemini-3-Flash) and validated through human spot-checking</li>
+<li><strong>Evaluation Phase:</strong> Generated answers are evaluated using an LLM judge (Gemini 3 Flash) and validated through human spot-checking [11]</li>
 </ol>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-theme="default" data-style="section {
@@ -2940,7 +2941,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="phase-1-generation-pipeline">Phase 1: Generation Pipeline</h1>
 <p><img src="../findings/diagrams/D5_generation_pipeline.png" alt="" /></p>
 </section>
@@ -3172,7 +3173,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="strategy-1-full-cv-context-s1">Strategy 1: Full CV Context (S1)</h1>
 <ul>
 <li><strong>Approach:</strong> Entire CV text extracted via pypdf and injected into the prompt</li>
@@ -3412,7 +3413,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="strategy-2-keyword-based-retrieval-s2">Strategy 2: Keyword-Based Retrieval (S2)</h1>
 <ul>
 <li><strong>Approach:</strong> CV chunked into <strong>500-word segments</strong>; ranked by <strong>keyword overlap</strong> with question</li>
@@ -3652,7 +3653,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="strategy-3-semantic-rag-s3">Strategy 3: Semantic RAG (S3)</h1>
 <ul>
 <li><strong>Approach:</strong> CV chunked into <strong>500-word segments</strong>; encoded with <strong>all-MiniLM-L6-v2</strong> embeddings</li>
@@ -3893,7 +3894,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="models-under-study">Models Under Study</h1>
 <table>
 <thead>
@@ -3931,6 +3932,7 @@ section.lead h2.thesis-kind {
 <li>Cover different architecture families</li>
 <li>Enable analysis of <strong>accuracy vs. efficiency tradeoffs</strong></li>
 </ul>
+<div class="tiny">Model refs: [12] Qwen2.5-1.5B-Instruct, [13] Mistral-7B-Instruct-v0.3, [14] Llama 2 / Llama-2-13B-Chat.</div>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-paginate="true" data-theme="default" data-style="section {
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
@@ -4160,7 +4162,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="experiment-design-configurations">Experiment Design: Configurations</h1>
 <div class="columns">
 <div>
@@ -4477,7 +4479,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="phase-2-evaluation-pipeline">Phase 2: Evaluation Pipeline</h1>
 <p><img src="../findings/diagrams/D6_evaluation_pipeline.png" alt="" /></p>
 </section>
@@ -4709,9 +4711,9 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="evaluation-llm-as-judge">Evaluation: LLM-as-Judge</h1>
-<p><strong>Judge Model:</strong> Gemini-3-Flash (Google)</p>
+<p><strong>Judge Model:</strong> Gemini 3 Flash (Google) [11]</p>
 <p><strong>Input:</strong> question + ground_truth + predicted_answer + rationale</p>
 <p><strong>Output per record:</strong></p>
 <table>
@@ -4974,7 +4976,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="evaluation-error-taxonomy-11-categories">Evaluation: Error Taxonomy (11 Categories)</h1>
 <div class="small">
 <table>
@@ -5261,7 +5263,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="results--analysis">Results &amp; Analysis</h1>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-paginate="true" data-theme="default" data-style="section {
@@ -5492,7 +5494,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="master-results-table">Master Results Table</h1>
 <div class="small">
 <table>
@@ -5794,7 +5796,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq1-how-do-retrieval-strategies-affect-accuracy">RQ1: How Do Retrieval Strategies Affect Accuracy?</h1>
 <p><em>S1 vs S2 vs S3 — Model fixed to Mistral-7B</em></p>
 </section>
@@ -6026,7 +6028,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq1-overall-accuracy--sample-counts-by-strategy">RQ1: Overall Accuracy &amp; Sample Counts by Strategy</h1>
 <div style="display: flex; gap: 10px; align-items: center;">
   <img src="../findings/rq1_retrieval_strategies/chart01_overall_accuracy.png" style="width: 50%;" />
@@ -6261,7 +6263,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq1-efficiency-comparison-retrieval-strategies">RQ1: Efficiency Comparison (Retrieval Strategies)</h1>
 <p><img src="../findings/rq1_retrieval_strategies/chart04_efficiency.png" alt="" /></p>
 </section>
@@ -6493,7 +6495,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq1-key-findings">RQ1: Key Findings</h1>
 <ul>
 <li><strong>S1 (Full CV) wins on accuracy:</strong> 0.579 soft accuracy vs 0.483 (S2) and 0.403 (S3)</li>
@@ -6730,7 +6732,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq2-how-do-models-of-varying-sizes-compare">RQ2: How Do Models of Varying Sizes Compare?</h1>
 <p><em>Qwen 1.5B vs Mistral 7B vs LLaMA 13B — Strategy fixed to S1</em></p>
 </section>
@@ -6962,7 +6964,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq2-accuracy-vs-model-size">RQ2: Accuracy vs Model Size</h1>
 <p><img src="../findings/rq2_model_comparison/chart06_accuracy_vs_size.png" alt="" /></p>
 </section>
@@ -7194,7 +7196,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq2-accuracy-vs-latency-tradeoff">RQ2: Accuracy vs Latency Tradeoff</h1>
 <div class="columns">
 <div>
@@ -7435,7 +7437,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq2-key-findings">RQ2: Key Findings</h1>
 <ul>
 <li><strong>Bigger is NOT always better:</strong> LLaMA-13B (0.551) does not outperform Mistral-7B (0.579) despite being nearly 2x the size</li>
@@ -7674,7 +7676,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq3-what-question-types-and-error-patterns-emerge">RQ3: What Question Types and Error Patterns Emerge?</h1>
 <p><em>Cross-cutting analysis across all configurations</em></p>
 </section>
@@ -7906,7 +7908,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq3-error-distribution-by-model">RQ3: Error Distribution by Model</h1>
 <div class="columns">
 <div>
@@ -8147,7 +8149,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq3-accuracy-by-answer-type-strategy-x-model">RQ3: Accuracy by Answer Type (Strategy x Model)</h1>
 <div class="columns">
 <div>
@@ -8388,7 +8390,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq3-category-radar-chart">RQ3: Category Radar Chart</h1>
 <p><img src="../findings/rq3_error_patterns/chart14_radar_category.png" alt="" /></p>
 </section>
@@ -8620,7 +8622,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq3-key-findings">RQ3: Key Findings</h1>
 <ul>
 <li><strong>&quot;Missing Detail&quot; is the dominant error</strong> (1,511 total) — models often give partially correct answers</li>
@@ -8857,7 +8859,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq4-confidence-scores--rationale-quality">RQ4: Confidence Scores &amp; Rationale Quality</h1>
 <p><em>Cross-cutting analysis across all configurations</em></p>
 </section>
@@ -9089,7 +9091,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq4-confidence-score-distribution">RQ4: Confidence Score Distribution</h1>
 <p><img src="../findings/rq4_confidence/chart18_confidence_histogram.png" alt="" /></p>
 </section>
@@ -9321,7 +9323,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq4-answer-vs-rationale-judgment">RQ4: Answer vs Rationale Judgment</h1>
 <p><img src="../findings/rq4_confidence/chart21_answer_vs_rationale.png" alt="" /></p>
 </section>
@@ -9553,7 +9555,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="rq4-key-findings">RQ4: Key Findings</h1>
 <ul>
 <li><strong>Models are overconfident:</strong> Confidence scores cluster at 0.8–1.0 regardless of correctness</li>
@@ -9791,7 +9793,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="additional-findings">Additional Findings</h1>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="41" data-paginate="true" data-theme="default" data-style="section {
@@ -10022,7 +10024,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="per-category-accuracy-by-strategy">Per-Category Accuracy by Strategy</h1>
 <p><img src="../findings/rq1_retrieval_strategies/chart02_per_category_accuracy.png" alt="" /></p>
 </section>
@@ -10254,7 +10256,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="per-category-accuracy-by-model">Per-Category Accuracy by Model</h1>
 <p><img src="../findings/rq2_model_comparison/chart07_per_category_accuracy.png" alt="" /></p>
 </section>
@@ -10486,7 +10488,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="hardware-charts">Hardware: Charts</h1>
 <div class="columns">
 <div>
@@ -10727,7 +10729,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="hardware-key-findings">Hardware: Key Findings</h1>
 <ul>
 <li><strong>GPU is ~55x faster</strong> than CPU for Mistral-7B inference</li>
@@ -10964,9 +10966,8 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="real-world-application-admission-assistant">Real-World Application: Admission Assistant</h1>
-<p><em>GA Project — Applying Experiment Findings in Production</em></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="46" data-paginate="true" data-theme="default" data-style="section {
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
@@ -11196,7 +11197,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="admission-assistant-overview">Admission Assistant: Overview</h1>
 <ul>
 <li>Built as a <strong>Graduate Assistantship project</strong> at GVSU</li>
@@ -11440,7 +11441,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="admission-assistant-applicant-leaderboard">Admission Assistant: Applicant Leaderboard</h1>
 <p><img src="../findings/admission_assistant/aa_1.png" alt="" /></p>
 <p>AI-suggested ranking based on extracted metrics: <strong>GPA, GRE, TOEFL, Major GPA, DS &amp; Algo scores</strong> — all auto-extracted from CVs using the S1 full-context strategy.</p>
@@ -11673,7 +11674,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="admission-assistant-applicant-profile--qa">Admission Assistant: Applicant Profile &amp; QA</h1>
 <p><img src="../findings/admission_assistant/aa_2.png" alt="" /></p>
 <p>Applicant profile with <strong>education, experience</strong>, and an interactive QA panel — ask any question about the CV and get structured answers.</p>
@@ -11906,7 +11907,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="admission-assistant-cv-viewer--qa">Admission Assistant: CV Viewer &amp; QA</h1>
 <p><img src="../findings/admission_assistant/aa_3.png" alt="" /></p>
 <p>Side-by-side view: <strong>rendered CV</strong> alongside QA interactions. Faculty can ask follow-up questions directly from the applicant's resume.</p>
@@ -12139,7 +12140,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="admission-assistant-cv-processing">Admission Assistant: CV Processing</h1>
 <p><img src="../findings/admission_assistant/aa_4.png" alt="" /></p>
 <p><strong>Batch processing pipeline</strong> — GPD uploads CVs and triggers automated scanning. Each CV is processed through the full-context QA pipeline.</p>
@@ -12372,7 +12373,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="admission-assistant-access-control--sharing">Admission Assistant: Access Control &amp; Sharing</h1>
 <p><img src="../findings/admission_assistant/aa_5.png" alt="" /></p>
 <p><strong>Role-based access protocol:</strong> GPD processes and reviews CVs, then <strong>shares specific applicant profiles</strong> with faculty members. Faculty can view shared profiles and leave comments.</p>
@@ -12605,7 +12606,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="discussion">Discussion</h1>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" data-paginate="true" data-theme="default" data-style="section {
@@ -12836,7 +12837,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="limitations">Limitations</h1>
 <ul>
 <li><strong>Hardware constraints:</strong> LLaMA-13B pushed GPU to 99% utilization — results may improve on better hardware</li>
@@ -13077,7 +13078,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="future-work">Future Work</h1>
 <ul>
 <li><strong>Expand dataset:</strong> More CVs, more question types, multi-language support</li>
@@ -13317,12 +13318,12 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="conclusion">Conclusion</h1>
 <ul>
 <li><strong>Created</strong> a novel human-annotated benchmark of <strong>3,000 CV QA pairs</strong> (100 CVs x 30 questions)</li>
 <li><strong>Designed</strong> a modular evaluation framework with <strong>3 pipeline strategies</strong> and <strong>3 model sizes</strong></li>
-<li><strong>Evaluated</strong> ~9,000 records using <strong>Gemini-3-Flash as LLM judge</strong> across 6 configurations</li>
+<li><strong>Evaluated</strong> ~9,000 records using <strong>Gemini 3 Flash as LLM judge</strong> across 6 configurations</li>
 <li><strong>Found</strong> that <strong>full CV context (S1)</strong> consistently outperforms retrieval-heavy strategies for CV QA</li>
 <li><strong>Established</strong> <strong>Mistral-7B</strong> as the best accuracy-efficiency tradeoff, while larger models did not yield better results</li>
 <li><strong>Identified</strong> clear failure patterns: models miss detail, overstate confidence, and handle structured fields better than nuanced ones</li>
@@ -13558,7 +13559,7 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="acknowledgement">Acknowledgement</h1>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" data-paginate="true" data-theme="default" data-style="section {
@@ -13789,10 +13790,499 @@ section.lead h2.thesis-kind {
   color: #2E7D32;
   font-weight: 700;
 }
-;" data-marpit-pagination-total="58" data-size="16:9">
+;" data-marpit-pagination-total="60" data-size="16:9">
 <h1 id="citations">Citations</h1>
+<div class="tiny">
+<ul>
+<li>[1] Rajpurkar et al. (2016). <em>SQuAD: 100,000+ Questions for Machine Comprehension of Text</em>. arXiv:1606.05250.</li>
+<li>[2] Joshi et al. (2017). <em>TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension</em>. arXiv:1705.03551.</li>
+<li>[3] Mathew, Karatzas, and Jawahar (2021). <em>DocVQA: A Dataset for VQA on Document Images</em>. arXiv:2007.00398.</li>
+<li>[4] Mathew et al. (2022). <em>InfographicVQA</em>. WACV 2022.</li>
+<li>[5] Yu, Guan, and Zhou (2005). <em>Resume Information Extraction with Cascaded Hybrid Model</em>. ACL 2005.</li>
+</ul>
+</div>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" data-class="lead" data-theme="default" data-style="section {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" data-paginate="true" data-theme="default" data-style="section {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 22px;
+}
+section.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section.lead h1 {
+  font-size: 42px;
+  color: #1565C0;
+}
+section.lead h2 {
+  font-size: 28px;
+  color: #424242;
+  font-weight: normal;
+}
+h1 {
+  color: #1565C0;
+  font-size: 32px;
+  border-bottom: 2px solid #1565C0;
+  padding-bottom: 8px;
+}
+h2 {
+  color: #1976D2;
+  font-size: 26px;
+}
+h3 {
+  color: #424242;
+  font-size: 22px;
+}
+table {
+  font-size: 18px;
+  margin: 0 auto;
+}
+th {
+  background-color: #E3F2FD;
+  color: #1565C0;
+}
+blockquote {
+  border-left: 4px solid #1565C0;
+  background-color: #E3F2FD;
+  padding: 12px 20px;
+  font-style: italic;
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.columns3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.small {
+  font-size: 16px;
+}
+.tiny {
+  font-size: 14px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 95%;
+  max-height: 450px;
+  object-fit: contain;
+}
+em {
+  color: #666;
+}
+strong {
+  color: #1565C0;
+}
+/* Title slide: supervisor name stays dark (global strong is blue) */
+section.lead .supervisor-line {
+  color: #424242;
+  font-size: 22px;
+  margin-top: 0.5em;
+}
+section.lead .supervisor-line strong {
+  color: #424242;
+  font-weight: bold;
+}
+section.lead .by-line {
+  font-size: 28px;
+  margin-top: 0.35em;
+  color: #424242;
+}
+section.lead .by-line .author-blue {
+  color: #1565C0;
+  font-weight: normal;
+}
+section.lead h2.thesis-kind {
+  color: #424242;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 0.5em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.highlight {
+  background-color: #FFF3E0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #FF9800;
+}
+.best,
+.best strong {
+  color: #2E7D32;
+  font-weight: 700;
+}
+" lang="C" data-marpit-pagination="58" style="--paginate:true;--theme:default;--style:section {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 22px;
+}
+section.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section.lead h1 {
+  font-size: 42px;
+  color: #1565C0;
+}
+section.lead h2 {
+  font-size: 28px;
+  color: #424242;
+  font-weight: normal;
+}
+h1 {
+  color: #1565C0;
+  font-size: 32px;
+  border-bottom: 2px solid #1565C0;
+  padding-bottom: 8px;
+}
+h2 {
+  color: #1976D2;
+  font-size: 26px;
+}
+h3 {
+  color: #424242;
+  font-size: 22px;
+}
+table {
+  font-size: 18px;
+  margin: 0 auto;
+}
+th {
+  background-color: #E3F2FD;
+  color: #1565C0;
+}
+blockquote {
+  border-left: 4px solid #1565C0;
+  background-color: #E3F2FD;
+  padding: 12px 20px;
+  font-style: italic;
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.columns3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.small {
+  font-size: 16px;
+}
+.tiny {
+  font-size: 14px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 95%;
+  max-height: 450px;
+  object-fit: contain;
+}
+em {
+  color: #666;
+}
+strong {
+  color: #1565C0;
+}
+/* Title slide: supervisor name stays dark (global strong is blue) */
+section.lead .supervisor-line {
+  color: #424242;
+  font-size: 22px;
+  margin-top: 0.5em;
+}
+section.lead .supervisor-line strong {
+  color: #424242;
+  font-weight: bold;
+}
+section.lead .by-line {
+  font-size: 28px;
+  margin-top: 0.35em;
+  color: #424242;
+}
+section.lead .by-line .author-blue {
+  color: #1565C0;
+  font-weight: normal;
+}
+section.lead h2.thesis-kind {
+  color: #424242;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 0.5em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.highlight {
+  background-color: #FFF3E0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #FF9800;
+}
+.best,
+.best strong {
+  color: #2E7D32;
+  font-weight: 700;
+}
+;" data-marpit-pagination-total="60" data-size="16:9">
+<h1 id="citations-1">Citations</h1>
+<div class="tiny">
+<ul>
+<li>[6] Guu et al. (2020). <em>REALM: Retrieval-Augmented Language Model Pre-Training</em>. arXiv:2002.08909.</li>
+<li>[7] Lewis et al. (2021). <em>Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</em>. arXiv:2005.11401.</li>
+<li>[8] Hendrycks et al. (2021). <em>Measuring Massive Multitask Language Understanding</em>. arXiv:2009.03300.</li>
+<li>[9] Chen et al. (2021). <em>Evaluating Large Language Models Trained on Code</em>. arXiv:2107.03374.</li>
+<li>[10] OpenAI (2022). <em>Introducing ChatGPT</em>.</li>
+</ul>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="59" data-paginate="true" data-theme="default" data-style="section {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 22px;
+}
+section.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section.lead h1 {
+  font-size: 42px;
+  color: #1565C0;
+}
+section.lead h2 {
+  font-size: 28px;
+  color: #424242;
+  font-weight: normal;
+}
+h1 {
+  color: #1565C0;
+  font-size: 32px;
+  border-bottom: 2px solid #1565C0;
+  padding-bottom: 8px;
+}
+h2 {
+  color: #1976D2;
+  font-size: 26px;
+}
+h3 {
+  color: #424242;
+  font-size: 22px;
+}
+table {
+  font-size: 18px;
+  margin: 0 auto;
+}
+th {
+  background-color: #E3F2FD;
+  color: #1565C0;
+}
+blockquote {
+  border-left: 4px solid #1565C0;
+  background-color: #E3F2FD;
+  padding: 12px 20px;
+  font-style: italic;
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.columns3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.small {
+  font-size: 16px;
+}
+.tiny {
+  font-size: 14px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 95%;
+  max-height: 450px;
+  object-fit: contain;
+}
+em {
+  color: #666;
+}
+strong {
+  color: #1565C0;
+}
+/* Title slide: supervisor name stays dark (global strong is blue) */
+section.lead .supervisor-line {
+  color: #424242;
+  font-size: 22px;
+  margin-top: 0.5em;
+}
+section.lead .supervisor-line strong {
+  color: #424242;
+  font-weight: bold;
+}
+section.lead .by-line {
+  font-size: 28px;
+  margin-top: 0.35em;
+  color: #424242;
+}
+section.lead .by-line .author-blue {
+  color: #1565C0;
+  font-weight: normal;
+}
+section.lead h2.thesis-kind {
+  color: #424242;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 0.5em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.highlight {
+  background-color: #FFF3E0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #FF9800;
+}
+.best,
+.best strong {
+  color: #2E7D32;
+  font-weight: 700;
+}
+" lang="C" data-marpit-pagination="59" style="--paginate:true;--theme:default;--style:section {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 22px;
+}
+section.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section.lead h1 {
+  font-size: 42px;
+  color: #1565C0;
+}
+section.lead h2 {
+  font-size: 28px;
+  color: #424242;
+  font-weight: normal;
+}
+h1 {
+  color: #1565C0;
+  font-size: 32px;
+  border-bottom: 2px solid #1565C0;
+  padding-bottom: 8px;
+}
+h2 {
+  color: #1976D2;
+  font-size: 26px;
+}
+h3 {
+  color: #424242;
+  font-size: 22px;
+}
+table {
+  font-size: 18px;
+  margin: 0 auto;
+}
+th {
+  background-color: #E3F2FD;
+  color: #1565C0;
+}
+blockquote {
+  border-left: 4px solid #1565C0;
+  background-color: #E3F2FD;
+  padding: 12px 20px;
+  font-style: italic;
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.columns3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.small {
+  font-size: 16px;
+}
+.tiny {
+  font-size: 14px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 95%;
+  max-height: 450px;
+  object-fit: contain;
+}
+em {
+  color: #666;
+}
+strong {
+  color: #1565C0;
+}
+/* Title slide: supervisor name stays dark (global strong is blue) */
+section.lead .supervisor-line {
+  color: #424242;
+  font-size: 22px;
+  margin-top: 0.5em;
+}
+section.lead .supervisor-line strong {
+  color: #424242;
+  font-weight: bold;
+}
+section.lead .by-line {
+  font-size: 28px;
+  margin-top: 0.35em;
+  color: #424242;
+}
+section.lead .by-line .author-blue {
+  color: #1565C0;
+  font-weight: normal;
+}
+section.lead h2.thesis-kind {
+  color: #424242;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 0.5em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.highlight {
+  background-color: #FFF3E0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #FF9800;
+}
+.best,
+.best strong {
+  color: #2E7D32;
+  font-weight: 700;
+}
+;" data-marpit-pagination-total="60" data-size="16:9">
+<h1 id="citations-2">Citations</h1>
+<div class="tiny">
+<ul>
+<li>[11] Google DeepMind (2025). <em>Gemini 3 Flash</em>.</li>
+<li>[12] Qwen Team. <em>Qwen2.5-1.5B-Instruct</em> model card / <em>Qwen2.5 Technical Report</em>.</li>
+<li>[13] Mistral AI. <em>Mistral-7B-Instruct-v0.3</em> model card.</li>
+<li>[14] Touvron et al. (2023). <em>Llama 2: Open Foundation and Fine-Tuned Chat Models</em>. arXiv:2307.09288.</li>
+<li>[15] Wu et al. (2024). <em>Retrieval-Augmented Generation for Natural Language Processing: A Survey</em>. arXiv:2407.13193.</li>
+</ul>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="60" data-class="lead" data-theme="default" data-style="section {
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   font-size: 22px;
 }

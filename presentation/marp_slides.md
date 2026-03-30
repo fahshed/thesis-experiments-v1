@@ -546,15 +546,24 @@ _Cross-cutting analysis across all configurations_
 
 ---
 
-# RQ3: Accuracy by Answer Type x Strategy
+# RQ3: Accuracy by Answer Type (Strategy x Model)
+
+<div class="columns">
+<div>
+
+<p class="small" style="text-align:center;"><strong>By Strategy</strong></p>
 
 ![](../findings/rq3_error_patterns/chart12_answer_type_by_strategy.png)
 
----
+</div>
+<div>
 
-# RQ3: Accuracy by Answer Type x Model
+<p class="small" style="text-align:center;"><strong>By Model</strong></p>
 
 ![](../findings/rq3_error_patterns/chart13_answer_type_by_model.png)
+
+</div>
+</div>
 
 ---
 
@@ -564,44 +573,12 @@ _Cross-cutting analysis across all configurations_
 
 ---
 
-# RQ3: Top Errors Overall
-
-![](../findings/rq3_error_patterns/chart15_top_errors.png)
-
----
-
-# RQ3: Per-CV Accuracy Spread
-
-![](../findings/rq3_error_patterns/chart16_per_cv_accuracy.png)
-
----
-
 # RQ3: Key Findings
 
 - **"Missing Detail" is the dominant error** (1,511 total) — models often give partially correct answers
-- **"Not Answered" spikes in retrieval strategies** — S2: 354, S3: 480 vs S1: 16–29
 - **Entity/Numeric questions** are easier than Descriptive across all configs
 - **Education** is the easiest category; **Awards & Extracurricular** is the hardest
-- **Per-CV accuracy varies widely** — some CVs are consistently harder across all models (likely due to PDF extraction quality or unusual formatting)
-
----
-
-# RQ3: Per-Category Accuracy Table
-
-<div class="small">
-
-| Category            | S1 Qwen | S1 Mistral | S1 LLaMA  | S2 Mistral | S3 Mistral |
-| ------------------- | ------- | ---------- | --------- | ---------- | ---------- |
-| Personal Info       | 0.581   | 0.635      | 0.555     | 0.594      | 0.538      |
-| Education           | 0.712   | **0.769**  | 0.577     | 0.697      | 0.536      |
-| Prof. Experience    | 0.469   | 0.530      | 0.503     | 0.423      | 0.327      |
-| Skills              | 0.500   | 0.451      | **0.597** | 0.304      | 0.256      |
-| Research & Projects | 0.489   | 0.596      | 0.551     | 0.498      | 0.407      |
-| Awards & Extra.     | 0.434   | 0.355      | **0.602** | 0.243      | 0.279      |
-
-</div>
-
-> LLaMA-13B surprisingly leads on Skills and Awards categories — where its larger capacity helps with less structured content.
+- **LLaMA-13B performs best on Awards & Extracurricular** among compared configurations
 
 ---
 
@@ -613,27 +590,9 @@ _Cross-cutting analysis across all configurations_
 
 ---
 
-# RQ4: Calibration Plot
-
-![](../findings/rq4_confidence/chart17_calibration.png)
-
----
-
 # RQ4: Confidence Score Distribution
 
 ![](../findings/rq4_confidence/chart18_confidence_histogram.png)
-
----
-
-# RQ4: Confidence by Judgment
-
-![](../findings/rq4_confidence/chart19_confidence_by_judgment.png)
-
----
-
-# RQ4: Rationale Quality
-
-![](../findings/rq4_confidence/chart20_rationale_quality.png)
 
 ---
 
@@ -659,27 +618,36 @@ _Cross-cutting analysis across all configurations_
 
 ---
 
-# RQ1: Per-Category Accuracy by Strategy
+# Per-Category Accuracy by Strategy
 
 ![](../findings/rq1_retrieval_strategies/chart02_per_category_accuracy.png)
 
 ---
 
-# RQ2: Per-Category Accuracy by Model
+# Per-Category Accuracy by Model
 
 ![](../findings/rq2_model_comparison/chart07_per_category_accuracy.png)
 
 ---
 
-# Hardware: Latency Comparison
+# Hardware: Charts
+
+<div class="columns">
+<div>
+
+<p class="small" style="text-align:center;"><strong>Latency Comparison</strong></p>
 
 ![](../findings/hardware/chart22_latency_comparison.png)
 
----
+</div>
+<div>
 
-# Hardware: Accuracy Comparison
+<p class="small" style="text-align:center;"><strong>Accuracy Comparison</strong></p>
 
 ![](../findings/hardware/chart23_accuracy_comparison.png)
+
+</div>
+</div>
 
 ---
 
@@ -689,18 +657,6 @@ _Cross-cutting analysis across all configurations_
 - **Accuracy is comparable** between GPU and CPU runs — the model produces similar quality outputs regardless of hardware
 - **CPU is viable** for small-scale or offline processing where latency is acceptable
 - **Implication:** Hardware choice affects throughput, not answer quality
-
----
-
-# Discussion: Key Takeaways
-
-1. **Full CV context (S1) is best for accuracy** — retrieval strategies lose too much information for CV QA
-2. **Mistral-7B is the sweet spot** — best accuracy at reasonable compute cost; bigger (LLaMA 13B) doesn't help
-3. **"Missing Detail" dominates errors** — models partially answer rather than completely failing
-4. **Retrieval strategies cause "Not Answered" spikes** — chunk selection misses relevant CV sections
-5. **Confidence scores are unreliable** — models report high confidence even when wrong
-6. **Hardware affects speed, not quality** — GPU gives ~55x speedup with equivalent accuracy
-7. **Education questions are easiest; Awards & Extracurricular are hardest** — structured content is easier to extract
 
 ---
 
@@ -768,6 +724,12 @@ Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask fo
 
 ---
 
+<!-- _class: lead -->
+
+# Discussion
+
+---
+
 # Limitations
 
 - **Hardware constraints:** LLaMA-13B pushed GPU to 99% utilization — results may improve on better hardware
@@ -776,7 +738,7 @@ Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask fo
 - **PDF extraction:** pypdf-based extraction loses formatting that visual models could leverage
 - **Single-language:** English-only CVs and questions
 - **Judge reliability:** Gemini-based evaluation may have biases (mitigated by spot-checking)
-- **No fine-tuning:** All models used in zero-shot setting
+- **No task-specific fine-tuning:** Base models had instruction tuning, but none were fine-tuned on CV QA data
 - **Retrieval chunking:** Fixed 500-word chunks may not align with CV section boundaries
 
 ---
@@ -788,7 +750,6 @@ Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask fo
 - **Fine-tuning experiments:** Domain-specific fine-tuning on CV QA task
 - **Newer models:** Evaluate emerging models (Mistral v0.4+, LLaMA 3, Qwen 2.5+, Phi-3)
 - **Hybrid retrieval strategies:** Combine keyword and semantic retrieval
-- **Adaptive chunking:** Section-aware chunking instead of fixed 500-word windows
 - **Human evaluation study:** Systematic inter-annotator agreement on judge quality
 - **Production deployment:** Integrate findings into real-world decision support systems
 
@@ -799,12 +760,21 @@ Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask fo
 - **Created** a novel human-annotated benchmark of **3,000 CV QA pairs** (100 CVs x 30 questions)
 - **Designed** a modular evaluation framework with **3 pipeline strategies** and **3 model sizes**
 - **Evaluated** ~9,000 records using **Gemini-3-Flash as LLM judge** across 6 configurations
-- **Found** full CV context + Mistral-7B as the optimal configuration (0.579 soft accuracy)
-- **Identified** systematic error patterns, with "missing detail" as the dominant failure mode
-- **Demonstrated** that confidence scores are poorly calibrated across all models
-- **Showed** hardware choice affects throughput (~55x) but not answer quality
+- **Found** that **full CV context (S1)** consistently outperforms retrieval-heavy strategies for CV QA
+- **Established** **Mistral-7B** as the best accuracy-efficiency tradeoff, while larger models did not yield better results
+- **Identified** clear failure patterns: models miss detail, overstate confidence, and handle structured fields better than nuanced ones
+- **Demonstrated** that hardware choice changes throughput by about **55x**, but not answer quality
+- **Connected** the findings to a real-world admission assistant, showing the benchmark can inform practical system design
 
-> This work provides a systematic foundation for evaluating and selecting LLM-based pipelines for CV information extraction tasks.
+---
+
+<!-- _class: lead -->
+
+# Acknowledgement
+
+---
+
+# Citations
 
 ---
 
@@ -814,6 +784,3 @@ Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask fo
 # Thank You
 
 ## Questions?
-
-**Fahim Morshed**
-Supervised by **Dr. Rahat Ibn Rafiq**

@@ -637,10 +637,12 @@ This research builds upon a **real-world application** developed during the Grad
 - **Created** a novel human-annotated benchmark dataset of **3,000 CV QA pairs** (100 CVs × 30 questions)
 - **Designed and implemented** a modular evaluation framework with **3 pipeline strategies** and **3 model sizes**
 - **Evaluated** 1,500 records per configuration using both **automatic metrics** and **LLM-based judging**
-- **Analyzed** accuracy, error patterns, latency, and efficiency tradeoffs across configurations
+- **Showed** that full-CV context is the strongest strategy for CV QA, while retrieval-heavy pipelines lose critical detail
+- **Established** Mistral-7B as the best balance of accuracy and efficiency across tested configurations
+- **Analyzed** the main failure patterns, especially missing detail, weak confidence calibration, and category-level difficulty differences
 - **Demonstrated** practical applicability through connection to a real-world decision support system
 
-> This work provides a systematic foundation for evaluating and selecting LLM-based pipelines for CV information extraction tasks.
+> This work moves CV QA from trial-and-error toward evidence-based system design, creating a strong path to more reliable and scalable decision support.
 
 ---
 

@@ -1,0 +1,26 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E3F2FD', 'primaryTextColor': '#1565C0', 'primaryBorderColor': '#1565C0', 'lineColor': '#424242', 'secondaryColor': '#FFF3E0', 'tertiaryColor': '#E8F5E9'}}}%%
+flowchart LR
+    subgraph Inputs["Judge Inputs"]
+        direction TB
+        Q["❓ Question"]
+        GT["✅ Ground Truth"]
+        PA["📝 Predicted Answer"]
+        R["💡 Rationale"]
+        ET["🏷️ Available Error Types"]
+        Q ~~~ GT ~~~ PA ~~~ R ~~~ ET
+    end
+
+    Inputs --> Judge["Gemini-3-Flash<br/>(LLM-as-Judge)"]
+
+    Judge --> Verdict["Judge Output (JSON)<br/>{<br/>&nbsp;&nbsp;&quot;answer_judgment&quot;: &quot;partial&quot;,<br/>&nbsp;&nbsp;&quot;answer_credit&quot;: 0.5,<br/>&nbsp;&nbsp;&quot;rationale_judgment&quot;: &quot;good&quot;,<br/>&nbsp;&nbsp;&quot;rationale_credit&quot;: 1.0,<br/>&nbsp;&nbsp;&quot;error_type&quot;: &quot;missing_detail&quot;<br/>}"]
+
+    Verdict --> Metrics["Metrics Aggregation<br/>Soft Accuracy = mean(answer_credit)<br/>Strict Accuracy = %(correct)<br/>Parseability = %(parsable)"]
+
+    Metrics --> Results[("📊 Results CSV<br/>35 columns per record")]
+
+    subgraph Validation["Human Spot-Check"]
+        direction TB
+        HC["Manual review of<br/>judge decisions on<br/>random sample"]
+    end
+
+    Verdict --> HC

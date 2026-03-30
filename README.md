@@ -68,9 +68,14 @@ python3 scripts/judge_results_with_gemini.py "results/s1e2 mistral (1~45) (cpu)/
 ```bash
 # Requires Node.js. Renders .mmd files to high-res PNGs.
 npx @mermaid-js/mermaid-cli -i findings/diagrams/D1_system_architecture.mmd -o findings/diagrams/D1_system_architecture.png -b transparent -s 3
+
 npx @mermaid-js/mermaid-cli -i findings/diagrams/D2_evaluation_pipeline.mmd -o findings/diagrams/D2_evaluation_pipeline.png -b transparent -s 3
+
 npx @mermaid-js/mermaid-cli -i findings/diagrams/D3_dataset_creation.mmd -o findings/diagrams/D3_dataset_creation.png -b transparent -s 3
-npx @mermaid-js/mermaid-cli -i findings/diagrams/D4_experiment_matrix.mmd -o findings/diagrams/D4_experiment_matrix.png -b transparent -s 3
+
+npx @mermaid-js/mermaid-cli -i "findings/diagrams/D5_generation_pipeline.mmd" -o "findings/diagrams/D5_generation_pipeline.png" -s 3
+
+npx @mermaid-js/mermaid-cli -i "findings/diagrams/D6_evaluation_pipeline.mmd" -o "findings/diagrams/D6_evaluation_pipeline.png" -s 3
 ```
 
 ### Generate Slides with Marp

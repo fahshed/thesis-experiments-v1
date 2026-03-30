@@ -113,6 +113,11 @@ style: |
       border-radius: 8px;
       border-left: 4px solid #FF9800;
     }
+    .best,
+    .best strong {
+      color: #2E7D32;
+      font-weight: 700;
+    }
 ---
 
 <!-- _class: lead -->
@@ -213,14 +218,14 @@ style: |
 
 **30 questions** spanning 6 categories:
 
-| Category                     | Example question from dataset `qna.csv`                                                      |
-| ---------------------------- | -------------------------------------------------------------------------------------------- |
-| **Personal Information**     | What is the applicant's full name?                                                           |
-| **Education**                | Which institutions did the applicant attend?                                                 |
-| **Professional Experience**  | What is the name of the applicant's current (or most recent) employer?                       |
-| **Skills**                   | What are the applicant s key soft skills?                                                    |
-| **Research & Publications**  | What are the applicant's research areas?                                                     |
-| **Awards & Extracurricular** | Has the applicant received any awards or recognitions? If so, which is the most significant? |
+| Category                     | Example Questions                       |
+| ---------------------------- | --------------------------------------- |
+| **Personal Information**     | Full name, contact details              |
+| **Education**                | Institutions attended, GPA, degrees     |
+| **Professional Experience**  | Current employer, years of experience   |
+| **Skills**                   | Programming languages, technical skills |
+| **Research & Publications**  | Publication count, research areas       |
+| **Awards & Extracurricular** | Awards, certifications                  |
 
 **Answer Types:** Entity/Numeric and Descriptive
 
@@ -242,9 +247,18 @@ style: |
 
 ---
 
-# System Architecture
+# System Overview: Two-Phase Design
 
-![](../findings/diagrams/D1_system_architecture.png)
+Our system is comprised of **two phases:**
+
+1. **Generation Phase:** Open-source LLMs generate answers from CV content using one of three retrieval strategies
+2. **Evaluation Phase:** Generated answers are evaluated using an LLM judge (Gemini-3-Flash) and validated through human spot-checking
+
+---
+
+# Phase 1: Generation Pipeline
+
+![](../findings/diagrams/D5_generation_pipeline.png)
 
 ---
 
@@ -309,12 +323,6 @@ Semantic understanding for retrieval — but the embedding model is small and do
 
 ---
 
-# Experiment Design
-
-![](../findings/diagrams/D4_experiment_matrix.png)
-
----
-
 # Experiment Design: Configurations
 
 <div class="columns">
@@ -346,19 +354,28 @@ _Fixed strategy: S1 Full CV_
 </div>
 </div>
 
-**Total:** 5 unique configurations x 1,500 records = **7,500 evaluated QA pairs**
+### Hardware Comparison
+
+_Fixed strategy + model: S1 Mistral-7B_
+
+| Run               | Hardware | Records |
+| ----------------- | -------- | ------- |
+| S1-Mistral (CPU)  | CPU      | ~1,500  |
+| S1-Mistral (GPU)  | GPU      | 1,500   |
+
+**Total:** 6 unique configurations x ~1,500 records = **~9,000 evaluated QA pairs**
 
 ---
 
-# Evaluation Framework
+# Phase 2: Evaluation Pipeline
 
-![](../findings/diagrams/D2_evaluation_pipeline.png)
+![](../findings/diagrams/D6_evaluation_pipeline.png)
 
 ---
 
 # Evaluation: LLM-as-Judge
 
-**Judge Model:** Gemini-2.5-Flash-Preview (Google)
+**Judge Model:** Gemini-3-Flash (Google)
 
 **Input:** question + ground_truth + predicted_answer + rationale
 
@@ -411,10 +428,10 @@ _Fixed strategy: S1 Full CV_
 | Configuration          | Soft Acc. | Strict Acc. | Parseability | Avg Latency | Med. Latency | Avg In Tokens | Avg Out Tokens |
 | ---------------------- | --------- | ----------- | ------------ | ----------- | ------------ | ------------- | -------------- |
 | **S1 Qwen-2.5 (1.5B)** | 0.531     | 0.315       | 0.869        | 2.01s       | 2.02s        | 2,130         | 125            |
-| **S1 Mistral (GPU)**   | **0.579** | **0.358**   | 0.789        | 2.12s       | 1.95s        | 2,525         | 86             |
+| **S1 Mistral (GPU)**   | <span class="best">0.579</span> | <span class="best">0.358</span> | 0.789        | 2.12s       | 1.95s        | 2,525         | 86             |
 | **S1 LLaMA-2 (13B)**   | 0.551     | 0.315       | 0.816        | 5.44s       | 4.23s        | 2,593         | 119            |
-| **S2 Mistral-7B**      | 0.483     | 0.323       | 0.847        | 1.75s       | 1.43s        | 1,170         | 75             |
-| **S3 Mistral-7B**      | 0.403     | 0.274       | **0.881**    | 1.94s       | 1.69s        | 990           | 72             |
+| **S2 Mistral-7B**      | 0.483     | 0.323       | 0.847        | <span class="best">1.75s</span> | <span class="best">1.43s</span> | 1,170         | 75             |
+| **S3 Mistral-7B**      | 0.403     | 0.274       | <span class="best">0.881</span> | 1.94s       | 1.69s        | <span class="best">990</span> | <span class="best">72</span> |
 
 </div>
 
@@ -439,12 +456,6 @@ _S1 vs S2 vs S3 — Model fixed to Mistral-7B_
 # RQ1: Per-Category Accuracy by Strategy
 
 ![](../findings/rq1_retrieval_strategies/chart02_per_category_accuracy.png)
-
----
-
-# RQ1: Error Distribution by Strategy
-
-![](../findings/rq1_retrieval_strategies/chart03_error_distribution.png)
 
 ---
 
@@ -525,6 +536,12 @@ _Qwen 1.5B vs Mistral 7B vs LLaMA 13B — Strategy fixed to S1_
 # RQ3: What Question Types and Error Patterns Emerge?
 
 _Cross-cutting analysis across all configurations_
+
+---
+
+# RQ3: Error Distribution by Strategy
+
+![](../findings/rq1_retrieval_strategies/chart03_error_distribution.png)
 
 ---
 
@@ -643,9 +660,7 @@ _Cross-cutting analysis across all configurations_
 
 <!-- _class: lead -->
 
-# Separate Finding: Hardware Impact
-
-_GPU vs CPU — Mistral-7B, Strategy S1_
+# Additional Findings
 
 ---
 
@@ -667,28 +682,6 @@ _GPU vs CPU — Mistral-7B, Strategy S1_
 - **Accuracy is comparable** between GPU and CPU runs — the model produces similar quality outputs regardless of hardware
 - **CPU is viable** for small-scale or offline processing where latency is acceptable
 - **Implication:** Hardware choice affects throughput, not answer quality
-
----
-
-# Error Taxonomy: Full Counts
-
-<div class="tiny">
-
-| Error Type     | S1 Qwen | S1 Mistral | S1 LLaMA | S2 Mistral | S3 Mistral | **Total** |
-| -------------- | ------- | ---------- | -------- | ---------- | ---------- | --------- |
-| None (Correct) | 472     | 537        | 472      | 484        | 411        | **2,376** |
-| Missing Detail | 395     | 279        | 373      | 243        | 221        | **1,511** |
-| Not Answered   | 16      | 21         | 29       | 354        | 480        | **900**   |
-| Contradiction  | 121     | 189        | 119      | 69         | 79         | **577**   |
-| Wrong Entity   | 140     | 74         | 82       | 68         | 79         | **443**   |
-| Invented Value | 84      | 40         | 74       | 17         | 15         | **230**   |
-| Wrong Numeric  | 37      | 30         | 32       | 22         | 19         | **140**   |
-| Extra Detail   | 18      | 7          | 24       | 8          | 11         | **68**    |
-| Other          | 9       | 2          | 5        | 2          | 4          | **22**    |
-| Wrong Boolean  | 2       | 2          | 12       | 0          | 0          | **16**    |
-| Format Issue   | 5       | 2          | 1        | 1          | 1          | **10**    |
-
-</div>
 
 ---
 
@@ -798,7 +791,7 @@ Side-by-side view: **rendered CV** alongside QA interactions. Faculty can ask fo
 
 - **Created** a novel human-annotated benchmark of **3,000 CV QA pairs** (100 CVs x 30 questions)
 - **Designed** a modular evaluation framework with **3 pipeline strategies** and **3 model sizes**
-- **Evaluated** 7,500 records using **Gemini-2.5-Flash as LLM judge** across 5 configurations
+- **Evaluated** ~9,000 records using **Gemini-3-Flash as LLM judge** across 6 configurations
 - **Found** full CV context + Mistral-7B as the optimal configuration (0.579 soft accuracy)
 - **Identified** systematic error patterns, with "missing detail" as the dominant failure mode
 - **Demonstrated** that confidence scores are poorly calibrated across all models

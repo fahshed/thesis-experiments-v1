@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+Don't run the command to generate pptx or html from md file

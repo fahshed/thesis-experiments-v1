@@ -35,9 +35,12 @@ def chart22_latency_comparison():
 
     # Speedup annotation
     speedup = avg_lat[1] / avg_lat[0]
-    fig.suptitle(f'Mistral-7B S1: GPU is {speedup:.0f}× faster than CPU\n'
-                 f'(Matched {len(gpu)} question pairs)',
-                 fontsize=14, fontweight='bold', y=1.05)
+    fig.suptitle(
+        f'Mistral-7B S1: GPU is {speedup:.0f}× faster than CPU',
+        fontsize=14,
+        fontweight='bold',
+        y=1.05,
+    )
     fig.tight_layout()
     savefig(fig, os.path.join(OUT, 'chart22_latency_comparison.png'))
 
@@ -61,8 +64,7 @@ def chart23_accuracy_comparison():
     bars2 = ax.bar(x + w/2, cpu_vals, w, label='CPU', color='#90CAF9')
 
     ax.set_ylabel('Rate')
-    ax.set_title(f'Accuracy Comparison: GPU vs CPU (Mistral-7B S1)\n'
-                 f'Matched {len(gpu)} question pairs')
+    ax.set_title('Accuracy Comparison: GPU vs CPU (Mistral-7B S1)')
     ax.set_xticks(x)
     ax.set_xticklabels(labels)
     ax.set_ylim(0, 1.15)

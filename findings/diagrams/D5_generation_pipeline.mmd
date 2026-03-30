@@ -1,0 +1,20 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E3F2FD', 'primaryTextColor': '#1565C0', 'primaryBorderColor': '#1565C0', 'lineColor': '#424242', 'secondaryColor': '#FFF3E0', 'tertiaryColor': '#E8F5E9'}}}%%
+flowchart LR
+    CV["📄 CV (PDF)"] --> Extract["PDF Text<br/>Extraction<br/>(pypdf)"]
+    Q["❓ Question"] --> Strategy
+
+    Extract --> Strategy
+
+    subgraph Strategy["Strategy Selection"]
+        direction TB
+        S1["<b>S1: Full CV</b><br/>Entire CV text"]
+        S2["<b>S2: Keyword Retrieval</b><br/>500-word chunks ranked<br/>by keyword overlap"]
+        S3["<b>S3: Semantic RAG</b><br/>500-word chunks ranked<br/>by MiniLM-L6-v2"]
+        S1 ~~~ S2 ~~~ S3
+    end
+
+    Strategy --> Prompt["Build Prompt<br/>(system + context<br/>+ question)"]
+    Prompt --> LLM["Open-Source LLM<br/>(Qwen 1.5B / Mistral 7B /<br/>LLaMA 13B)"]
+    LLM --> Parse{"JSON<br/>Parsable?"}
+    Parse -->|Yes| Output["Structured Output (JSON)<br/>{<br/>&nbsp;&nbsp;&quot;predicted_answer&quot;: &quot;...&quot;,<br/>&nbsp;&nbsp;&quot;confidence_score&quot;: 0.87,<br/>&nbsp;&nbsp;&quot;rationale&quot;: &quot;...&quot;<br/>}"]
+    Parse -->|No| Unparsable["Mark unparsable<br/>raw_response saved"]
